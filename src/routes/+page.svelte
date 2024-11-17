@@ -18,7 +18,7 @@
                 Hello aeromaniacs
             </h1>
             <p>
-                We are students of RVCE creating havoc in society, We are basically MANIACS with a Aero degree..... JK!! Just Kidding ... don't take it seriously.
+                get thrilled to enjoy the aero events conducted by aerospace students of R.V College of Engineering.
             </p>
         </div>
     </div>
@@ -43,7 +43,7 @@
                 Why do we do this?
             </h1>
             <p>
-                To be honest.... I too don't know 
+                we do this to encourage students to learn fun concepts of aerospace
             </p>
         </div>
     </div>

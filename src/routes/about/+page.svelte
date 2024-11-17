@@ -46,9 +46,7 @@ academic excellence and cutting-edge research. We
 are committed to faculty development through
 continuous improvement programs.
 
-DDeeppaarrttmmeenntt ooff
-
-AAeerroossppaaccee EEnnggiinneeeerriinngg
+department of aerospace engineering
 
 Graduates are prepared for successful careers with
 a solid foundation in mathematics, physical
