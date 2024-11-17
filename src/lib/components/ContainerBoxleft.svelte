@@ -4,7 +4,7 @@
     export let path = "/images/plane.jpg";
     export let dis = head;
     export let form = "";
-  
+
     import Button from "$lib/components/Button.svelte";
 </script>
 
@@ -13,7 +13,7 @@
     <div class="text-container">
         <h1 class="head">{head}</h1>
         <br>
-        <p>{text}</p> 
+        <p>{text}</p>
 
         <Button Text="Apply now" link={form}></Button>
     </div>
@@ -85,15 +85,14 @@
     }
 
     p {
-    color: whitesmoke; /* Text color */
-    text-align: left;
-    text-shadow: 
-        1px 1px 0 black, 
-        -1px -1px 0 black,
-        1px -1px 0 black, 
-        -1px 1px 0 black; /* Creates a black border around the text */
-}
-
+        color: whitesmoke; /* Text color */
+        text-align: left;
+        text-shadow: 
+            1px 1px 0 black, 
+            -1px -1px 0 black,
+            1px -1px 0 black, 
+            -1px 1px 0 black; /* Creates a black border around the text */
+    }
 
     /* Add gradient effect on hover */
     .container:hover .head {
@@ -107,7 +106,7 @@
     @media (max-width: 768px) {
         .container {
             width: 80vw; /* 80% width */
-            height: auto; /* 40% of the viewport height */
+            height: auto; /* Let height adjust automatically */
             flex-direction: column; /* Stack the image and text vertically */
             justify-content: center; /* Center content vertically */
         }
@@ -120,10 +119,15 @@
         .text-container {
             width: 100%; /* Full width for the text container */
             text-align: center; /* Center the text */
+            font-size: 0.8rem;
         }
 
-        .head{
+        .head {
             text-align: center;
+            width: 70%; /* Set width to 70% of container */
+            margin: 0 auto; /* Center the heading horizontally */
+            font-size: 1.2rem; /* Adjust heading size for smaller screens */
+            
         }
     }
 </style>
