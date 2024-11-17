@@ -137,16 +137,71 @@
     }
 
     /* Additional style adjustments for small screens */
-    @media (max-width: 400px) {
-        h1 {
-            font-size: 2rem; /* Increase font size for small screens */
-            font-weight: 600; /* Make it bolder */
-        }
+    /* Tablet screens (e.g., 768px to 992px) */
+@media (max-width: 992px) and (min-width: 769px) {
+    
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+  }
 
-        .image-container {
-            height: 35%; /* Keep the larger height on bigger screens */
-            width: auto;
-            padding-bottom: 40%;
+  .logo {
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+
+  .menu {
+    flex-direction: row; /* Keep menu items in a single row for tablets */
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .navbar-toggler {
+    display: none; /* Hide toggler on tablets */
+  }
+}
+
+/* Phone screens (less than 768px) */
+@media (max-width: 768px) {
+    .image-container {
+            height: 40vh; /* Keep the larger height on bigger screens */
+            padding-top: 0%;
         }
-    }
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    flex-direction: column; /* Stack menu items vertically on phones */
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .menu.active {
+    position: absolute;
+    top: 80px; /* Adjust menu dropdown position for small screens */
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    padding: 15px;
+  }
+}
+
 </style>

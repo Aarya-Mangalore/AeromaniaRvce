@@ -86,6 +86,7 @@
 
     p {
     color: whitesmoke; /* Text color */
+    text-align: left;
     text-shadow: 
         1px 1px 0 black, 
         -1px -1px 0 black,

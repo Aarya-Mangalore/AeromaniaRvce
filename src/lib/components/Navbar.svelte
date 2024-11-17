@@ -2,12 +2,15 @@
   import { onMount } from 'svelte';
   import logo from '$lib/assets/logos/aerologo.png';
 
+
   let menuActive = false;
   let menuRef;
   let toggleRef;
 
   function toggleMenu() {
+    console.log("Toggle function called");
     menuActive = !menuActive;
+    console.log('Menu toggled', menuActive);
   }
 
   function closeMenu() {
@@ -39,7 +42,7 @@
   </a>
 
   <!-- Menu with toggle based on menuActive -->
-  <ul bind:this={menuRef} class:active={menuActive} class="menu">
+  <ul bind:this={menuRef} class="menu" class:active={menuActive}>
     <li><a href="/" on:click={closeMenu}>Home</a></li>
     <li><a href="/about" on:click={closeMenu}>About</a></li>
     <li><a href="/events" on:click={closeMenu}>Events</a></li>
@@ -131,22 +134,23 @@
   /* Responsive styling */
   @media (max-width: 992px) {
     .menu {
-      display: none;
+      position: absolute;
+      top: 75px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 10px;
+      border-radius: 5px;
+      flex-direction: column;
+      display: none;  /* Hide menu initially */
     }
 
     .navbar-toggler {
       display: flex;
     }
 
+    /* Display menu when active */
     .menu.active {
       display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 75px;
-      right: 40px;
-      background-color: rgba(0, 0, 0, 0.9);
-      padding: 15px;
-      border-radius: 5px;
     }
   }
 

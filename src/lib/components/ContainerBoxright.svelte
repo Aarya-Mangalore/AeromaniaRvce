@@ -25,9 +25,8 @@
     .container {
         display: flex;
         align-items: center;
-        justify-content: flex-end; /* Align items to the right */
+        justify-content: flex-start; /* Ensures left alignment */
         width: 70vw;
-        height: auto;
         padding: 3%;
         box-sizing: border-box;
         background-color: rgba(190, 188, 188, 0.36);
@@ -68,7 +67,7 @@
     .text-container {
         width: 50%;
         padding: 20px;
-        text-align: left; /* Align text to the left */
+        text-align: center;
     }
 
     .image {
@@ -80,19 +79,21 @@
     .head {
         font-weight: 800;
         text-decoration: none;
-        text-align: left; /* Align heading text to the left */
+        text-align: left;
         color: white;
         transition: color 0.3s ease, background 0.3s ease; /* Transition for the text */
     }
 
     p {
-        color: whitesmoke; /* Text color */
-        text-shadow: 
-            1px 1px 0 black, 
-            -1px -1px 0 black,
-            1px -1px 0 black, 
-            -1px 1px 0 black; /* Creates a black border around the text */
-    }
+    color: whitesmoke; /* Text color */
+    text-align: left;
+    text-shadow: 
+        1px 1px 0 black, 
+        -1px -1px 0 black,
+        1px -1px 0 black, 
+        -1px 1px 0 black; /* Creates a black border around the text */
+}
+
 
     /* Add gradient effect on hover */
     .container:hover .head {
@@ -114,13 +115,11 @@
         .image {
             width: 70%; /* Center the image */
             margin-bottom: 20px; /* Space between image and text */
-            order: 1; /* Ensure image comes before text */
         }
 
         .text-container {
             width: 100%; /* Full width for the text container */
             text-align: center; /* Center the text */
-            order: 2; /* Ensure text comes after image */
         }
 
         .head{
