@@ -3,6 +3,9 @@
   import Nav from '../lib/components/Navbar.svelte';
   import Foot from '../lib/components/Footer.svelte';
   import '../app.css';
+  import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+  injectSpeedInsights();
 </script>
 
 <!-- Head section for meta tags -->
