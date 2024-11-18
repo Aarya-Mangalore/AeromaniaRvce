@@ -14,12 +14,12 @@
         <h1 class="head">{head}</h1>
         <br>
         <p>{text}</p>
-
+        <br><br>
         <Button Text="Apply now" link={form}></Button>
     </div>
+    
+    
 </div>
-
-<br><br>
 
 <style>
     .container {
@@ -103,6 +103,31 @@
         color: transparent;
     }
 
+    /* Transparent table styles */
+    .table-container {
+        width: 50%; /* Same width as text-container */
+        margin-top: 20px; /* Space between content and table */
+        text-align: center; /* Center content in table */
+    }
+
+    .transparent-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+        border-radius: 10px;
+    }
+
+    .transparent-table td {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .transparent-table td:hover {
+        background-color: rgba(0, 255, 255, 0.2); /* Light hover effect */
+    }
+
     /* Responsive Design for smaller screens */
     @media (max-width: 830px) {
         .container {
@@ -131,6 +156,15 @@
 
         p {
             font-size: 0.9rem; /* Adjust paragraph size for smaller screens */
+        }
+
+        .table-container {
+            width: 100%; /* Full width for table on smaller screens */
+            margin-top: 20px;
+        }
+
+        .transparent-table td {
+            font-size: 0.9rem; /* Adjust font size for smaller screens */
         }
     }
 </style>

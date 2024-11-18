@@ -59,7 +59,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        
+        gap:30px
     }
 
     h1 {

@@ -2,6 +2,8 @@
     export let text = "write content";
     export let head = "write heading";
     export let path = "/images/plane.jpg";
+    export let prize = 0
+    export let fee = 0;
     export let dis = head;
     export let form = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
 
@@ -13,6 +15,25 @@
         <h1 class="head">{head}</h1>
         <br>
         <p>{text}</p>
+        <!-- Transparent Table Below Text -->
+        <div class="table-container">
+            <table class="transparent-table">
+                <tbody>
+                    <tr>
+                        <td class="label">Prize Money:</td>
+                        <td>
+                            ₹{prize}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">Registration fee:</td>
+                        <td>
+                            ₹{fee}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <br><br>
         <Button Text="Apply now" link={form}></Button>
     </div>

@@ -17,7 +17,28 @@
 <Nav/>
 <br><br><br><br><br>
 
-<slot />
-
-<br><br><br><br>
+<main class="content">
+  <slot />
+</main>
+<br><br>
 <Foot />
+
+<style>
+  :global(body) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .content {
+    flex-grow: 1;
+    /* Ensures the content fills the remaining space above the footer */
+  }
+
+  /* Ensure the footer stays at the bottom */
+  .footer {
+    position: relative; /* Allows for the footer content to be on top */
+    z-index: 10;
+  }
+</style>

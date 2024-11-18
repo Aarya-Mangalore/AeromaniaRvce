@@ -1,6 +1,6 @@
 <script>
-    import Containerl from "$lib/components/ContainerBoxleft.svelte";
-    import Containerr from "$lib/components/ContainerBoxright.svelte";
+    import Containerl from "$lib/components/ContainerBoxleftTab.svelte";
+    import Containerr from "$lib/components/ContainerBoxrightTab.svelte";
 </script>
 
 <main>
@@ -18,6 +18,8 @@
         industry experts, you'll brainstorm, innovate, and
         design a solution to a surprise challenge that tests
         your skills and creativity." 
+        prize=10
+        fee=0.5
          />
 
         <Containerr 
@@ -118,6 +120,7 @@
         align-items: center;
         flex-direction: column;
         width: 100vw;
+        gap: 30px;
         
     }
 

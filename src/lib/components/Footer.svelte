@@ -59,15 +59,16 @@
   </div>
 </div>
 
-
 <style>
   .footer {
-    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    background-color: rgba(0, 0, 0);
     color: #fff;
     padding: 20px 0;
     border-top: 3px solid transparent;
     border-image: linear-gradient(to right, #00ddff, #ff007b);
     border-image-slice: 1;
+    z-index: 10;
   }
 
   .footer-content {
@@ -92,11 +93,9 @@
   }
 
   .label {
-  font-weight: bold;
-  color: #00ffff;
-  padding-right: 8px;
-  flex: 1; /* Make sure the label takes up available space */
-}
+    font-weight: bold;
+    color: #00ffff;
+  }
 
   a {
     color: #fff;
@@ -108,7 +107,6 @@
     color: #00ffff;
     transform: scale(1.05);
   }
-  
 
   .icon-circle {
     display: inline-flex;
@@ -118,7 +116,6 @@
     border-radius: 50%;
     padding: 6px;
     margin-left: 8px;
-    transition: background-color 0.3s;
   }
 
   .icon-circle img {
@@ -136,37 +133,10 @@
     color: #ccc;
   }
 
-  .slogan p {
-    margin: 5px 0;
-    line-height: 1.4;
-  }
-
   .footer-bottom {
     border-top: 1px solid #333;
     padding-top: 10px;
     font-size: 14px;
     text-align: center;
-  }
-
-  @media (max-width: 768px) {
-    .footer-content {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .slogan {
-      text-align: center;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .contact-info td {
-      font-size: 0.9rem;
-    }
-
-    .icon-circle img {
-      width: 16px;
-      height: 16px;
-    }
   }
 </style>

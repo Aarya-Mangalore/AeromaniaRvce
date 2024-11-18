@@ -2,6 +2,8 @@
     export let text = "write content";
     export let head = "write heading";
     export let path = "/images/plane.jpg";
+    export let prize = 0
+    export let fee = 0;
     export let dis = head;
     export let form = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
 
@@ -9,15 +11,35 @@
 </script>
 
 <div class="container">
+    <img alt={dis} src={path} class="image" />
     <div class="text-container">
         <h1 class="head">{head}</h1>
         <br>
         <p>{text}</p>
+        <!-- Transparent Table Below Text -->
+        <div class="table-container">
+            <table class="transparent-table">
+                <tbody>
+                    <tr>
+                        <td class="label">Prize Money:</td>
+                        <td>
+                            ₹{prize}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">Registration fee:</td>
+                        <td>
+                            ₹{fee}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <br><br>
         <Button Text="Apply now" link={form}></Button>
     </div>
     
-    <img alt={dis} src={path} class="image" />
+    
 </div>
 
 <style>
@@ -79,7 +101,7 @@
         font-weight: 800;
         text-decoration: none;
         font-size: 1.7rem;
-        text-align: left;
+        text-align: right;
         color: white;
         transition: color 0.3s ease, background 0.3s ease;
     }
@@ -131,7 +153,7 @@
     @media (max-width: 830px) {
         .container {
             width: 80vw; /* 80% width */
-            flex-direction: column-reverse; /* Reverse the order of image and text */
+            flex-direction: column; /* Reverse the order of image and text */
             justify-content: center; /* Center content vertically */
         }
 
