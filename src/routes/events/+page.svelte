@@ -18,7 +18,7 @@
         industry experts, you'll brainstorm, innovate, and
         design a solution to a surprise challenge that tests
         your skills and creativity." 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerr 
         head="PAYLOAD PARADOX" 
@@ -28,7 +28,7 @@
         Ensure your design keeps the payload intact upon
         release from altitude. The most creative and
         dimension-compliant design will claim victory!" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
         
         <Containerl 
         head="AEROCATACLYSM"
@@ -38,7 +38,7 @@
         and a lifelike crash scenario, your team will analyze,
         deduce, and explore the intricate details of aviation
         safety. Ideal for those who love logic and reasoning." 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerr 
         head="STATIC FIRE FIESTA" 
@@ -48,7 +48,7 @@
         propellants and put their skills to the test. The
         grand finale? A live thrust showdown to see
         which team's propellant packs the most power!" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerl 
         head="SKYFORGE"
@@ -58,7 +58,7 @@
         bid for parts in an auction and create a unique
         airliner for a specific purpose. The team with
         the best pitch and design takes the crown." 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerr 
         head="PAPER PILOTS" 
@@ -70,7 +70,7 @@
         aviators. Will your plane fly the farthest,
         highest, or most accurately? It's time to take
         flight and claim victory!" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerl 
         head="AERO ODYSSEY"
@@ -81,7 +81,7 @@
         teams race to build, launch, and see whose
         rocket soars the farthest. The ultimate test of
         teamwork, creativity, and engineering!" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerr 
         head="DESIGN DYNAMO" 
@@ -92,7 +92,7 @@
         developing a precise 3D model from a 2D layout.
         The fastest, most accurate designer wins in this
         intense showcase of skill." 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerl 
         head="THE LOST ASTRONAUT"
@@ -102,13 +102,13 @@
         Move through a series of rooms, deciphering
         complex clues to escape. Only the sharpest
         minds make it to the final exit!" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerr 
         head="Event 4" 
         path="/images/plane.jpg" 
         text="IDK" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
     </div>
 </main>

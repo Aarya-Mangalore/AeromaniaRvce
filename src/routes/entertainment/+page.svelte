@@ -20,7 +20,7 @@
         Experience the aerial agility of FPV drones alongside
         Ashwa's precision and Helios's off-road prowess in a
         captivating showcase of engineering excellence." 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
         <Containerr 
         head="ALAAP & DJ SHOW" 
@@ -31,7 +31,7 @@
         rock, and pop, Alaap captivates audiences at
         national festivals. This evening promises an
         unforgettable fusion of rhythm and energy." 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+        />
         
         <Containerl 
         head="SOLID & HYBRID MOTOR DEMOSNTRATION"
@@ -42,14 +42,14 @@
         static tests, gaining insights into thrust and
         propulsion. Don't miss this engaging showcase of
         aerospace engineering!" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
 
         <Containerr 
         head="Event 4" 
         path="/images/plane.jpg" 
         text="IDK" 
-        form="https://youtu.be/dQw4w9WgXcQ?si=uMg84Sq-ORGH8q52" />
+         />
 
     </div>
 </main>

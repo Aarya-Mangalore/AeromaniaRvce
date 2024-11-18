@@ -27,6 +27,7 @@ body {
   padding: 0;
   color: var(--clr-primary-200);
   height: 100vh; /* Ensures the body covers the viewport height */
+  user-select: none;
 }
 
 @media (max-width: 768px) {

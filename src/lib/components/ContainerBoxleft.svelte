@@ -3,7 +3,7 @@
     export let head = "write heading";
     export let path = "/images/plane.jpg";
     export let dis = head;
-    export let form = "";
+    export let form = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
 
     import Button from "$lib/components/Button.svelte";
 </script>

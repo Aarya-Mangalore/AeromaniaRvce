@@ -47,6 +47,7 @@
     <li><a href="/about" on:click={closeMenu}>About</a></li>
     <li><a href="/events" on:click={closeMenu}>Events</a></li>
     <li><a href="/entertainment" on:click={closeMenu}>Entertainment</a></li>
+    <li><a href="/sponser" on:click={closeMenu}>Our Sponserers</a></li>
     <li><a href="#footer" on:click={closeMenu}>Contact</a></li>
   </ul>
 
