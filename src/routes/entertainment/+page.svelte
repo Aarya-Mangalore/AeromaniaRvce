@@ -4,7 +4,6 @@
 </script>
 
 <main>
-    <br><br><br><br>
 
     <h1>
         Entertainments
@@ -64,18 +63,17 @@
     }
 
     h1 {
-        font-weight: 800;
-        text-decoration: none;
+        font-size: 2.5rem;
+        font-weight: 500;
+        padding: 10px;
         text-align: center;
-        color: white;
-        transition: color 0.3s ease, background 0.3s ease;
     }
 
     h1:hover {
-    color: #00ffff;
-    transform: scale(1.03);
-    text-decoration-skip-ink:auto;
-    transition: 0.3s;
-    user-select: none;
-  }
+        color: #00ffff;
+        transform: scale(1.02);
+        text-decoration-skip-ink: auto;
+        transition: 0.3s;
+        user-select: none;
+    }
 </style>
