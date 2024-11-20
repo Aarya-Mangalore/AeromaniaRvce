@@ -1,5 +1,5 @@
 <script>
-    import Containerl from "$lib/components/ContainerBoxleftTab.svelte";
+    import Containerl from "$lib/components/ContainerWithTab.svelte";
     import Containerr from "$lib/components/ContainerBoxrightTab.svelte";
 </script>
 

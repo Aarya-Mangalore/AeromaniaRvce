@@ -13,7 +13,7 @@
 <div class="top-right">
 <a href="/events" class="button events">Events</a>
 <a href="/workshops" class="button">Workshops</a>
-<a href="/entertainment" class="button">Entertainment</a>
+<a href="/entertainment" class="button">Entertainments</a>
 </div>
 
 <!-- Bottom Left Container -->
@@ -55,7 +55,7 @@ nav {
   justify-content: flex;
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
-  z-index: 1; /* Ensure content is above the pseudo-element */
+  z-index: 11000; /* Ensure content is above the pseudo-element */
   overflow: hidden; /* Prevent the content from overflowing outside the clipped area */
 }
 
@@ -145,14 +145,14 @@ button:hover {
 .logo {
   position: absolute;
   top: 0px;
-  left: 50%;
+  left: 48%;
   transform: translateX(-50%);
   z-index: 200;
 }
 
 .logo img {
   height: auto;
-  width: 18vw; /* Adjusted logo size */
+  width: 22vw; /* Adjusted logo size */
 }
 
 /* Responsive Layout */

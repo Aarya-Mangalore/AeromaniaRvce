@@ -1,10 +1,11 @@
 <script>
     import Logo from "$lib/assets/logos/Aeromania3.png";
     import Button from "$lib/components/Button.svelte"; 
-    import Count from "$lib/components/Counter.svelte"; 
+    import Count from "$lib/components/Timer.svelte"; 
     import Video from "$lib/components/video.svelte";
     import '../app.css';
     const targetDate = new Date("2024-12-31T23:59:59");
+    import Foot from '../lib/components/Footer.svelte';
 </script>
 
 <main>
@@ -69,6 +70,8 @@
             </div>
         </div>
     </a>
+
+    <Foot />
 </main>
 
 <style>
@@ -198,5 +201,18 @@
             width: 90%;
             margin-bottom: 20px;
         }
+
+        h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 10px;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 1.25rem;
+        padding: 0;
+        user-select: none;
+    }
     }
 </style>

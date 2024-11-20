@@ -19,7 +19,7 @@
 <main class="content">
   <slot />
 
-  <br><br><br><br><br><br>
+
 </main>
 
 

@@ -1,6 +1,6 @@
 <script>
-    import Containerl from "$lib/components/ContainerBoxleft.svelte";
-    import Containerr from "$lib/components/ContainerBoxright.svelte";
+    import Containerl from "$lib/components/Container.svelte";
+    import Containerr from "$lib/components/Container.svelte";
 </script>
 
 <main>
@@ -56,17 +56,20 @@
 
 <style>
     .super-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100vw;
-        gap:30px
+        position: absolute;
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        flex-wrap: wrap; /* Wrap items if the screen is too small */
+        width: 100%;
+        gap: 70px; /* Space between the items */
+        padding: 20px; /* Add padding around the container */
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 500;
-        padding: 10px;
+        padding-top: 20px;
         text-align: center;
     }
 
@@ -76,5 +79,20 @@
         text-decoration-skip-ink: auto;
         transition: 0.3s;
         user-select: none;
+    }
+
+    @media (max-width: 830px) {
+        .super-container {
+            flex-direction: column; /* Stack items vertically on smaller screens */
+            align-items: center; /* Center the items horizontally */
+            gap: 20px; /* Reduce gap for better space utilization */
+        }
+
+        h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0px;
+        text-align: center;
+    }
     }
 </style>

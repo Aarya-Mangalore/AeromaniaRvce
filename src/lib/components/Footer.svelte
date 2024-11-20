@@ -60,15 +60,28 @@
 </div>
 
 <style>
+  :global(html, body) {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+
   .footer {
-    position: relative;
     background-color: rgba(0, 0, 0);
     color: #fff;
     padding: 20px 0;
     border-top: 3px solid transparent;
     border-image: linear-gradient(to right, #00ddff, #ff007b);
     border-image-slice: 1;
-    z-index: 10;
+    z-index: 10000; /* Ensure it's above all components */
+    font-size: 1.2rem; /* Increased font size */
+    position: relative;
   }
 
   .footer-content {
@@ -88,7 +101,7 @@
 
   .contact-info td {
     padding: 8px;
-    font-size: 1rem;
+    font-size: 1.2rem; /* Increased font size */
     vertical-align: top;
   }
 
@@ -119,8 +132,8 @@
   }
 
   .icon-circle img {
-    width: 18px;
-    height: 18px;
+    width: 20px; /* Increased icon size */
+    height: 20px;
   }
 
   .icon-circle:hover {
@@ -129,14 +142,31 @@
 
   .slogan {
     text-align: right;
-    font-size: 1.1rem;
+    font-size: 1.3rem; /* Increased font size */
     color: #ccc;
   }
 
   .footer-bottom {
     border-top: 1px solid #333;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 1.2rem; /* Increased font size */
     text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center; /* Center align text for smaller screens */
+      text-align: center;
+    }
+
+    .slogan {
+      text-align: center; /* Center align slogan for smaller screens */
+    }
+
+    .contact-info td {
+      text-align: center; /* Center align contact info for smaller screens */
+      display: block;
+    }
   }
 </style>

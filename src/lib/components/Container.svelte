@@ -2,11 +2,9 @@
     export let text = "write content";
     export let head = "write heading";
     export let path = "/images/plane.jpg";
-    export let prize = 0
+    export let prize = 0;
     export let fee = 0;
     export let dis = head;
-    export let form = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
-    export let rule = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
 
     import Button from "$lib/components/Button.svelte";
 </script>
@@ -15,7 +13,7 @@
     <img alt={dis} src={path} class="image" />
     <div class="text-container">
         <h1 class="head">{head}</h1>
-        <br>
+        <br />
         <p>{text}</p>
         <!-- Transparent Table Below Text -->
         <div class="table-container">
@@ -23,43 +21,35 @@
                 <tbody>
                     <tr>
                         <td class="label">Prize Money:</td>
-                        <td>
-                            ₹{prize}
-                        </td>
+                        <td>₹{prize}</td>
                     </tr>
                     <tr>
                         <td class="label">Registration fee:</td>
-                        <td>
-                            ₹{fee}
-                        </td>
+                        <td>₹{fee}</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <br><br>
-        <div class="but-contain">
-        <Button Text="Rule-book" link={rule}></Button>
-        <Button Text="Apply now" link={form}></Button>
     </div>
-    </div>
-    
-    
 </div>
 
 <style>
     .but-contain {
-    display: flex;
-    justify-content: center; /* Center buttons horizontally */
-    align-items: center; /* Center buttons vertically (if needed) */
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 20px; /* Space between buttons */
-    width: 100%; /* Ensure the container takes up full width */
-}
+        display: flex;
+        justify-content: center; /* Center buttons horizontally */
+        align-items: center; /* Center buttons vertically */
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 20px; /* Space between buttons */
+        width: 100%; /* Ensure the container takes up full width */
+    }
+
     .container {
         display: flex;
+        flex-direction: column; /* Image on top, text below */
         align-items: center;
-        justify-content: flex-start;
-        width: 70vw;
+        justify-content: flex-start; /* Start from the top */
+        width: 80vw; /* Mobile screen width - 80% of the viewport */
+        max-width: 500px; /* Limit the width on larger screens */
         padding: 3%;
         box-sizing: border-box;
         background-color: rgba(190, 188, 188, 0.36);
@@ -67,7 +57,8 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        height: auto;
+        height: 1050px; /* Maintain consistent height */
+        margin-top: 30px; /* Add a gap to the top */
     }
 
     .container:hover {
@@ -83,7 +74,7 @@
         top: 50%;
         left: 50%;
         width: 300%;
-        height: 300%;
+        height: 600%;
         background: radial-gradient(circle, rgba(0, 255, 255, 0.2), transparent);
         transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
         transform: translate(-50%, -50%);
@@ -98,30 +89,35 @@
     }
 
     .text-container {
-        width: 50%;
+        width: 100%; /* Full width for text */
         padding: 20px;
-        text-align: left;
+        text-align: center;
+        color: whitesmoke;
+        margin-top: 30px; /* Add gap below image */
+        margin-bottom: 20px; /* Add gap above the button section */
     }
 
     .image {
-        width: 50%;
+        width: 100%;
         height: auto;
         border-radius: 20px;
+        object-fit: cover; /* Ensure the image covers the container */
+        padding-top: 30px;
     }
 
     .head {
         font-weight: 800;
-        text-decoration: none;
-        font-size: 1.7rem;
-        text-align: right;
+        font-size: 1.8rem;
         color: white;
+        text-align: center; /* Center the heading */
         transition: color 0.3s ease, background 0.3s ease;
     }
 
     p {
         color: whitesmoke;
+        font-size: 1.3rem;
         padding-bottom: 15px;
-        text-align: left;
+        text-align: center; /* Center the text */
         text-shadow: 
             1px 1px 0 black, 
             -1px -1px 0 black,
@@ -138,9 +134,8 @@
 
     /* Transparent table styles */
     .table-container {
-        width: 50%; /* Same width as text-container */
+        width: 100%; /* Full width for table */
         margin-top: 20px; /* Space between content and table */
-        text-align: center; /* Center content in table */
     }
 
     .transparent-table {
@@ -161,8 +156,7 @@
     @media (max-width: 830px) {
         .container {
             width: 80vw; /* 80% width */
-            flex-direction: column; /* Reverse the order of image and text */
-            justify-content: center; /* Center content vertically */
+            height: auto; /* Auto height for smaller screens */
         }
 
         .image {
@@ -178,18 +172,11 @@
 
         .head {
             text-align: center;
-            width: 70%; /* Set width to 70% of container */
-            margin: 0 auto; /* Center the heading horizontally */
             font-size: 1.2rem; /* Adjust heading size for smaller screens */
         }
 
         p {
             font-size: 0.9rem; /* Adjust paragraph size for smaller screens */
-        }
-
-        .table-container {
-            width: 100%; /* Full width for table on smaller screens */
-            margin-top: 20px;
         }
 
         .transparent-table td {
