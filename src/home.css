@@ -1,0 +1,87 @@
+:root{
+    --clr-ta-1: #f69332;
+    --clr-ta-2: #f26f54;
+    --clr-ta-3: #ee4d7a;
+    --clr-ta-4: #a066a9;
+    --clr-ta-5: #4f72b7;
+    --clr-ta-6: #0b97ac;
+    --clr-ta-7: #00b199;
+    --clr-ta-8: #6db981;
+  
+    --clr-primary-200: #d5d5d5;
+  
+    --ff-paragraph: 'Ropa Sans', sans-serif;
+    --ff-subtitle: 'Roboto Slab', serif;
+  
+    --navbar-height: 64px;
+  }
+  
+  body {
+    background-color: black; /* Set background color to black for continuity */
+    background-image: url('$lib/assets/background/stars-random.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center center; /* Centers the image both horizontally and vertically */
+    background-attachment: fixed; /* Keeps the image fixed in place during scroll */
+    margin: 0;
+    padding: 0;
+    color: var(--clr-primary-200);
+    height: 100vh; /* Ensures the body covers the entire viewport height */
+    user-select: none;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    body {
+        
+        background-size: auto 110%; /* Adjusts size for smaller screens to ensure it fills the screen */
+        background-position: center 60%; /* Adjust for smaller screens */
+        background-attachment: fixed; /* Allow scrolling on smaller screens to avoid performance issues */
+    }
+  }
+  
+  
+  
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .btn{
+    --btn-color: var(--clr-ta-5);
+    transition: 0.4s ease-out;
+    color: var(--btn-color);
+    border: var(--btn-color) 1px solid;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btn:hover{
+    cursor:pointer;
+    transform:translate3d(0, -3px, 0);
+    box-shadow:0px 8px 18px -3px color-mix(in srgb, var(--btn-color) 40%, transparent);
+    background-color: color-mix(in srgb, var(--btn-color) 80%, transparent);
+    color: #eeeeee;
+  }
+  
+  .paragraph{
+    text-align: center;
+    font-family: var(--ff-paragraph);
+    font-size: 1.2rem;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: unset;
+    align-items: center;
+    transition: color 0.3s, transform 0.2s;
+  }
+  
+  a:hover {
+    color: #00ffff;
+    transform: scale(1.05);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  

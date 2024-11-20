@@ -15,7 +15,6 @@
         <br>
         <p>{text}</p>
         <br><br>
-        <Button Text="Apply now" link={form}></Button>
     </div>
     
     

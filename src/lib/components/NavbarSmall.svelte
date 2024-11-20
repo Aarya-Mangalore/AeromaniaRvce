@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    import logo from '$lib/assets/logos/aerologo.png';
+    import logo from '$lib/assets/logos/Aeromania4.png';
   
   
     let menuActive = false;
@@ -37,7 +37,6 @@
     <a href="/">
       <div class="logo">
         <img src="{logo}" alt="Aeromania Logo" />
-        <h1>Aeromania</h1>
       </div>
     </a>
   
@@ -49,7 +48,7 @@
       <li><a href="/workshops" on:click={closeMenu}>Workshops</a></li>
       <li><a href="/entertainment" on:click={closeMenu}>Entertainment</a></li>
       <li><a href="/sponser" on:click={closeMenu}>Our Sponserers</a></li>
-      <li><a href="#footer" on:click={closeMenu}>Contact</a></li>
+      <li><a href="#footer" on:click={closeMenu}>Contact us</a></li>
     </ul>
   
     <!-- Toggler for smaller screens -->

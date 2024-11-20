@@ -18,6 +18,7 @@
             <h1>
                 Coming Soon
             </h1>
+           
         </div>
     </div>
 
@@ -164,7 +165,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); /* Black transparent overlay */
+        background-color: rgba(0, 0, 0, 0); /* Black transparent overlay */
         z-index: 1;
     }
 
@@ -328,6 +329,20 @@
     .register_main p {
         font-size: clamp(1rem, 3vw, 1.5rem); /* Slightly larger text on smaller screens */
     }
+}
+
+.body {
+  background-color: black; /* Set background color to black for continuity */
+  background-image: url('$lib/assets/background/Plane3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center center; /* Centers the image both horizontally and vertically */
+  background-attachment: fixed; /* Keeps the image fixed in place during scroll */
+  margin: 0;
+  padding: 0;
+  color: var(--clr-primary-200);
+  height: 100vh; /* Ensures the body covers the entire viewport height */
+  user-select: none;
 }
 
 

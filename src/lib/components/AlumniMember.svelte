@@ -5,7 +5,7 @@
 
     export let year;
 
-    let dataURL= `${base}/alumni/${year}/data.csv`;;
+    let dataURL= `${base}/alumni/${year}/data.csv`;
     let processedData;
 
 

@@ -11,58 +11,64 @@
     <div class="super-container">
         <Containerl 
         head="AEROGENESIS" 
-        path="/images/plane.jpg" 
-        text="An overnight hackathon to tackle real-world aerospace challenges. Collaborate with industry experts to innovate and design solutions to a surprise challenge." 
+        path="/event/aerogenisis.jpg" 
+        text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions." 
         prize=10
         fee=0.5
-        form=""
+        form="https://forms.gle/ycC4XDrYP7u7JDvx6 "
          />
 
-        <Containerr 
-        head="PAYLOAD PARADOX" 
-        path="/images/plane.jpg" 
-        text="Design an innovative payload drop mechanism for drones, ensuring safe release and compliance for victory." 
-         />
         
-        <Containerl 
+        <Containerr
         head="AEROCATACLYSM"
-        path="/images/plane.jpg" 
-        text="Solve the mystery of an aircraft crash using cockpit voice recordings and a lifelike scenario, perfect for logic and reasoning enthusiasts." 
-         />
-
-        
+        path="/event/aerocataclysm.jpg" 
+        text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash." 
+        form="https://forms.gle/7R7wTHMUJ5o5BrtM8 "
+        />
 
         <Containerl 
         head="SKYFORGE"
-        path="/images/plane.jpg" 
-        text="Unleash your inner entrepreneur by bidding for parts and designing a unique airliner; the best pitch and design wins!" 
-         />
+        path="/event/skyforge.jpg" 
+        text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!" 
+        form="https://forms.gle/dLWpK7ijWbWse31G6" 
+        />
 
-        <Containerr 
-        head="PAPER PILOTS" 
-        path="/images/plane.jpg" 
-        text="
-Test your engineering skills in the ultimate paper plane competition—design, fold, and compete for distance, height, and accuracy!" 
-         />
+        <Containerr
+        head="AERO ODYSSEY"
+        path="/event/aeroodyssey.jpg" 
+        text="Embark on a thrilling treasure hunt, solve clues, and race to build and launch rockets in this ultimate test of teamwork, creativity, and engineering!"
+        form="https://forms.gle/NcV6udRcBfQdDext5"
+        />
 
         <Containerl 
-        head="AERO ODYSSEY"
-        path="/images/plane.jpg" 
-        text="Join the treasure hunt challenge: find clues, build and launch rockets, and race to see whose rocket soars the farthest!" 
-         />
-
-        <Containerr 
         head="DESIGN DYNAMO" 
         path="/images/plane.jpg" 
-        text="
-A fast-paced CAED challenge where you design and assemble aerospace components to exact specs, with speed and accuracy determining the winner!" 
-         />
+        text="A high-speed design challenge where CAED enthusiasts create aerospace components from 2D layouts to 3D models, testing your speed and accuracy to the limit!"
+        form="https://forms.gle/EQ2P5s48eCCmr4ws5"
+        />
 
-        <Containerl 
+        <Containerr
         head="THE LOST ASTRONAUT"
         path="/images/plane.jpg" 
-        text="A space-themed escape room where you solve complex clues to escape—only the sharpest minds make it to the final exit!" 
-         />
+        text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
+        form="https://forms.gle/57dBW33Bonnd4ZVQ9"
+        />
+
+        <Containerl
+        head="PAPER PILOTS" 
+        path="/images/plane.jpg" 
+        text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win.
+        "/>
+
+        <Containerr 
+        head="PAYLOAD PARADOX" 
+        path="/event/payloadparadox.jpg" 
+        text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!" 
+        prize=10
+        fee=0.5 
+        />
+        
+        
 
     </div>
 </main>

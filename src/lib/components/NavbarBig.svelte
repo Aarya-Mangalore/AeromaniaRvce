@@ -1,12 +1,12 @@
 <script>
-    import logo from '$lib/assets/logos/Aeromania3.png';
+    import logo from '$lib/assets/logos/Aeromania4.png';
   </script>
   
   <!-- Top Left Container -->
   <div class="top-left">
     <a href="/" class="button">Home</a>
     <a href="/about" class="button">About</a>
-    <a href="/sponsors" class="button sponsor">Sponsors</a>
+    <a href="/sponser" class="button sponsor">Sponsors</a>
   </div>
   
   <!-- Top Right Container -->
@@ -18,14 +18,13 @@
   
   <!-- Bottom Left Container -->
   <div class="bottom-left">
-    <a href="#" class="button instagram">Whatsapp</a>
-    <a href="mailto:example@email.com" class="button">contact us</a>
+    
+    <a href="https://www.instagram.com/aeromania_rvce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="button">Instagram</a>
   </div>
   
   <!-- Bottom Right Container -->
   <div class="bottom-right">
-    <a href="#" class="button instagram">Instagram</a>
-    <a href="mailto:example@email.com" class="button">Email</a>
+    <a href="/contact" class="button">contact us</a>
   </div>
   
   <!-- Logo -->
@@ -146,7 +145,7 @@
     /* Logo Styling */
     .logo {
       position: absolute;
-      top: 20px;
+      top: 0px;
       left: 50%;
       transform: translateX(-50%);
       z-index: 200;

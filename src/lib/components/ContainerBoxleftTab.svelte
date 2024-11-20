@@ -37,15 +37,24 @@
             </table>
         </div>
         <br><br>
+        <div class="but-contain">
         <Button Text="Rule-book" link={rule}></Button>
-        <br><br>
         <Button Text="Apply now" link={form}></Button>
+    </div>
     </div>
     
     
 </div>
 
 <style>
+    .but-contain {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically (if needed) */
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 20px; /* Space between buttons */
+    width: 100%; /* Ensure the container takes up full width */
+}
     .container {
         display: flex;
         align-items: center;

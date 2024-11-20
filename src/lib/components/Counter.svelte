@@ -1,7 +1,11 @@
 <script>
-  export let targetDate;  // Make sure targetDate is being passed as a prop
+  export let targetDate; // Make sure targetDate is being passed as a prop
+
   let countdown = "";
 
+  let interval;
+
+  // Function to calculate the countdown
   function updateCountdown() {
     const target = new Date(targetDate).getTime();
     const now = new Date().getTime();
@@ -9,6 +13,7 @@
 
     if (distance <= 0) {
       countdown = "Event has started!";
+      clearInterval(interval); // Stop updating once the event starts
     } else {
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
       const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -18,8 +23,15 @@
     }
   }
 
-  // Update countdown every second
-  setInterval(updateCountdown, 1000);
+  // Initialize the countdown and set interval
+  onMount(() => {
+    updateCountdown(); // Set the initial countdown value
+    interval = setInterval(updateCountdown, 1000);
+
+    return () => {
+      clearInterval(interval); // Cleanup interval on component destroy
+    };
+  });
 </script>
 
 <div>

@@ -13,12 +13,7 @@
         <Containerl 
         head="FPV V/S ASHWA & HELIOS" 
         path="/images/plane.jpg" 
-        text="Join us for an exhilarating event as FPV drone pilots
-        compete against Ashwa and Helios, the esteemed
-        automotive clubs of RV College of Engineering.
-        Experience the aerial agility of FPV drones alongside
-        Ashwa's precision and Helios's off-road prowess in a
-        captivating showcase of engineering excellence." 
+        text="Witness the aerial agility of FPV drones take on Ashwa's precision and Helios's off-road prowess in this high-energy event of engineering excellence." 
          />
 
         <Containerr 
@@ -45,9 +40,15 @@
 
 
         <Containerr 
-        head="Event 4" 
+        head="Jet-Set Giggles" 
         path="/images/plane.jpg" 
-        text="IDK" 
+        text="Enjoy a hilarious evening of stand-up comedy, blending aviation themes with witty punchlines and sky-high humor for an unforgettable laugh-out-loud experience!" 
+         />
+
+         <Containerl 
+        head="Cosmic watch"
+        path="/event/cosmicwatch.jpg" 
+        text="Join us for a stargazing adventure and discover the wonders of the night sky with a captivating solar watch, perfect for astronomy lovers and curious minds alike!" 
          />
 
     </div>

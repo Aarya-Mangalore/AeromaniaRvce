@@ -19,9 +19,11 @@
 
 <main class="content">
   <slot />
+
+  <br><br><br><br><br><br>
 </main>
-<br><br>
-<Foot />
+
+
 
 <style>
   :global(body) {
