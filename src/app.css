@@ -1,4 +1,4 @@
-:root{
+:root {
   --clr-ta-1: #f69332;
   --clr-ta-2: #f26f54;
   --clr-ta-3: #ee4d7a;
@@ -10,9 +10,9 @@
 
   --clr-primary-200: #d5d5d5;
 
-  --ff-paragraph: 'Ropa Sans', sans-serif;
-  --ff-subtitle: 'Roboto Slab', serif;
-
+  --ff-paragraph: 'Neuropol X Extended', sans-serif;  /* Updated font */
+  --ff-subtitle: 'Neuropol X Extended', sans-serif;  /* Updated font */
+  
   --navbar-height: 64px;
 }
 
@@ -28,42 +28,41 @@ body {
   color: var(--clr-primary-200);
   height: 100vh; /* Ensures the body covers the viewport height */
   user-select: none;
+  font-family: var(--ff-paragraph); /* Apply Neuropol X Extended to the entire body */
 }
 
 @media (max-width: 768px) {
   body {
-      
       background-size: auto 110%; /* Adjusts size for smaller screens to ensure it fills the screen */
       background-position: center 60%; /* Adjust for smaller screens */
       background-attachment: fixed; /* Allow scrolling on smaller screens to avoid performance issues */
   }
 }
 
-
-
 * {
   margin: 0;
   box-sizing: border-box;
 }
-.btn{
+
+.btn {
   --btn-color: var(--clr-ta-5);
   transition: 0.4s ease-out;
   color: var(--btn-color);
   border: var(--btn-color) 1px solid;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Neuropol X Extended', sans-serif; /* Updated button font */
 }
 
-.btn:hover{
-  cursor:pointer;
-  transform:translate3d(0, -3px, 0);
-  box-shadow:0px 8px 18px -3px color-mix(in srgb, var(--btn-color) 40%, transparent);
+.btn:hover {
+  cursor: pointer;
+  transform: translate3d(0, -3px, 0);
+  box-shadow: 0px 8px 18px -3px color-mix(in srgb, var(--btn-color) 40%, transparent);
   background-color: color-mix(in srgb, var(--btn-color) 80%, transparent);
   color: #eeeeee;
 }
 
-.paragraph{
+.paragraph {
   text-align: center;
-  font-family: var(--ff-paragraph);
+  font-family: var(--ff-paragraph); /* Apply Neuropol X Extended */
   font-size: 1.2rem;
 }
 

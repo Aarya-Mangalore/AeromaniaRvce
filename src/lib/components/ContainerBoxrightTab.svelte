@@ -157,10 +157,7 @@
         text-align: center;
         color: white;
         font-size: 1rem;
-    }
-
-    .transparent-table td:hover {
-        background-color: rgba(0, 255, 255, 0.2); /* Light hover effect */
+        user-select: none;
     }
 
     /* Responsive Design for smaller screens */

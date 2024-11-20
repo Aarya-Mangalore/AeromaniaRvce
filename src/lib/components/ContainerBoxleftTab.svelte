@@ -157,10 +157,6 @@
         font-size: 1rem;
     }
 
-    .transparent-table td:hover {
-        background-color: rgba(0, 255, 255, 0.2); /* Light hover effect */
-    }
-
     /* Responsive Design for smaller screens */
     @media (max-width: 830px) {
         .container {

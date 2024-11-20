@@ -1,42 +1,36 @@
-<script>
-    import { onMount } from 'svelte';
-  
-    let showVideo = true;
-  
-    onMount(() => {
-      setTimeout(() => {
-        showVideo = false;
-      }, 6000); // Hide the container after 7 seconds
-    });
-  </script>
-  
-  {#if showVideo}
-    <div class="overlay">
-      <video autoplay>
-        <source src="/video/Welcome.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  {/if}
-  
-  <style>
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: black;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999; /* Ensure it's on top of other components */
-    }
-  
-    video {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain; /* Adjusts the video size to maintain aspect ratio */
-    }
-  </style>
-  
+<div class="video-container">
+  <video autoplay muted loop id="background-video">
+      <source src="/video/Welcome.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+</div>
+
+
+
+<style>
+.video-container {
+  position: relative; /* Position the video relative to the normal document flow */
+  width: 100vw; /* Full width of the viewport */
+  height: 120vh; /* Full height of the viewport */
+  overflow: hidden;
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the full screen */
+  opacity: 0.7;
+}
+
+
+
+@media (max-width: 700px) {
+  .video-container {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+  }
+  #background-video {
+    object-fit: cover; /* Ensures the video covers the full screen even on small devices */
+  }
+}
+</style>
