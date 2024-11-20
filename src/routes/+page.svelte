@@ -2,8 +2,11 @@
     import Logo from "$lib/assets/logos/Aeromania3.png";
     import Button from "$lib/components/Button.svelte"; 
     import Count from "$lib/components/Counter.svelte"; 
-    import '../app.css'
+    import Video from "$lib/components/video.svelte";
+    import '../app.css';
 </script>
+
+<Video />
 
 <main>
     <div class="container">

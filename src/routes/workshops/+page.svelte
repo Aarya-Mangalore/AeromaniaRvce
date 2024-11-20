@@ -1,6 +1,6 @@
 <script>
-    import Containerl from "$lib/components/ContainerBoxleft.svelte";
-    import Containerr from "$lib/components/ContainerBoxright.svelte";
+    import Containerl from "$lib/components/ContainerBoxleftTab.svelte";
+    import Containerr from "$lib/components/ContainerBoxrightTab.svelte";
 </script>
 
 <main>

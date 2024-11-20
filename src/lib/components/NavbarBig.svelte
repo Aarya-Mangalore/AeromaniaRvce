@@ -149,11 +149,13 @@
       left: 50%;
       transform: translateX(-50%);
       z-index: 200;
+      
+
     }
   
     .logo img {
-      height: 200px;
-      width: auto;
+      height: auto;
+      width: 20vw;
     }
   
     /* Responsive Layout */

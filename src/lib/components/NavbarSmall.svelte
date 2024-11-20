@@ -88,7 +88,7 @@
     }
   
     .logo img {
-      height: 5vh;
+      height: 7vh;
       width: auto;
     }
   
