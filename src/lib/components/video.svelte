@@ -13,7 +13,7 @@
   {#if showVideo}
     <div class="overlay">
       <video autoplay>
-        <source src="/video/Welcome.mp4" type="video/quicktime" />
+        <source src="/video/Welcome.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
