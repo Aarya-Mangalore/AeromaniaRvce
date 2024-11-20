@@ -5,6 +5,7 @@
     export let prize = 0
     export let fee = 0;
     export let dis = head;
+    export let rule = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
     export let form = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
 
     import Button from "$lib/components/Button.svelte";
@@ -34,6 +35,8 @@
                 </tbody>
             </table>
         </div>
+        <br><br>
+        <Button Text="Rule-book" link={rule}></Button>
         <br><br>
         <Button Text="Apply now" link={form}></Button>
     </div>

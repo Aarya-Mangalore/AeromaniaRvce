@@ -70,7 +70,6 @@ body {
 a {
   color: #fff;
   text-decoration: unset;
-  font-style: italic;
   align-items: center;
   transition: color 0.3s, transform 0.2s;
 }

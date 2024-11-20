@@ -1,161 +1,31 @@
 <script>
-  import { onMount } from 'svelte';
-  import logo from '$lib/assets/logos/aerologo.png';
-
-
-  let menuActive = false;
-  let menuRef;
-  let toggleRef;
-
-  function toggleMenu() {
-    console.log("Toggle function called");
-    menuActive = !menuActive;
-    console.log('Menu toggled', menuActive);
-  }
-
-  function closeMenu() {
-    menuActive = false;
-  }
-
-  // Close the menu if clicked outside of it
-  onMount(() => {
-    function handleClickOutside(event) {
-      if (menuRef && !menuRef.contains(event.target) && toggleRef && !toggleRef.contains(event.target)) {
-        closeMenu();
-      }
-    }
-
-    document.addEventListener('click', handleClickOutside);
-    
-    return () => {
-      document.removeEventListener('click', handleClickOutside);
-    };
-  });
+  import NavbarSmall from './NavbarSmall.svelte';
+  import NavbarBig from './NavbarBig.svelte';
 </script>
 
-<nav>
-  <a href="/">
-    <div class="logo">
-      <img src="{logo}" alt="Aeromania Logo" />
-      <h1>Aeromania</h1>
-    </div>
-  </a>
-
-  <!-- Menu with toggle based on menuActive -->
-  <ul bind:this={menuRef} class="menu" class:active={menuActive}>
-    <li><a href="/" on:click={closeMenu}>Home</a></li>
-    <li><a href="/about" on:click={closeMenu}>About</a></li>
-    <li><a href="/events" on:click={closeMenu}>Events</a></li>
-    <li><a href="/entertainment" on:click={closeMenu}>Entertainment</a></li>
-    <li><a href="/sponser" on:click={closeMenu}>Our Sponserers</a></li>
-    <li><a href="#footer" on:click={closeMenu}>Contact</a></li>
-  </ul>
-
-  <!-- Toggler for smaller screens -->
-  <div bind:this={toggleRef} class="navbar-toggler" on:click={toggleMenu}>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</nav>
+<div class="NavBig">
+  <NavbarBig />
+</div>
+<div class="NavSmall">
+  <NavbarSmall />
+</div>
 
 <style>
-  /* Reset, navbar, and logo styling */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 75px;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 100;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .logo img {
-    height: 5vh;
-    width: auto;
-  }
-
-  .logo h1 {
-    color: #fff;
-    font-size: 1.5em;
-    user-select: none;
-  }
-
-  /* Menu styling */
-  .menu {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    transition: opacity 0.3s ease;
-  }
-
-  .menu li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 10px;
-    transition: color 0.3s;
-  }
-
-  .menu li a:hover {
-    color: #00ddff;
-  }
-
-  /* Toggler button for mobile */
-  .navbar-toggler {
+  /* Default: Show NavbarSmall, hide NavbarBig */
+  .NavBig {
     display: none;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
+  }
+  .NavSmall {
+    display: block;
   }
 
-  .navbar-toggler div {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-  }
-
-  /* Responsive styling */
-  @media (max-width: 992px) {
-    .menu {
-      position: absolute;
-      top: 75px;
-      right: 10px;
-      background-color: rgba(0, 0, 0, 0.9);
-      padding: 10px;
-      border-radius: 5px;
-      flex-direction: column;
-      display: none;  /* Hide menu initially */
+  /* For screens larger than 1220px: Show NavbarBig, hide NavbarSmall */
+  @media (min-width: 1220px) {
+    .NavBig {
+      display: block;
     }
-
-    .navbar-toggler {
-      display: flex;
+    .NavSmall {
+      display: none;
     }
-
-    /* Display menu when active */
-    .menu.active {
-      display: flex;
-    }
-  }
-
-  body {
-    padding-top: 75px;
   }
 </style>

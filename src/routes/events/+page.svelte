@@ -12,104 +12,56 @@
         <Containerl 
         head="AEROGENESIS" 
         path="/images/plane.jpg" 
-        text="Dive into an exhilarating overnight hackathon
-        where you and your team will tackle real-world
-        challenges in the aerospace industry. Guided by
-        industry experts, you'll brainstorm, innovate, and
-        design a solution to a surprise challenge that tests
-        your skills and creativity." 
+        text="An overnight hackathon to tackle real-world aerospace challenges. Collaborate with industry experts to innovate and design solutions to a surprise challenge." 
         prize=10
         fee=0.5
+        form=""
          />
 
         <Containerr 
         head="PAYLOAD PARADOX" 
         path="/images/plane.jpg" 
-        text="Put your engineering skills to the test by designing
-        an innovative payload drop mechanism for drones.
-        Ensure your design keeps the payload intact upon
-        release from altitude. The most creative and
-        dimension-compliant design will claim victory!" 
+        text="Design an innovative payload drop mechanism for drones, ensuring safe release and compliance for victory." 
          />
         
         <Containerl 
         head="AEROCATACLYSM"
         path="/images/plane.jpg" 
-        text="Embark on a thrilling journey to solve the mystery of
-        an aircraft crash. Using real cockpit voice recordings
-        and a lifelike crash scenario, your team will analyze,
-        deduce, and explore the intricate details of aviation
-        safety. Ideal for those who love logic and reasoning." 
+        text="Solve the mystery of an aircraft crash using cockpit voice recordings and a lifelike scenario, perfect for logic and reasoning enthusiasts." 
          />
 
-        <Containerr 
-        head="STATIC FIRE FIESTA" 
-        path="/images/plane.jpg" 
-        text="A rare blend of workshop and competition
-        where teams learn to create solid rocket
-        propellants and put their skills to the test. The
-        grand finale? A live thrust showdown to see
-        which team's propellant packs the most power!" 
-         />
+        
 
         <Containerl 
         head="SKYFORGE"
         path="/images/plane.jpg" 
-        text="Get ready to unleash your inner entrepreneur!
-        In this competitive design event, your team will
-        bid for parts in an auction and create a unique
-        airliner for a specific purpose. The team with
-        the best pitch and design takes the crown." 
+        text="Unleash your inner entrepreneur by bidding for parts and designing a unique airliner; the best pitch and design wins!" 
          />
 
         <Containerr 
         head="PAPER PILOTS" 
         path="/images/plane.jpg" 
-        text="Test your engineering skills and creativity in
-        our ultimate paper plane competition. Learn
-        innovative folding techniques, customize
-        your designs, and compete against fellow
-        aviators. Will your plane fly the farthest,
-        highest, or most accurately? It's time to take
-        flight and claim victory!" 
+        text="
+Test your engineering skills in the ultimate paper plane competition—design, fold, and compete for distance, height, and accuracy!" 
          />
 
         <Containerl 
         head="AERO ODYSSEY"
         path="/images/plane.jpg" 
-        text="Calling all clue-hunters! This high-stakes
-        treasure hunt challenges your team to go on a
-        quest to find clues and treasure. Qualifying
-        teams race to build, launch, and see whose
-        rocket soars the farthest. The ultimate test of
-        teamwork, creativity, and engineering!" 
+        text="Join the treasure hunt challenge: find clues, build and launch rockets, and race to see whose rocket soars the farthest!" 
          />
 
         <Containerr 
         head="DESIGN DYNAMO" 
         path="/images/plane.jpg" 
-        text="CAED enthusiasts, this one's for you! A rapid-fire,
-        high-precision design challenge where you'll create
-        and assemble aerospace components to exact specs,
-        developing a precise 3D model from a 2D layout.
-        The fastest, most accurate designer wins in this
-        intense showcase of skill." 
+        text="
+A fast-paced CAED challenge where you design and assemble aerospace components to exact specs, with speed and accuracy determining the winner!" 
          />
 
         <Containerl 
         head="THE LOST ASTRONAUT"
         path="/images/plane.jpg" 
-        text="Immerse yourself in a space-themed escape
-        room that tests your problem-solving abilities.
-        Move through a series of rooms, deciphering
-        complex clues to escape. Only the sharpest
-        minds make it to the final exit!" 
-         />
-
-        <Containerr 
-        head="Event 4" 
-        path="/images/plane.jpg" 
-        text="IDK" 
+        text="A space-themed escape room where you solve complex clues to escape—only the sharpest minds make it to the final exit!" 
          />
 
     </div>
