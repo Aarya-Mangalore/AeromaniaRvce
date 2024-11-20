@@ -4,54 +4,50 @@
     import Count from "$lib/components/Counter.svelte"; 
     import Video from "$lib/components/video.svelte";
     import '../app.css';
+    const targetDate = new Date("2024-12-31T23:59:59");
 </script>
 
 <main>
     <Video />
     <div class="container">
-        <div class="welcome-text-container">
+        <div class="text-container">
             <h1>
                 Hello Aeromaniacs
             </h1>
             <p>
                 Get thrilled to enjoy the aero events conducted by aerospace students of R.V College of Engineering.
             </p>
-            <br><br>
+            <br><br><br><br><br><br>
+
+            <div class="Timer">
             <h1>
-                Coming Soon
+                We are coming Soon
             </h1>
+            <Count />
+            </div>
+            <br><br><br><br><br><br>
         </div>
     </div>
 
     <div class="container">
-        <div class="text-container">
-            <h1> 
-                Who Are we?
-            </h1>
-            <p>
-                We are aerospace engineering students, providing insights into the aerospace industry and the workings of certain models 
-                through some fun activities... join us in this venture by exploring our <a href="./events">Events</a> section
-            </p>
+        <div class="content-container">
+            <div class="text-container">
+                <p>
+                    AeroMania is a 3-day Aero Technical fest organized
+                    by the Department of Aerospace Engineering at RV
+                    College of Engineering, Bangalore. AeroMania aims
+                    to bring together enthusiasts from various engineering
+                    colleges, providing a platform for participants to
+                    learn, grow, and showcase their creativity in the field
+                    of aerospace engineering.
+                </p>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uHgt8giw1LY" title="AeroMania Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="image-container">
-            <img alt="Aeromania video" src="https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC">
-        </div>
-        <div class="text-container">
-            <p>
-                AeroMania is a 3-day Aero Technical fest organized
-                by the Department of Aerospace Engineering at RV
-                College of Engineering, Bangalore. AeroMania aims
-                to bring together enthusiasts from various engineering
-                colleges, providing a platform for participants to
-                learn, grow, and showcase their creativity in the field
-                of aerospace engineering.
-            </p>
-        </div>
-    </div>
-
+    <br><br><br><br><br><br>
     <div class="container">
         <div class="text-container">
             <h1> 
@@ -77,44 +73,47 @@
 
 <style>
     /* General container settings */
+
+    .Timer{
+        pointer-events: none;
+    }
     .container {
         display: flex; 
-        align-items: left; 
+        align-items: center; 
         padding: 2%; 
         flex-direction: column;
     }
 
-    .image-container {
-        width: 100%; 
+    .content-container {
         display: flex; 
-        justify-content: center; 
-        height: 30vh;
-        padding: 0;
-        padding-bottom: 10%;
+        justify-content: space-between;
+        align-items: flex;
+        width: 100%;
     }
 
     .text-container {
-        width: 100%;
+        width: 45%;
         padding-left: 20px; 
         color: aliceblue;
         text-align: center;
     }
 
-    .welcome-text-container {
-        width: 100%;
+    .video-container {
+        width: 45%;
         padding-left: 20px; 
-        color: aliceblue;
-        text-align: left;
+        display: flex;
+        justify-content: center;
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 500;
         padding: 10px;
+        font-weight: 800;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 2rem;
         padding: 0;
         user-select: none;
     }
@@ -188,6 +187,16 @@
 
         .register_main p {
             font-size: 1.2rem;
+        }
+
+        .content-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .text-container, .video-container {
+            width: 90%;
+            margin-bottom: 20px;
         }
     }
 </style>
