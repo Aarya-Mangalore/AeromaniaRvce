@@ -117,6 +117,10 @@
 <style>
     /* General container settings */
 
+    .Welcome h1{
+            padding-top: 5%;
+        }
+
     .Timer{
         pointer-events: none;
     }
