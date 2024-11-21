@@ -12,10 +12,11 @@
     <div class="info-container">
       <h6>{name}</h6>
       <p>{role}</p>
+      <p>R.V College of engineering</p>
       <div class="links">
         <a href="tel:{ph}">+91 {ph}</a>
       </div>
-      <p>R.V College of engineering</p>
+      
     </div>
   </div>
   
@@ -23,7 +24,7 @@
     .card-container {
       width: 100%;
       max-width: 300px;
-      background-color: #1e1e1e; /* Dark background */
+      background-color: #1e1e1e;
       border-radius: 10px;
       position: relative;
       transition: 0.7s ease-out;
@@ -54,7 +55,7 @@
     .info-container {
       width: 100%;
       background-color: #282828; /* Slightly lighter dark background for info */
-      padding: 10px;
+      padding: 5px;
       border-radius: 0 0 10px 10px;
       text-align: center;
     }
@@ -105,6 +106,18 @@
       .card-container {
         max-width: 45%;
       }
+
+    .info-container h6 {
+      font-size: 0.95rem;
+    }
+  
+    .info-container p {
+      font-size: 0.85rem;
+    }
+
+    .links a {
+      font-size: 0.8rem;
+    }
     }
   </style>
   

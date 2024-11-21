@@ -13,7 +13,7 @@
             <h3>Student Convener</h3>
             <div class="student-coordinators">
                 <Card
-                    name="Pavan YK"
+                    name="Pavan Y K"
                     imageurl="/images/profile.jpg"
                     ph="9945502752"
                     role="Student in Aerospace engineering"

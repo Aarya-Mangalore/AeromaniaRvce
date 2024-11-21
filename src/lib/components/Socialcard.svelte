@@ -62,7 +62,7 @@
   /* Responsive Design */
   @media (max-width: 600px) {
       .social-card {
-          width: 70%; /* Consistent width for small screens */
+          width: 30vh; /* Consistent width for small screens */
           max-width: none; /* Remove max-width restriction */
           padding: 10px 15px; /* Adjust padding for smaller screens */
       }
