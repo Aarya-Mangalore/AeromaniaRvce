@@ -16,6 +16,17 @@
         "/images/2023/img5.jpg"
     ];
 
+    // Scroll to "Hello Aeromaniacs" after 6 seconds
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+        setTimeout(() => {
+            const helloAeromaniacs = document.querySelector('h1');
+            if (helloAeromaniacs) {
+                helloAeromaniacs.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 6000); // Scroll after 6 seconds
+    });
 </script>
 
 <main>
@@ -31,17 +42,18 @@
             <br><br><br><br><br><br>
 
             <div class="Timer">
-            <h1>
-                We are coming Soon
-            </h1>
-            <Count />
+                <h1>
+                    We are coming Soon
+                </h1>
+                <Count />
             </div>
             <br><br><br><br><br><br>
         </div>
     </div>
-<h1>
-    About Aeromania
-</h1>
+
+    <h1>
+        About Aeromania
+    </h1>
     <div class="container">
         <div class="content-container">
             <div class="text-container">
@@ -56,7 +68,7 @@
                 </p>
             </div>
             <div class="video-container">
-                    <img src="/images/comingsoon.png" alt="A visual placeholder for the video">
+                <img src="/images/comingsoon.png" alt="A visual placeholder for the video">
             </div>
         </div>
     </div>
@@ -69,12 +81,10 @@
             <h3>
                 Loading.....
             </h3>
-            <!--<img alt="Sponsor image" src="/images/plane.jpg">-->
         </div>
     </div>
 
     <div class="container">
-
         <h1>
             Photo Gallery
         </h1>
@@ -89,25 +99,10 @@
             <p>
                 To get more info about us please check the brochure given below
             </p>
-            <!--<img alt="Sponsor image" src="/images/plane.jpg">-->
         </div>
         <br><br>
         <Button Text="Brochure" link="https://drive.google.com/file/d/1Rq2L39_z-mfKqQ24Ogqlip2mS6qzvPsp/view?usp=sharing" />
     </div>
-
-
-    <!-- REGISTER Button (Circle) 
-    <a href="/events">
-        <div class="registercirlce">
-            <div class="register_main">
-                <video class="register_video" autoplay muted loop>
-                    <source src="/video/radar.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>Get into lobby</p>
-            </div>
-        </div>
-    </a>-->
 
     <Foot />
 </main>
@@ -165,7 +160,6 @@
 
     img {
         max-width: 90%; 
-        
     }
 
     /* Circle button styles */

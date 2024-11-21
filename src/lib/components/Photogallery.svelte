@@ -43,11 +43,13 @@
         margin: 0 auto;
         overflow: hidden;
         border-radius: 10px;
+        transition: all 0.5s ease; /* Smooth transition for width and opacity changes */
     }
 
     .image {
         width: 100%;
-        height: auto;
+        height: 60vh; /* Set default height for larger screens */
+        object-fit: cover;
         display: block;
         transition: opacity 0.5s ease;
     }
@@ -75,5 +77,30 @@
 
     .nav-button:hover {
         background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Media queries for responsiveness */
+    @media (max-width: 768px) {
+        .gallery {
+            max-width: 100%; /* Take full width on smaller screens */
+        }
+
+        .image {
+            height: 50vh; /* Smaller screens - 50% of the viewport height */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .gallery {
+            max-width: 100%; /* Take full width on very small screens */
+        }
+
+        .image {
+            height: 30vh; /* Very small screens - 30% of the viewport height */
+        }
+
+        .nav-button {
+            padding: 8px; /* Adjust button size for smaller screens */
+        }
     }
 </style>
