@@ -21,16 +21,18 @@
 
     onMount(() => {
         setTimeout(() => {
-            const helloAeromaniacs = document.querySelector('h1');
+            const helloAeromaniacs = document.querySelector('stop');
             if (helloAeromaniacs) {
                 helloAeromaniacs.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
-        }, 6000); // Scroll after 6 seconds
+        }, 5000); // Scroll after 5 seconds
     });
 </script>
 
 <main>
     <Video />
+    <div class="stop"></div>
+    <br><br>
     <div class="container">
         <div class="text-container">
             <h1>

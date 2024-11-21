@@ -64,16 +64,14 @@
 
 <style>
     .super-container {
-        position: relative;
+        position: absolute;
         display: flex; /* Use flexbox for layout */
         justify-content: center; /* Center items horizontally */
         align-items: center; /* Center items vertically */
         flex-wrap: wrap; /* Wrap items if the screen is too small */
-        width: 90%;
-        height: 80vh; /* Make container occupy 80% of the viewport height */
-        margin: 100px auto 0 auto; /* Push down by adding margin on top */
-        gap: 25px; /* Space between the items */
-        padding: 30px; /* Add padding around the container */
+        width: 100%;
+        gap: 70px; /* Space between the items */
+        padding: 20px; /* Add padding around the container */
     }
 
     h1 {

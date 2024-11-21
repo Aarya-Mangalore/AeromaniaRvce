@@ -52,7 +52,7 @@
     <div class="social-handles-container">
         <h3>Social Handles</h3>
         <div class="social-handles">
-            <SocialCard logo="/Icons/PhoneLogo.png" name="Call us" link="tel:+918792159569" />
+            <SocialCard logo="/Icons/PhoneIcon.png" name="Call us" link="tel:+918792159569" />
             <SocialCard logo="/Icons/MailLogo.png" name="Mail us" link="mailto:aeromaniarvce@gmail.com"/>
             <SocialCard logo="/Icons/InstaLogo.png" name="Follow us on Instagram" link="https://www.instagram.com/aeromania_rvce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" />
         </div>
