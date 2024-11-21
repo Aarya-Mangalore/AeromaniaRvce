@@ -1,7 +1,7 @@
 <script>
-  import instalogo from "/Icons/InstaLogo.png";
-  import maillogo from "/Icons/MailLogo.png";
-  import phone from "/Icons/PhoneIcon.png";
+  import instalogo from "$lib/assets/Icons/InstaLogo.png";
+  import maillogo from "$lib/assets/Icons/MailLogo.png";
+  import phone from "$lib/assets/Icons/phoneIcon.png";
 </script>
 
 <div class="footer" id="footer">
