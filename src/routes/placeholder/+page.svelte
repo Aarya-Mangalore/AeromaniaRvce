@@ -1,35 +1,38 @@
 <script>
-
 </script>
 
+<main>
+<br><br><br>
+<br><br><br>
 <div class="container">
     <div class="text-container">
         <h1> 
-            COMING SOON
+            COMING SOON.....
         </h1>
     </div>
 </div>
-
+</main>
 
 <style>
     /* General container settings */
     .container {
-        display: flex;
-        flex-direction: column; /* Image on top, text below */
-        align-items: center;
-        justify-content: flex-start; /* Start from the top */
-        width:50vw; /* Mobile screen width - 80% of the viewport */
-        max-width: 425px; /* Limit the width on larger screens */
-        padding: 3%;
-        box-sizing: border-box;
-        background-color: rgba(190, 188, 188, 0.36);
-        border-radius: 30px;
-        position: relative;
-        overflow: hidden;
-        transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        height: 970px; /* Maintain consistent height */
-        margin-top: 30px; /* Add a gap to the top */
-    }
+    display: flex;
+    flex-direction: column; /* Image on top, text below */
+    align-items: center;
+    justify-content: flex-start; /* Start from the top */
+    width: 70vw; /* 80% of the viewport width */
+    height: 70vh; /* 80% of the viewport height */
+    padding: 3%;
+    box-sizing: border-box;
+    background-color: rgba(190, 188, 188, 0.0);
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
 
 
     .image-container {
@@ -48,17 +51,10 @@
     }
 
     h1 {
-    font-weight: 800;
-    font-size: 1.25rem;
-    color: white;
-    text-align: center; /* Center the heading */
-    transition: color 0.3s ease, background 0.3s ease;
-
-    /* Add borders */
-    border-top: 2px solid beige; /* Line above the heading */
-    border-bottom: 2px solid rgb(255, 255, 255); /* Line below the heading */
-    padding: 10px 0; /* Add spacing inside the borders */
-}
+        font-size: 10%; /* Default font size */
+        font-weight: 500; /* Make heading slightly bolder */
+        padding: 10px;
+    }
 
     h1:hover {
     color: #00ffff;
@@ -82,10 +78,9 @@
     
 
     /* Media query for larger screens */
-    @media (max-width: 830px) {
+    @media (min-width: 600px) {
         .container {
-            width: 80vw; /* 80% width */
-            height: auto; /* Auto height for smaller screens */
+            flex-direction: row; /* Switch back to row layout on larger screens */
         }
 
         .image-container {

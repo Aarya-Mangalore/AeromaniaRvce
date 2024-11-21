@@ -16,20 +16,6 @@
         <br />
         <p>{text}</p>
         <!-- Transparent Table Below Text -->
-        <div class="table-container">
-            <table class="transparent-table">
-                <tbody>
-                    <tr>
-                        <td class="label">Prize Money:</td>
-                        <td>₹{prize}</td>
-                    </tr>
-                    <tr>
-                        <td class="label">Registration fee:</td>
-                        <td>₹{fee}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
     </div>
 </div>
 
@@ -106,23 +92,28 @@
     }
 
     .head {
-        font-weight: 800;
-        font-size: 1.8rem;
-        color: white;
-        text-align: center; /* Center the heading */
-        transition: color 0.3s ease, background 0.3s ease;
-    }
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center; /* Center the heading */
+    transition: color 0.3s ease, background 0.3s ease;
+
+    /* Add borders */
+    border-top: 2px solid beige; /* Line above the heading */
+    border-bottom: 2px solid rgb(255, 255, 255); /* Line below the heading */
+    padding: 10px 0; /* Add spacing inside the borders */
+}
 
     p {
         color: whitesmoke;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding-bottom: 15px;
         text-align: center; /* Center the text */
-        text-shadow: 
-            1px 1px 0 black, 
-            -1px -1px 0 black,
-            1px -1px 0 black, 
-            -1px 1px 0 black;
+        font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    
     }
 
     .container:hover .head {

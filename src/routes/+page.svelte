@@ -145,6 +145,7 @@
     }
 
     h1 {
+        text-transform: uppercase;
         font-size: 2.5rem;
         font-weight: 500;
         padding: 10px;
@@ -240,8 +241,9 @@
         }
 
         h1 {
-        font-size: 2rem;
-        font-weight: 500;
+            
+        font-size: 1.5rem;
+        font-weight:100;
         padding: 10px;
         padding-top: 20%;
         font-weight: 800;

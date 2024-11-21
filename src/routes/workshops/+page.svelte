@@ -34,6 +34,7 @@
         font-weight: 500;
         padding: 10px;
         text-align: center;
+        text-transform: uppercase;
     }
 
     h1:hover {

@@ -1,6 +1,7 @@
 <script>
     import Card from "$lib/components/PersonCard.svelte";
     import SocialCard from "$lib/components/Socialcard.svelte";
+    import FacCard from "$lib/components/FacultyCard.svelte";
 </script>
 
 <main>
@@ -9,19 +10,19 @@
     <!-- Student Coordinators Section with Flexbox -->
      <div class="super-contain">
     <div class="student-coordinators-container">
-        <h3>Student Coordinators</h3>
+        <h3>Student Convener</h3>
         <div class="student-coordinators">
             <Card 
-                name="Aarna"
-                imageurl="/persons/lakshmiji.png"
-                ph="111111111111"
-                role="Set role"
+                name="Pavan YK"
+                imageurl="/images/profile.jpg"
+                ph="9945502752"
+                role="Student"
             />
             <Card 
-                name="Aarna"
-                imageurl="/persons/lakshmiji.png"
-                ph="111111111111"
-                role="Set role"
+                name="Samanyu S"
+                imageurl="/images/profile.jpg"
+                ph="9353986466"
+                role="Student"
             />
             
         </div>
@@ -29,19 +30,17 @@
     <br><br><br>
 
     <div class="student-coordinators-container">
-        <h3>Faculty Coordinators</h3>
+        <h3>Faculty Convener</h3>
         <div class="student-coordinators">
-            <Card 
-                name="Aarna"
-                imageurl="/persons/lakshmiji.png"
-                ph="111111111111"
-                role="Set role"
+            <FacCard 
+                name="Dr. Supreeth R"
+                imageurl="/images/profile.jpg"
+                role="Faculty at Aerospace Dept"
             />
-            <Card 
-                name="Aarna"
-                imageurl="/persons/lakshmiji.png"
-                ph="111111111111"
-                role="Set role"
+            <FacCard 
+                name="S Srinivasan"
+                imageurl="/images/profile.jpg"
+                role="Faculty at Aerospace Dept"
             />
             
         </div>
@@ -94,7 +93,7 @@
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 500;
         padding: 10px;
         text-align: center;
@@ -109,7 +108,7 @@
     }
 
     h3 {
-        font-size: 2rem;
+        font-size: 1.4rem;
         font-weight: 500;
         padding: 10px;
         text-align: center;

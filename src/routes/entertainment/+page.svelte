@@ -30,14 +30,14 @@
          />
 
 
-        <Containerr 
-        head="Jet-Set Giggles" 
+        <Containerl
+        head="JET-SET GIGGLES" 
         path="/images/plane.jpg" 
         text="Enjoy a hilarious evening of stand-up comedy, blending aviation themes with witty punchlines and sky-high humor for an unforgettable laugh-out-loud experience!" 
          />
 
          <Containerl 
-        head="Cosmic watch"
+        head="COSMIC WATCH"
         path="/event/cosmicwatch.jpg" 
         text="Join us for a stargazing adventure and discover the wonders of the night sky with a captivating solar watch, perfect for astronomy lovers and curious minds alike!" 
          />
@@ -62,6 +62,7 @@
         font-weight: 500;
         padding-top: 20px;
         text-align: center;
+        text-transform: uppercase;
     }
 
     h1:hover {

@@ -5,8 +5,8 @@
     export let prize = 0;
     export let fee = 0;
     export let dis = head;
-    export let form = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
-    export let rule = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
+    export let form = "/placeholder";
+    export let rule = "/placeholder";
 
     import Button from "$lib/components/Button.svelte";
 </script>
@@ -56,7 +56,7 @@
         align-items: center;
         justify-content: flex-start; /* Start from the top */
         width:50vw; /* Mobile screen width - 80% of the viewport */
-        max-width: 400px; /* Limit the width on larger screens */
+        max-width: 425px; /* Limit the width on larger screens */
         padding: 3%;
         box-sizing: border-box;
         background-color: rgba(190, 188, 188, 0.36);
@@ -64,7 +64,7 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        height: 900px; /* Maintain consistent height */
+        height: 970px; /* Maintain consistent height */
         margin-top: 30px; /* Add a gap to the top */
     }
 
@@ -105,7 +105,7 @@
     }
 
     .image {
-        width: 90%;
+        width: 100%;
         height: auto;
         border-radius: 20px;
         object-fit: cover; /* Ensure the image covers the container */
@@ -113,23 +113,28 @@
     }
 
     .head {
-        font-weight: 800;
-        font-size: 1.5rem;
-        color: white;
-        text-align: center; /* Center the heading */
-        transition: color 0.3s ease, background 0.3s ease;
-    }
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    text-align: center; /* Center the heading */
+    transition: color 0.3s ease, background 0.3s ease;
+
+    /* Add borders */
+    border-top: 2px solid rgba(255, 255, 255, 0.606); /* Line above the heading */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.606); /* Line below the heading */
+    padding: 10px 0; /* Add spacing inside the borders */
+}
+
 
     p {
         color: whitesmoke;
         font-size: 1rem;
         padding-bottom: 15px;
         text-align: center; /* Center the text */
-        text-shadow: 
-            1px 1px 0 black, 
-            -1px -1px 0 black,
-            1px -1px 0 black, 
-            -1px 1px 0 black;
+        font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     }
 
     .container:hover .head {
@@ -179,7 +184,7 @@
 
         .head {
             text-align: center;
-            font-size: 1.2rem; /* Adjust heading size for smaller screens */
+            font-size: 1rem; /* Adjust heading size for smaller screens */
         }
 
         p {

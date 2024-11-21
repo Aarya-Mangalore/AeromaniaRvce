@@ -1,7 +1,6 @@
 <script>
     export let name = "Singh ka puttar";
     export let role = "Define Role";
-    export let ph = "0000000000";
     export let imageurl;
   </script>
   
@@ -13,9 +12,8 @@
       <h6>{name}</h6>
       <p>{role}</p>
       <div class="links">
-        <a href="tel:{ph}">+91 {ph}</a>
+        <p>R.V College of engineering</p>
       </div>
-      <p>R.V College of engineering</p>
     </div>
   </div>
   

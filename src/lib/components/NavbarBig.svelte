@@ -6,7 +6,7 @@
 <div class="top-left">
 <a href="/" class="button">Home</a>
 <a href="/merchandise" class="button">Merchandise</a>
-<a href="/sponser" class="button sponsor">Sponsors</a>
+<a href="/placeholder" class="button sponsor">Sponsors</a>
 </div>
 
 <!-- Top Right Container -->
@@ -52,6 +52,7 @@ nav {
   padding: 20px;
   display: flex;
   flex-direction: row; /* Horizontal layout */
+
   justify-content: flex;
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
@@ -66,6 +67,7 @@ nav {
   content: '';
   position: absolute;
   top: -2px; /* Adjust to compensate for the border */
+
   left: -2px;
   right: -2px;
   bottom: -2px;
@@ -123,14 +125,17 @@ button {
   background: #222222;
   color: white;
   text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.8rem; /* Increased font size */
+  font-size: 70%;
+  font-family: 'CustomFont', sans-serif;
+  line-height: 2;
+  font-weight: 700; /* Bolder font */
   border-radius: 0;
-  margin: 0 5px;
+  margin: 0 0px;
   transition: all 0.3s ease;
   cursor: pointer;
   height: 100%;
 }
+
 
 /* Hover Effects for other buttons */
 a:hover,
