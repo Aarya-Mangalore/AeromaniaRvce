@@ -35,7 +35,7 @@
         align-items: center;
         justify-content: flex-start; /* Start from the top */
         width:50vw; /* Mobile screen width - 80% of the viewport */
-        max-width: 400px; /* Limit the width on larger screens */
+        max-width: 425px; /* Limit the width on larger screens */
         padding: 3%;
         box-sizing: border-box;
         background-color: rgba(190, 188, 188, 0.36);
@@ -43,7 +43,7 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        height: 900px; /* Maintain consistent height */
+        height: 970px; /* Maintain consistent height */
         margin-top: 30px; /* Add a gap to the top */
     }
 
@@ -94,26 +94,26 @@
     .head {
     font-weight: 800;
     font-size: 1.25rem;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center; /* Center the heading */
     transition: color 0.3s ease, background 0.3s ease;
 
     /* Add borders */
-    border-top: 2px solid beige; /* Line above the heading */
-    border-bottom: 2px solid rgb(255, 255, 255); /* Line below the heading */
+    border-top: 2px solid rgba(255, 255, 255, 0.606); /* Line above the heading */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.606); /* Line below the heading */
     padding: 10px 0; /* Add spacing inside the borders */
 }
 
+
     p {
         color: whitesmoke;
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 15px;
         text-align: center; /* Center the text */
         font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-    
     }
 
     .container:hover .head {
@@ -141,6 +141,7 @@
         text-align: center;
         color: white;
         font-size: 1rem;
+        font-family: "Josefin Sans", sans-serif;
     }
 
     /* Responsive Design for smaller screens */
@@ -163,7 +164,7 @@
 
         .head {
             text-align: center;
-            font-size: 1.2rem; /* Adjust heading size for smaller screens */
+            font-size: 1rem; /* Adjust heading size for smaller screens */
         }
 
         p {

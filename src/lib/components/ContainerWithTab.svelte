@@ -162,6 +162,7 @@
         text-align: center;
         color: white;
         font-size: 1rem;
+        font-family: "Josefin Sans", sans-serif;
     }
 
     /* Responsive Design for smaller screens */

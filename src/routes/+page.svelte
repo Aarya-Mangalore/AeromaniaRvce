@@ -57,10 +57,11 @@
             <br><br><br><br><br><br>
         </div>
     </div>
-
+<div class="content-container">
     <h1>
         About Aeromania
     </h1>
+</div>
     <div class="container">
         <div class="content-container">
             <div class="text-container">
@@ -118,7 +119,7 @@
     /* General container settings */
 
     .Welcome h1{
-            padding-top: 5%;
+            padding-top: 10%;
         }
 
     .Timer{
@@ -139,6 +140,11 @@
         width: 100%;
     }
 
+    .content-container h1{
+        text-align: left;
+        padding-left: 10vb;
+    }
+
     .text-container {
         width: 45%;
         padding-left: 20px; 
@@ -156,7 +162,7 @@
 
     h1 {
         text-transform: uppercase;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 500;
         padding: 0px;
         font-weight: 800;

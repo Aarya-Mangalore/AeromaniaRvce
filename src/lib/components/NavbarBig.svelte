@@ -121,11 +121,11 @@ nav {
 /* Common Button Styling */
 a,
 button {
-  padding: 18px 30px; /* Increased padding */
+  padding: 10px 10px; /* Increased padding */
   background: #222222;
   color: white;
   text-transform: uppercase;
-  font-size: 70%;
+  font-size: 80%;
   font-family: 'CustomFont', sans-serif;
   line-height: 2;
   font-weight: 700; /* Bolder font */
@@ -152,12 +152,12 @@ button:hover {
   top: 0px;
   left: 48%;
   transform: translateX(-50%);
-  z-index: 200;
+  z-index: 13000;
 }
 
 .logo img {
   height: auto;
-  width: 22vw; /* Adjusted logo size */
+  width: 15vw; /* Adjusted logo size */
 }
 
 /* Responsive Layout */

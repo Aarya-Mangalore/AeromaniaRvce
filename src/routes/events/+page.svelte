@@ -87,9 +87,9 @@
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 500;
-        margin-top: 20px; /* Push the heading slightly down */
+        padding-top: 20px;
         text-align: center;
         text-transform: uppercase;
     }
@@ -110,10 +110,10 @@
         }
 
         h1 {
-            font-size: 2rem;
-            font-weight: 500;
-            margin-top: 0; /* Adjust margin on smaller screens */
-            text-align: center;
-        }
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 0px;
+        text-align: center;
+    }
     }
 </style>

@@ -133,7 +133,7 @@
     }
   
     /* Responsive styling */
-    @media (max-width: 992px) {
+    @media (max-width: 1145px) {
       .menu {
         position: absolute;
         top: 75px;

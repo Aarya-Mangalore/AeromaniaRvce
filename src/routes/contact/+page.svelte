@@ -8,73 +8,82 @@
     <h1>Contacts</h1>
 
     <!-- Student Coordinators Section with Flexbox -->
-     <div class="super-contain">
-    <div class="student-coordinators-container">
-        <h3>Student Convener</h3>
-        <div class="student-coordinators">
-            <Card 
-                name="Pavan YK"
-                imageurl="/images/profile.jpg"
-                ph="9945502752"
-                role="Student in Aerospace engineering"
-            />
-            <Card 
-                name="Samanyu S"
-                imageurl="/images/profile.jpg"
-                ph="9353986466"
-                role="Student in Aerospace engineering"
-            />
-            
+    <div class="super-contain">
+        <div class="student-coordinators-container">
+            <h3>Student Convener</h3>
+            <div class="student-coordinators">
+                <Card
+                    name="Pavan YK"
+                    imageurl="/images/profile.jpg"
+                    ph="9945502752"
+                    role="Student in Aerospace engineering"
+                />
+                <Card
+                    name="Samanyu S"
+                    imageurl="/images/profile.jpg"
+                    ph="9353986466"
+                    role="Student in Aerospace engineering"
+                />
+            </div>
         </div>
-    </div>
-    <br><br><br>
 
-    <div class="student-coordinators-container">
-        <h3>Faculty Convener</h3>
-        <div class="student-coordinators">
-            <Card 
-                name="Dr. Supreeth R"
-                imageurl="/images/profile.jpg"
-                role="Faculty at Aerospace Dept"
-                ph="9980844119"
-            />
-            <Card 
-                name="S Srinivasan"
-                imageurl="/images/profile.jpg"
-                role="Faculty at Aerospace Dept"
-                ph="9901998773"
-            />
-            
+        <div class="student-coordinators-container">
+            <h3>Faculty Convener</h3>
+            <div class="student-coordinators">
+                <Card
+                    name="Dr. Supreeth R"
+                    imageurl="/images/profile.jpg"
+                    role="Faculty at Aerospace Dept"
+                    ph="9980844119"
+                />
+                <Card
+                    name="S Srinivasan"
+                    imageurl="/images/profile.jpg"
+                    role="Faculty at Aerospace Dept"
+                    ph="9901998773"
+                />
+            </div>
         </div>
     </div>
-</div>
 
     <!-- Social Handles Section -->
+    <h1>Social Handles</h1>
+    <br><br>
     <div class="social-handles-container">
-        <h3>Social Handles</h3>
         <div class="social-handles">
-            <SocialCard logo="/Icons/PhoneIcon.png" name="Call us" link="tel:+918792159569" />
-            <SocialCard logo="/Icons/MailLogo.png" name="Mail us" link="mailto:aeromaniarvce@gmail.com"/>
-            <SocialCard logo="/Icons/InstaLogo.png" name="Follow us on Instagram" link="https://www.instagram.com/aeromania_rvce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" />
+            <SocialCard
+                logo="/Icons/PhoneIcon.png"
+                name="Call us"
+                link="tel:+918792159569"
+            />
+            <SocialCard
+                logo="/Icons/MailLogo.png"
+                name="Mail us"
+                link="mailto:aeromaniarvce@gmail.com"
+            />
+            <SocialCard
+                logo="/Icons/InstaLogo.png"
+                name="Follow us"
+                link="https://www.instagram.com/aeromania_rvce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            />
         </div>
     </div>
 </main>
 
 <style>
-    
-    .super-contain{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 7%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+    /* General container settings */
+    .super-contain {
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        flex-wrap: wrap; /* Wrap items if the screen is too small */
+        width: 100%;
+        gap: 70px; /* Space between the items */
+        padding: 20px;
     }
 
-
-    /* General container settings */
-    .student-coordinators-container, .social-handles-container {
-        padding: 2% 0;
+    .student-coordinators-container {
+        padding: 2% 10px;
     }
 
     /* Flex layout for Student Coordinators */
@@ -83,28 +92,43 @@
         flex-wrap: wrap; /* Enables wrapping for rows */
         justify-content: center; /* Center items in the row */
         gap: 20px; /* Space between items */
+        padding-bottom: 50px;
     }
 
     /* Flex layout for Social Handles */
-    .social-handles {
+    .social-handles-container {
         display: flex;
         justify-content: center;
-        gap: 20px; /* Space between items */
-        width: 80%; /* Cover 80% of screen */
+        width: 70%; /* Cover a percentage of the screen */
         margin: 0 auto; /* Center the social handles container */
+        padding: 20px;
+    }
+
+
+    .social-handles {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: center; /* Center items */
+        gap: 10px; /* Add consistent spacing between cards */
+        width: 100%;
+    }
+
+    /* Apply individual spacing for each card */
+    .social-handles > * {
+        margin: 10px; /* Add spacing around each card */
     }
 
     h1 {
         font-size: 2rem;
         font-weight: 500;
-        padding: 10px;
+        padding-top: 20px;
         text-align: center;
+        text-transform: uppercase;
     }
 
     h1:hover {
         color: #00ffff;
         transform: scale(1.02);
-        text-decoration-skip-ink: auto;
         transition: 0.3s;
         user-select: none;
     }
@@ -116,34 +140,25 @@
         text-align: center;
     }
 
-    h3:hover {
-        color: #00ffff;
-        transform: scale(1.02);
-        text-decoration-skip-ink: auto;
-        transition: 0.3s;
-        user-select: none;
-    }
-
-    /* Responsive design for larger screens */
-    @media (min-width: 600px) {
-        .student-coordinators {
-            gap: 30px; /* Larger gap for larger screens */
-        }
-
-        h1 {
-            font-size: 3rem;
-        }
-
-        h3 {
-            font-size: 2.5rem;
-        }
-    }
-
     /* Responsive design for smaller screens */
+    @media (max-width: 600px) {
+        .social-handles {
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            gap: 15px; /* Reduce gap between cards */
+        }
+
+        .social-handles-container {
+            width: 90%; /* Increase width on smaller screens */
+        }
+    }
+
+    /* Responsive design for very small screens */
     @media (max-width: 400px) {
         h1 {
-            font-size: 2rem;
-            font-weight: 600;
+            font-size: 1.4rem;
+            font-weight: 500;
+            text-align: center;
         }
 
         h3 {
