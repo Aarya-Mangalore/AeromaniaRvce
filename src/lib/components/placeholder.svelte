@@ -48,7 +48,7 @@
     }
 
     h1 {
-        font-size: 10%; /* Default font size */
+        font-size: 3rem; /* Default font size */
         font-weight: 500; /* Make heading slightly bolder */
         padding: 10px;
     }
@@ -75,9 +75,10 @@
     
 
     /* Media query for larger screens */
-    @media (min-width: 600px) {
+    @media (max-width: 830px) {
         .container {
-            flex-direction: row; /* Switch back to row layout on larger screens */
+            width: 80vw; /* 80% width */
+            height: auto; /* Auto height for smaller screens */
         }
 
         .image-container {

@@ -21,7 +21,7 @@
 
     onMount(() => {
         setTimeout(() => {
-            const helloAeromaniacs = document.querySelector('stop');
+            const helloAeromaniacs = document.querySelector('h1');
             if (helloAeromaniacs) {
                 helloAeromaniacs.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
@@ -31,7 +31,6 @@
 
 <main>
     <Video />
-    <div class="stop"></div>
     <br><br>
     <div class="container">
         <div class="text-container">
@@ -244,6 +243,7 @@
         font-size: 2rem;
         font-weight: 500;
         padding: 10px;
+        padding-top: 20%;
         font-weight: 800;
     }
 
