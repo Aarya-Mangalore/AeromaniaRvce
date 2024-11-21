@@ -57,11 +57,11 @@
             <br><br><br><br><br><br>
         </div>
     </div>
-<div class="content-container">
-    <h1>
-        About Aeromania
-    </h1>
-</div>
+    <div class="container2">
+        <h1>
+           About aeromania
+        </h1>
+    </div>
     <div class="container">
         <div class="content-container">
             <div class="text-container">
@@ -133,12 +133,24 @@
         padding-bottom: 10%;
     }
 
+    .container2 {
+        display: flex; 
+        align-items: left; 
+        padding: 2%; 
+        flex-direction: row;
+        padding: 10%;
+        padding-bottom: 2%;
+        
+    }
+
     .content-container {
         display: flex; 
         justify-content: space-between;
         align-items: flex;
         width: 100%;
     }
+
+    
 
     .content-container h1{
         text-align: left;
@@ -253,6 +265,7 @@
         .content-container {
             flex-direction: column;
             align-items: center;
+            padding: 0%;
         }
 
         .text-container, .video-container {
@@ -273,5 +286,20 @@
         padding: 0;
         user-select: none;
     }
+
+    .content-container h1{
+        text-align: center;
+    }
+
+    .container2 {
+        display: flex; 
+        align-items: center; 
+        padding: 2%; 
+        flex-direction: column;
+        padding: 0%;
+        
+    }
+
+
     }
 </style>

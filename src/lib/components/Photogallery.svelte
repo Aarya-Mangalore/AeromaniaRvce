@@ -44,14 +44,16 @@
         overflow: hidden;
         border-radius: 10px;
         transition: all 0.5s ease; /* Smooth transition for width and opacity changes */
+        align-items: center;
     }
 
     .image {
-        width: 100%;
-        height: 60vh; /* Set default height for larger screens */
+        width: 50vb;
+        height: auto; /* Set default height for larger screens */
         object-fit: cover;
         display: block;
         transition: opacity 0.5s ease;
+        align-items: center;
     }
 
     .nav-button {
@@ -82,7 +84,7 @@
     /* Media queries for responsiveness */
     @media (max-width: 768px) {
         .gallery {
-            max-width: 100%; /* Take full width on smaller screens */
+            max-width: 80%; /* Take full width on smaller screens */
         }
 
         .image {
@@ -96,7 +98,8 @@
         }
 
         .image {
-            height: 30vh; /* Very small screens - 30% of the viewport height */
+            height: 70vh; /* Very small screens - 30% of the viewport height */
+            width: 50vh;
         }
 
         .nav-button {
