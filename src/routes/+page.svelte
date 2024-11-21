@@ -29,7 +29,9 @@
             <br><br><br><br><br><br>
         </div>
     </div>
-
+<h1>
+    About Aeromania
+</h1>
     <div class="container">
         <div class="content-container">
             <div class="text-container">
@@ -44,21 +46,32 @@
                 </p>
             </div>
             <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uHgt8giw1LY" title="AeroMania Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img src="/images/comingsoon.png" alt="A visual placeholder for the video">
             </div>
         </div>
     </div>
-    <br><br><br><br><br><br>
+    
     <div class="container">
         <div class="text-container">
             <h1> 
                Title sponsor
             </h1>
-            <img alt="Sponsor image" src="/images/plane.jpg">
+            <h3>
+                Loading.....
+            </h3>
+            <!--<img alt="Sponsor image" src="/images/plane.jpg">-->
         </div>
     </div>
 
-    <!-- REGISTER Button (Circle) -->
+    <div class="container">
+
+        <h1>
+            Photo Gallery
+        </h1>
+    </div>
+
+
+    <!-- REGISTER Button (Circle) 
     <a href="/events">
         <div class="registercirlce">
             <div class="register_main">
@@ -69,7 +82,7 @@
                 <p>Get into lobby</p>
             </div>
         </div>
-    </a>
+    </a>-->
 
     <Foot />
 </main>
@@ -85,6 +98,7 @@
         align-items: center; 
         padding: 2%; 
         flex-direction: column;
+        padding-bottom: 10%;
     }
 
     .content-container {
@@ -102,10 +116,11 @@
     }
 
     .video-container {
-        width: 45%;
+        width: 50%;
         padding-left: 20px; 
         display: flex;
         justify-content: center;
+        height: auto;
     }
 
     h1 {
@@ -113,6 +128,8 @@
         font-weight: 500;
         padding: 10px;
         font-weight: 800;
+        align-items: center;
+        text-align: center;
     }
 
     p {
@@ -123,7 +140,7 @@
 
     img {
         max-width: 90%; 
-        height: 50%;
+        
     }
 
     /* Circle button styles */

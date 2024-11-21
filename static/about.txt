@@ -1,0 +1,88 @@
+<div class="container">
+        <div class="text-container">
+            <h1> 
+                Department of Aerospace Engineering
+            </h1>
+            <p>
+                The Department of Aerospace Engineering,
+    established in 2015, offers an undergraduate
+    program focused on quality education, research,
+    sustainable technologies, and entrepreneurship.
+    Our department specializes in aerospace structural
+    design, aerodynamics, propulsion systems, and
+    control systems. Equipped with advanced facilities
+    like supersonic and subsonic wind tunnels, and
+    high-end testing machines, we support both
+    academic excellence and cutting-edge research. We
+    are committed to faculty development through
+    continuous improvement programs.
+    
+    department of aerospace engineering
+    
+    Graduates are prepared for successful careers with
+    a solid foundation in mathematics, physical
+    sciences, and specialized aerospace disciplines.
+    The curriculum emphasizes the development of
+    problem-solving abilities, communication skills,
+    teamwork, professional ethics, and a commitment
+    to lifelong learning. The department aims to
+    produce professionals who can contribute to
+    societal progress and effectively address global
+    challenges in the aerospace sector.
+            </p>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="text-container">
+            <h1> 
+                What Is Aeromania?
+            </h1>
+            <p>
+                AeroMania is a 3-day Aero Technical fest organized
+    by the Department of Aerospace Engineering at RV
+    College of Engineering, Bangalore. AeroMania aims
+    to bring together enthusiasts from various engineering
+    colleges, providing a platform for participants to
+    learn, grow, and showcase their creativity in the field
+    of aerospace engineering.
+    The fest features a variety of technical competitions, workshops, and guest
+    lectures, fostering collaboration and innovation among aspiring engineers.
+    Sponsorships by various organisations act as meaningful partnerships and
+    facilitate the successful conduction of the event.
+            </p>
+            <br><br>
+         </div>
+    </div>
+
+<div class="container">
+        <div class="text-container">
+            <h1> 
+                previous edition of aeromania
+            </h1>
+            <p>
+                The previous edition of AeroMania was
+    a grand success, which was conducted
+    in collaboration with the Aeronautical
+    Society of India, Bangalore branch. It
+    featured various talks by eminent
+    personalities, enlightening workshops
+    conducted by different clubs, and
+    challenging competitions.
+    
+    4th January - 6th January '23
+    
+    The 3-day event brought together students from various colleges to collaborate,
+    compete, and learn. Highlights included a thrilling overnight hackathon, a
+    challenging payload drop challenge, and insightful talks from industry experts at
+    AeSI. Students also had the opportunity to participate in hands-on workshops on
+    RC Planes and Rocket Engine building. The event was further enlivened by
+    exciting entertainment, including high-speed FPV Drone vs. Formula Car races,
+    immersive flight simulator experiences, and an exhilarating FPV drone obstacle
+    course race. The resounding success of the inaugural edition has paved the way
+    for the second edition in 2024.
+            </p>
+            <br><br>
+         </div>
+    </div>

@@ -13,6 +13,8 @@
   width: 100vw; /* Full width of the viewport */
   height: 120vh; /* Full height of the viewport */
   overflow: hidden;
+  z-index: 0;
+  background-color: black;
 }
 
 #background-video {

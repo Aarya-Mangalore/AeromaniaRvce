@@ -16,16 +16,7 @@
         text="Witness the aerial agility of FPV drones take on Ashwa's precision and Helios's off-road prowess in this high-energy event of engineering excellence." 
          />
 
-        <Containerr 
-        head="ALAAP & DJ SHOW" 
-        path="/images/plane.jpg" 
-        text="Prepare for an electrifying DJ show featuring a
-        soulful set by Alaap, the esteemed music club of
-        RVCE. Renowned for its blend of classical,
-        rock, and pop, Alaap captivates audiences at
-        national festivals. This evening promises an
-        unforgettable fusion of rhythm and energy." 
-        />
+        
         
         <Containerl 
         head="SOLID & HYBRID MOTOR DEMOSNTRATION"

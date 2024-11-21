@@ -5,7 +5,7 @@
 <!-- Top Left Container -->
 <div class="top-left">
 <a href="/" class="button">Home</a>
-<a href="/about" class="button">About</a>
+<a href="/merchandise" class="button">Merchandise</a>
 <a href="/sponser" class="button sponsor">Sponsors</a>
 </div>
 
