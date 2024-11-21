@@ -48,8 +48,8 @@
         flex-direction: column; /* Image on top, text below */
         align-items: center;
         justify-content: flex-start; /* Start from the top */
-        width: 80vw; /* Mobile screen width - 80% of the viewport */
-        max-width: 500px; /* Limit the width on larger screens */
+        width:50vw; /* Mobile screen width - 80% of the viewport */
+        max-width: 400px; /* Limit the width on larger screens */
         padding: 3%;
         box-sizing: border-box;
         background-color: rgba(190, 188, 188, 0.36);
@@ -57,7 +57,7 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        height: 1050px; /* Maintain consistent height */
+        height: 900px; /* Maintain consistent height */
         margin-top: 30px; /* Add a gap to the top */
     }
 

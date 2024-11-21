@@ -124,7 +124,7 @@ button {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.2rem; /* Increased font size */
+  font-size: 0.8rem; /* Increased font size */
   border-radius: 0;
   margin: 0 5px;
   transition: all 0.3s ease;

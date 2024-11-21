@@ -3,9 +3,19 @@
     import Button from "$lib/components/Button.svelte"; 
     import Count from "$lib/components/Timer.svelte"; 
     import Video from "$lib/components/video.svelte";
+    import { text } from "@sveltejs/kit";
     import '../app.css';
     const targetDate = new Date("2024-12-31T23:59:59");
     import Foot from '../lib/components/Footer.svelte';
+    import Photos from "$lib/components/Photogallery.svelte";
+    const galleryImages = [
+        "/images/2023/img1.jpg",
+        "/images/2023/img2.jpg",
+        "/images/2023/img3.jpg",
+        "/images/2023/img4.jpg",
+        "/images/2023/img5.jpg"
+    ];
+
 </script>
 
 <main>
@@ -68,6 +78,21 @@
         <h1>
             Photo Gallery
         </h1>
+        <Photos images={galleryImages} />
+    </div>
+
+    <div class="container">
+        <div class="text-container">
+            <h1> 
+               Learn more
+            </h1>
+            <p>
+                To get more info about us please check the brochure given below
+            </p>
+            <!--<img alt="Sponsor image" src="/images/plane.jpg">-->
+        </div>
+        <br><br>
+        <Button Text="Brochure" link="https://drive.google.com/file/d/1Rq2L39_z-mfKqQ24Ogqlip2mS6qzvPsp/view?usp=sharing" />
     </div>
 
 
@@ -124,7 +149,7 @@
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
         padding: 10px;
         font-weight: 800;
@@ -133,7 +158,7 @@
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0;
         user-select: none;
     }

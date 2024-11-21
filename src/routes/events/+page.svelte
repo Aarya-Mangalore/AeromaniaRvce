@@ -44,6 +44,7 @@
             head="THE LOST ASTRONAUT"
             path="/images/plane.jpg" 
             text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
+            rule="https://drive.google.com/file/d/1ni1GEa7ZF8balrYbYWLrBA3bhMFLQV-2/view?usp=sharing"
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
         />
         <Containerl
@@ -63,20 +64,22 @@
 
 <style>
     .super-container {
-        position: absolute;
+        position: relative;
         display: flex; /* Use flexbox for layout */
         justify-content: center; /* Center items horizontally */
         align-items: center; /* Center items vertically */
         flex-wrap: wrap; /* Wrap items if the screen is too small */
-        width: 100%;
-        gap: 70px; /* Space between the items */
-        padding: 20px; /* Add padding around the container */
+        width: 90%;
+        height: 80vh; /* Make container occupy 80% of the viewport height */
+        margin: 100px auto 0 auto; /* Push down by adding margin on top */
+        gap: 25px; /* Space between the items */
+        padding: 30px; /* Add padding around the container */
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
-        padding-top: 20px;
+        margin-top: 20px; /* Push the heading slightly down */
         text-align: center;
     }
 
@@ -96,10 +99,10 @@
         }
 
         h1 {
-        font-size: 2rem;
-        font-weight: 500;
-        padding: 0px;
-        text-align: center;
-    }
+            font-size: 2rem;
+            font-weight: 500;
+            margin-top: 0; /* Adjust margin on smaller screens */
+            text-align: center;
+        }
     }
 </style>

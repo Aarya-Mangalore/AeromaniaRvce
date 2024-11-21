@@ -55,8 +55,8 @@
         flex-direction: column; /* Image on top, text below */
         align-items: center;
         justify-content: flex-start; /* Start from the top */
-        width: 80vw; /* Mobile screen width - 80% of the viewport */
-        max-width: 500px; /* Limit the width on larger screens */
+        width:50vw; /* Mobile screen width - 80% of the viewport */
+        max-width: 400px; /* Limit the width on larger screens */
         padding: 3%;
         box-sizing: border-box;
         background-color: rgba(190, 188, 188, 0.36);
@@ -64,7 +64,7 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        height: 1050px; /* Maintain consistent height */
+        height: 900px; /* Maintain consistent height */
         margin-top: 30px; /* Add a gap to the top */
     }
 
@@ -105,7 +105,7 @@
     }
 
     .image {
-        width: 100%;
+        width: 90%;
         height: auto;
         border-radius: 20px;
         object-fit: cover; /* Ensure the image covers the container */
@@ -114,7 +114,7 @@
 
     .head {
         font-weight: 800;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         color: white;
         text-align: center; /* Center the heading */
         transition: color 0.3s ease, background 0.3s ease;
@@ -122,7 +122,7 @@
 
     p {
         color: whitesmoke;
-        font-size: 1.3rem;
+        font-size: 1rem;
         padding-bottom: 15px;
         text-align: center; /* Center the text */
         text-shadow: 

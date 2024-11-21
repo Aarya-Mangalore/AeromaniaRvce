@@ -1,6 +1,7 @@
 <script>
     import Containerl from "$lib/components/ContainerWithTab.svelte";
     import Containerr from "$lib/components/ContainerBoxrightTab.svelte";
+    import Placer from "$lib/components/placeholder.svelte";
 </script>
 
 <main>
@@ -12,6 +13,9 @@
             path="/images/plane.jpg" 
             text="Join a hands-on workshop to create solid rocket propellants and put your skills to the test in a thrilling live thrust showdown!"
         />
+
+        <Placer />
+        <Placer />
     </div>
 </main>
 
