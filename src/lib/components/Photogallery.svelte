@@ -43,17 +43,18 @@
         margin: 0 auto;
         overflow: hidden;
         border-radius: 10px;
+        display: flex; /* Use Flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
         transition: all 0.5s ease; /* Smooth transition for width and opacity changes */
-        align-items: center;
     }
 
     .image {
-        width: 50vb;
-        height: auto; /* Set default height for larger screens */
+        width: 100%; /* Set image to fill the gallery width */
+        height: auto; /* Maintain aspect ratio */
         object-fit: cover;
         display: block;
         transition: opacity 0.5s ease;
-        align-items: center;
     }
 
     .nav-button {
@@ -84,26 +85,25 @@
     /* Media queries for responsiveness */
     @media (max-width: 768px) {
         .gallery {
-            max-width: 80%; /* Take full width on smaller screens */
+            max-width: 80%;
         }
 
         .image {
-            height: 50vh; /* Smaller screens - 50% of the viewport height */
+            height: 50vh; /* Adjust height for smaller screens */
         }
     }
 
     @media (max-width: 480px) {
         .gallery {
-            max-width: 100%; /* Take full width on very small screens */
+            max-width: 100%;
         }
 
         .image {
-            height: 70vh; /* Very small screens - 30% of the viewport height */
-            width: 50vh;
+            height: 70vh; /* Adjust height for very small screens */
         }
 
         .nav-button {
-            padding: 8px; /* Adjust button size for smaller screens */
+            padding: 8px;
         }
     }
 </style>
