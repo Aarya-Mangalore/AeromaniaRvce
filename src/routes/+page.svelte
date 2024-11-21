@@ -34,17 +34,23 @@
     <br><br>
     <div class="container">
         <div class="text-container">
+
+            <div class="Welcome">
             <h1>
                 Hello Aeromaniacs
             </h1>
-            <p>
-                Get thrilled to enjoy the aero events conducted by aerospace students of R.V College of Engineering.
-            </p>
+        </div>
             <br><br><br><br><br><br>
 
             <div class="Timer">
                 <h1>
-                    We are coming Soon
+                    Pre-events 
+                </h1>
+                <h1>
+                    launching in
+                </h1>
+                <h1>
+                    T-minus
                 </h1>
                 <Count />
             </div>
@@ -148,7 +154,7 @@
         text-transform: uppercase;
         font-size: 2.5rem;
         font-weight: 500;
-        padding: 10px;
+        padding: 0px;
         font-weight: 800;
         align-items: center;
         text-align: center;
@@ -230,6 +236,10 @@
             font-size: 1.2rem;
         }
 
+        .Welcome h1{
+            padding-top: 25%;
+        }
+
         .content-container {
             flex-direction: column;
             align-items: center;
@@ -245,7 +255,6 @@
         font-size: 1.5rem;
         font-weight:100;
         padding: 10px;
-        padding-top: 20%;
         font-weight: 800;
     }
 

@@ -16,13 +16,13 @@
                 name="Pavan YK"
                 imageurl="/images/profile.jpg"
                 ph="9945502752"
-                role="Student"
+                role="Student in Aerospace engineering"
             />
             <Card 
                 name="Samanyu S"
                 imageurl="/images/profile.jpg"
                 ph="9353986466"
-                role="Student"
+                role="Student in Aerospace engineering"
             />
             
         </div>
@@ -32,15 +32,17 @@
     <div class="student-coordinators-container">
         <h3>Faculty Convener</h3>
         <div class="student-coordinators">
-            <FacCard 
+            <Card 
                 name="Dr. Supreeth R"
                 imageurl="/images/profile.jpg"
                 role="Faculty at Aerospace Dept"
+                ph="9980844119"
             />
-            <FacCard 
+            <Card 
                 name="S Srinivasan"
                 imageurl="/images/profile.jpg"
                 role="Faculty at Aerospace Dept"
+                ph="9901998773"
             />
             
         </div>

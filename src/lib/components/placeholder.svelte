@@ -15,7 +15,7 @@
     /* General container settings */
     .container {
         display: flex;
-        flex-direction: column; /* Image on top, text below */
+         /* Image on top, text below */
         align-items: center;
         justify-content: flex-start; /* Start from the top */
         width:50vw; /* Mobile screen width - 80% of the viewport */
