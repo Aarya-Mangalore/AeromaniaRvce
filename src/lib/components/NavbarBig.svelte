@@ -1,5 +1,5 @@
 <script>
-  import logo from '$lib/assets/logos/Aeromania4.png';
+  import logo from '$lib/assets/logos/aerologo.png';
 </script>
 
 <!-- Top Left Container -->
@@ -28,7 +28,9 @@
 
 <!-- Logo -->
 <div class="logo">
-<a href="/"><img src="{logo}" alt="Logo" /></a>
+<a href="/"><img src="{logo}" alt="Logo" />
+<p>AEROMANIA</p>
+</a>
 </div>
 
 <style>
@@ -79,8 +81,9 @@ nav {
 /* Logo Styling (Make anchor tag functional but without hover effect) */
 .logo a {
   background: transparent;
-  display: inline-block;
+  display: flex;
   pointer-events: auto; /* Ensure the anchor is clickable */
+  font-size: 0.9rem;
 }
 
 /* No hover effect on logo */
@@ -150,14 +153,23 @@ button:hover {
 .logo {
   position: absolute;
   top: 0px;
-  left: 48%;
+  left: 50%;
   transform: translateX(-50%);
   z-index: 13000;
+  align-items: center;
+  display: flex ;
 }
 
 .logo img {
   height: auto;
-  width: 15vw; /* Adjusted logo size */
+  width: 4vw; /* Adjusted logo size */
+  align-items: center;
+}
+
+p{
+  font-family: 'CustomFont', sans-serif;
+  size-adjust:initial;
+
 }
 
 /* Responsive Layout */
