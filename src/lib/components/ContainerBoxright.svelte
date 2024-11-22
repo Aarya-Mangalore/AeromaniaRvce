@@ -96,7 +96,7 @@
     }
 
     .container:hover .head {
-        background: linear-gradient(45deg, #2200ff, #ff0084);
+        background: linear-gradient(45deg, #1e04c4, #00b3cb);
         -webkit-background-clip: text;
         text-decoration: underline;
         color: transparent;

@@ -1,5 +1,5 @@
 <script>
-    import Containerl from "$lib/components/ContainerWithTab.svelte";
+    import Containerl from "$lib/components/ContainerwithSingleTab.svelte";
     import Containerr from "$lib/components/ContainerBoxrightTab.svelte";
     import Placer from "$lib/components/placeholder.svelte";
 </script>
@@ -12,7 +12,8 @@
             head="STATIC FIRE FIESTA" 
             path="/images/plane.jpg" 
             text="Join a hands-on workshop to create solid rocket propellants and put your skills to the test in a thrilling live thrust showdown!"
-        />
+            fee=1199
+            />
 
         <Placer />
         <Placer />

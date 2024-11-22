@@ -1,172 +1,169 @@
 <script>
     import Logo from "$lib/assets/logos/Aeromania3.png";
-    import Button from "$lib/components/Button.svelte"; 
-    import Count from "$lib/components/Timer.svelte"; 
+    import Button from "$lib/components/Button.svelte";
+    import Count from "$lib/components/Timer.svelte";
     import Video from "$lib/components/video.svelte";
-    import { text } from "@sveltejs/kit";
-    import '../app.css';
-    const targetDate = new Date("2024-12-31T23:59:59");
-    import Foot from '../lib/components/Footer.svelte';
+    import "../app.css";
+    import Foot from "../lib/components/Footer.svelte";
     import Photos from "$lib/components/Photogallery.svelte";
+    import { onMount } from "svelte";
+    import { fade } from "svelte/transition"; // Import fade transition
+
     const galleryImages = [
         "/images/2023/img1.jpg",
         "/images/2023/img2.jpg",
         "/images/2023/img3.jpg",
         "/images/2023/img4.jpg",
-        "/images/2023/img5.jpg"
+        "/images/2023/img5.jpg",
     ];
 
-    // Scroll to "Hello Aeromaniacs" after 6 seconds
-    import { onMount } from 'svelte';
+    let showVideo = true;
 
     onMount(() => {
+        // Hide the video component after 5 seconds
         setTimeout(() => {
-            const helloAeromaniacs = document.querySelector('h1');
+            showVideo = false;
+        }, 5000);
+
+        // Scroll to "Hello Aeromaniacs" after 6 seconds
+        setTimeout(() => {
+            const helloAeromaniacs = document.querySelector("h1");
             if (helloAeromaniacs) {
-                helloAeromaniacs.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                helloAeromaniacs.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                });
             }
-        }, 5000); // Scroll after 5 seconds
+        }, 6400);
     });
 </script>
 
 <main>
-    <Video />
-    <br><br>
+    {#if showVideo}
+        <div transition:fade={{ duration: 900 }}> <!-- Apply fade transition -->
+            <Video />
+        </div>
+    {/if}
+    <br /><br />
     <div class="container">
         <div class="text-container">
-
             <div class="Welcome">
-            <h1>
-                Hello Aeromaniacs
-            </h1>
-        </div>
-            <br><br><br><br><br><br>
+                <h1>Hello Aeromaniacs</h1>
+            </div>
+            <br /><br /><br /><br /><br /><br />
 
             <div class="Timer">
-                <h1>
-                    Pre-events 
-                </h1>
-                <h1>
-                    launching in
-                </h1>
-                <h1>
-                    T-minus
-                </h1>
+                <h1>Pre-events</h1>
+                <h1>launching in</h1>
+                <h1>T-minus</h1>
                 <Count />
             </div>
-            <br><br><br><br><br><br>
+            <br /><br /><br /><br /><br /><br />
         </div>
     </div>
     <div class="container2">
-        <h1>
-           About aeromania
-        </h1>
+        <h1>About aeromania</h1>
     </div>
     <div class="container">
         <div class="content-container">
             <div class="text-container">
                 <p>
-                    AeroMania is a 3-day Aero Technical fest organized
-                    by the Department of Aerospace Engineering at RV
-                    College of Engineering, Bangalore. AeroMania aims
-                    to bring together enthusiasts from various engineering
-                    colleges, providing a platform for participants to
-                    learn, grow, and showcase their creativity in the field
-                    of aerospace engineering.
+                    AeroMania is a 3-day Aero Technical fest organized by the
+                    Department of Aerospace Engineering at RV College of
+                    Engineering, Bangalore. AeroMania aims to bring together
+                    enthusiasts from various engineering colleges, providing a
+                    platform for participants to learn, grow, and showcase their
+                    creativity in the field of aerospace engineering.
                 </p>
             </div>
             <div class="video-container">
-                <img src="/images/comingsoon.png" alt="A visual placeholder for the video">
+                <img
+                    src="/images/comingsoon.png"
+                    alt="A visual placeholder for the video"
+                />
             </div>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="text-container">
-            <h1> 
-               Title sponsor
-            </h1>
-            <h3>
-                Loading.....
-            </h3>
         </div>
     </div>
 
     <div class="container">
-        <h1>
-            Photo Gallery
-        </h1>
+        <div class="text-container">
+            <h1>Title sponsor</h1>
+            <h3>Loading.....</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Photo Gallery</h1>
         <Photos images={galleryImages} />
     </div>
 
     <div class="container">
         <div class="text-container">
-            <h1> 
-               Learn more
-            </h1>
+            <h1>Learn more</h1>
             <p>
                 To get more info about us please check the brochure given below
             </p>
         </div>
-        <br><br>
-        <Button Text="Brochure" link="https://drive.google.com/file/d/1Rq2L39_z-mfKqQ24Ogqlip2mS6qzvPsp/view?usp=sharing" />
+        <br /><br />
+        <Button
+            Text="Brochure"
+            link="https://drive.google.com/file/d/1Rq2L39_z-mfKqQ24Ogqlip2mS6qzvPsp/view?usp=sharing"
+        />
     </div>
 
     <Foot />
 </main>
 
+
 <style>
     /* General container settings */
 
-    .Welcome h1{
-            padding-top: 10%;
-        }
+    .Welcome h1 {
+        padding-top: 10%;
+    }
 
-    .Timer{
+    .Timer {
         pointer-events: none;
     }
     .container {
-        display: flex; 
-        align-items: center; 
-        padding: 2%; 
+        display: flex;
+        align-items: center;
+        padding: 2%;
         flex-direction: column;
         padding-bottom: 10%;
     }
 
     .container2 {
-        display: flex; 
-        align-items: left; 
-        padding: 2%; 
+        display: flex;
+        align-items: left;
+        padding: 2%;
         flex-direction: row;
         padding: 10%;
         padding-bottom: 2%;
-        
     }
 
     .content-container {
-        display: flex; 
+        display: flex;
         justify-content: space-between;
         align-items: flex;
         width: 100%;
     }
 
-    
-
-    .content-container h1{
+    .content-container h1 {
         text-align: left;
         padding-left: 10vb;
     }
 
     .text-container {
         width: 45%;
-        padding-left: 20px; 
+        padding-left: 20px;
         color: aliceblue;
         text-align: center;
     }
 
     .video-container {
         width: 50%;
-        padding-left: 20px; 
+        padding-left: 20px;
         display: flex;
         justify-content: center;
         height: auto;
@@ -189,7 +186,7 @@
     }
 
     img {
-        max-width: 90%; 
+        max-width: 90%;
     }
 
     /* Circle button styles */
@@ -213,7 +210,10 @@
         height: clamp(100px, 15vw, 200px);
         position: relative;
         background: none;
-        transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+        transition:
+            transform 0.3s ease,
+            background 0.3s ease,
+            box-shadow 0.3s ease;
     }
 
     /* Video inside the circular button */
@@ -258,7 +258,7 @@
             font-size: 1.2rem;
         }
 
-        .Welcome h1{
+        .Welcome h1 {
             padding-top: 25%;
         }
 
@@ -268,38 +268,35 @@
             padding: 0%;
         }
 
-        .text-container, .video-container {
+        .text-container,
+        .video-container {
             width: 90%;
             margin-bottom: 20px;
         }
 
         h1 {
-            
-        font-size: 1.5rem;
-        font-weight:100;
-        padding: 10px;
-        font-weight: 800;
-    }
+            font-size: 1.5rem;
+            font-weight: 100;
+            padding: 10px;
+            font-weight: 800;
+        }
 
-    p {
-        font-size: 1rem;
-        padding: 0;
-        user-select: none;
-    }
+        p {
+            font-size: 1rem;
+            padding: 0;
+            user-select: none;
+        }
 
-    .content-container h1{
-        text-align: center;
-    }
+        .content-container h1 {
+            text-align: center;
+        }
 
-    .container2 {
-        display: flex; 
-        align-items: center; 
-        padding: 2%; 
-        flex-direction: column;
-        padding: 0%;
-        
-    }
-
-
+        .container2 {
+            display: flex;
+            align-items: center;
+            padding: 2%;
+            flex-direction: column;
+            padding: 0%;
+        }
     }
 </style>

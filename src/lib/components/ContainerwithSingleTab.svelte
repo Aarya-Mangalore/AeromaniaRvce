@@ -22,10 +22,6 @@
             <table class="transparent-table">
                 <tbody>
                     <tr>
-                        <td class="label">Prize Money:</td>
-                        <td>₹{prize}</td>
-                    </tr>
-                    <tr>
                         <td class="label">Registration fee:</td>
                         <td>₹{fee}</td>
                     </tr>
