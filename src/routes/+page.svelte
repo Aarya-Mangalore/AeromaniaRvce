@@ -47,9 +47,7 @@
     <br /><br />
     <div class="container">
         <div class="text-container">
-            <div class="Welcome">
-                <h1>Hello Aeromaniacs</h1>
-            </div>
+            
             <br /><br /><br /><br /><br /><br />
 
             <div class="Timer">
@@ -96,6 +94,18 @@
         <h1>Photo Gallery</h1>
         <Photos images={galleryImages} />
     </div>
+
+    <a href="/events">
+        <div class="registercirlce">
+            <div class="register_main">
+                <video class="register_video" autoplay muted loop>
+                    <source src="/video/radar.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Get into lobby</p>
+            </div>
+        </div>
+    </a>
 
     <div class="container">
         <div class="text-container">
@@ -249,6 +259,18 @@
 
     /* Adjustments for smaller screens */
     @media (max-width: 768px) {
+
+        .registercirlce {
+        bottom: 23px; /* Align the button at the very bottom */
+    }
+
+        .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+
         .register_main {
             width: clamp(150px, 20vw, 200px);
             height: clamp(150px, 20vw, 200px);
@@ -275,9 +297,8 @@
         }
 
         h1 {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-weight: 100;
-            padding: 10px;
             font-weight: 800;
         }
 
