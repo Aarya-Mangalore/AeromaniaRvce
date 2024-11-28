@@ -12,9 +12,9 @@
             head="AEROGENESIS" 
             path="/event/aerogenisis.jpg" 
             text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions." 
+            form="https://forms.gle/ycC4XDrYP7u7JDvx6 "
             prize=30000
             fee=1499
-            form="https://forms.gle/ycC4XDrYP7u7JDvx6 "
         />
         <Containerr
             head="AEROCATACLYSM"
@@ -70,6 +70,7 @@
             text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!" 
             prize=12000
             fee=999
+            rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=sharing"
         />
     </div>
 </main>
