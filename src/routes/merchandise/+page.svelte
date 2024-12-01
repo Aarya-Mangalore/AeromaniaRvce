@@ -30,7 +30,7 @@
             </h3>
         </div>
         <div class="photo">
-            <Photo images={Trend} width="500px" height="500px" />
+            <Photo images={Trend} width="500px" height="500px" interval=1sec />
         </div>
     </div>
 
@@ -40,18 +40,21 @@
 
     <div class="item-list">
         <ItemCard
+            Itemname="cool lookin' badge "
             staticImage="/images/merch/badge.jpg"
             galleryImages={galleryImages}
             price="999"
         />
 
         <ItemCard
+            Itemname="Hot Hoodie"
             staticImage="/images/merch/hoodie.jpg"
             galleryImages={galleryImages}
             price="10"
         />
 
         <ItemCard
+            Itemname="Aura T-shirt"
             staticImage="/images/merch/shirt.jpg"
             galleryImages={galleryImages}
             price="50200"

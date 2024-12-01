@@ -3,6 +3,9 @@
     import Button from "./Button.svelte";
     export let staticImage; // URL for the static image
     export let galleryImages = []; // Array of gallery images
+    export let link="/placeholder"
+    export let Itemname="not decided yet" 
+
     export let price; // Item price
 </script>
 
@@ -21,8 +24,19 @@
         {/if}
     </div>
     <div class="details">
-        <h2 class="price">₹{price}</h2>
-        <Button Text="Buy Now" link="/placeholder" />
+        <h2 class="price">{Itemname}</h2>
+        <div class="table-container">
+        <table class="transparent-table">
+            <tbody>
+                <tr>
+                    <td class="label">Price:</td>
+                    <td>₹{price}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+        <Button Text="Buy Now" link={link} />
     </div>
 </div>
 
@@ -43,6 +57,26 @@
         margin-top: 30px;
         transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
         cursor: pointer;
+    }
+
+    .table-container {
+        width: 100%; /* Full width for table */
+        margin-top: 20px; /* Space between content and table */
+    }
+
+    .transparent-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+        border-radius: 10px;
+    }
+
+    .transparent-table td {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        font-family: "Josefin Sans", sans-serif;
     }
 
     .card:hover::before{
