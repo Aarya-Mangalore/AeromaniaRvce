@@ -40,14 +40,14 @@
 
 <main>
     {#if showVideo}
-        <div transition:fade={{ duration: 900 }}> <!-- Apply fade transition -->
-            <Video />
+        <div transition:fade={{ duration: 900 }}>
+            <!-- Apply fade transition -->
+            <Video path="/video/Welcome.mp4" />
         </div>
     {/if}
     <br /><br />
     <div class="container">
         <div class="text-container">
-            
             <br /><br /><br /><br /><br /><br />
 
             <div class="Timer">
@@ -92,14 +92,14 @@
 
     <div class="container">
         <h1>Photo Gallery</h1>
-        <Photos images={galleryImages} />
+        <Photos images={galleryImages} width="600px" height="800px" />
     </div>
 
     <a href="/events">
         <div class="registercirlce">
             <div class="register_main">
                 <video class="register_video" autoplay muted loop>
-                    <source src="/video/radar.mp4" type="video/mp4">
+                    <source src="/video/radar.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <p>Get into lobby</p>
@@ -123,7 +123,6 @@
 
     <Foot />
 </main>
-
 
 <style>
     /* General container settings */
@@ -259,17 +258,16 @@
 
     /* Adjustments for smaller screens */
     @media (max-width: 768px) {
-
         .registercirlce {
-        bottom: 23px; /* Align the button at the very bottom */
-    }
+            bottom: 23px; /* Align the button at the very bottom */
+        }
 
         .container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-bottom: 10%;
-    }
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 10%;
+        }
 
         .register_main {
             width: clamp(150px, 20vw, 200px);

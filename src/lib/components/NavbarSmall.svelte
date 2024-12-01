@@ -44,11 +44,11 @@
     <!-- Menu with toggle based on menuActive -->
     <ul bind:this={menuRef} class="menu" class:active={menuActive}>
       <li><a href="/" on:click={closeMenu}>Home</a></li>
-      <li><a href="/merchandise" on:click={closeMenu}>Merchandise</a></li>
+      <li><a href="/placeholder" on:click={closeMenu}>Merchandise</a></li>
       <li><a href="/events" on:click={closeMenu}>Events</a></li>
       <li><a href="/workshops" on:click={closeMenu}>Workshops</a></li>
       <li><a href="/entertainment" on:click={closeMenu}>Entertainment</a></li>
-      <li><a href="/placeholder" on:click={closeMenu}>Our Sponserers</a></li>
+      <li><a href="/sponser" on:click={closeMenu}>Our Sponserers</a></li>
       <li><a href="/contact" on:click={closeMenu}>Contact us</a></li>
     </ul>
   

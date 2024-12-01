@@ -5,8 +5,8 @@
 <!-- Top Left Container -->
 <div class="top-left">
 <a href="/" class="button">Home</a>
-<a href="/merchandise" class="button">Merchandise</a>
-<a href="/placeholder" class="button sponsor">Sponsors</a>
+<a href="/placeholder" class="button">Merchandise</a>
+<a href="/sponser" class="button sponsor">Sponsors</a>
 </div>
 
 <!-- Top Right Container -->

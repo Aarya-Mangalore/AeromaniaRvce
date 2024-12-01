@@ -1,5 +1,8 @@
 <script>
     export let images = []; // Accept an array of image URLs
+    export let width = '600px'; // Default width of the gallery
+    export let height = '600px'; // Default height of the gallery
+
     let currentIndex = 0; // Track the currently displayed image
     let interval;
 
@@ -27,7 +30,12 @@
     startAutoSlide();
 </script>
 
-<div class="gallery" on:mouseenter={stopAutoSlide} on:mouseleave={startAutoSlide}>
+<div
+    class="gallery"
+    style="--gallery-width: {width}; --gallery-height: {height};"
+    on:click={stopAutoSlide}
+    on:mouseleave={startAutoSlide}
+>
     {#if images.length > 0}
         <img src={images[currentIndex]} alt="Image gallery" class="image" />
         <button class="nav-button prev" on:click={prevImage}>❮</button>
@@ -38,20 +46,20 @@
 <style>
     .gallery {
         position: relative;
-        width: 100%;
-        max-width: 600px;
         margin: 0 auto;
         overflow: hidden;
         border-radius: 10px;
-        display: flex; /* Use Flexbox */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-        transition: all 0.5s ease; /* Smooth transition for width and opacity changes */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: var(--gallery-width);
+        height: var(--gallery-height);
+        transition: all 0.5s ease;
     }
 
     .image {
-        width: 100%; /* Set image to fill the gallery width */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         display: block;
         transition: opacity 0.5s ease;
@@ -82,28 +90,23 @@
         background-color: rgba(0, 0, 0, 0.8);
     }
 
-    /* Media queries for responsiveness */
+    /* Responsive Styles */
     @media (max-width: 768px) {
         .gallery {
-            max-width: 80%;
-        }
-
-        .image {
-            height: 50vh; /* Adjust height for smaller screens */
+            width: 90%; /* Adjust width dynamically for smaller screens */
+            height: calc(var(--gallery-height) * 0.8); /* Reduce height proportionally */
         }
     }
 
     @media (max-width: 480px) {
         .gallery {
-            max-width: 100%;
-        }
-
-        .image {
-            height: 70vh; /* Adjust height for very small screens */
+            width: 100%; /* Use full width for very small screens */
+            height: calc(var(--gallery-height) * 0.6); /* Further reduce height */
         }
 
         .nav-button {
             padding: 8px;
+            font-size: 1.2rem;
         }
     }
 </style>

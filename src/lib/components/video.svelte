@@ -1,6 +1,11 @@
+<script>
+  export let path=""
+</script>
+
+
 <div class="video-container">
   <video autoplay muted loop id="background-video">
-      <source src="/video/Welcome.mp4" type="video/mp4">
+      <source src={path} type="video/mp4">
       Your browser does not support the video tag.
   </video>
 </div>

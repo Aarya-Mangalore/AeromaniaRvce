@@ -6,9 +6,14 @@
 <br><br><br>
 <div class="container">
     <div class="text-container">
+        <a  on:click={(e) => { e.preventDefault(); history.back(); }}>
         <h1> 
             COMING SOON.....
         </h1>
+        <h3>
+            click here to go back
+        </h3>
+    </a>
     </div>
 </div>
 </main>

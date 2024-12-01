@@ -1,113 +1,165 @@
 <script>
+    import Photo from "$lib/components/Photogallery.svelte";
+    import ItemCard from "$lib/components/ItemCard.svelte";
+
+    const Trend = [
+        "/images/merch/badge.jpg",
+        "/images/merch/hoodie.jpg",
+        "/images/merch/shirt.jpg"
+    ];
+
+    const galleryImages = [
+        "/images/merch/badge.jpg",
+        "/images/merch/hoodie.jpg",
+        "/images/merch/shirt.jpg"
+    ];
 </script>
 
 <main>
-<br><br><br>
-<br><br><br>
-<div class="container">
-    <div class="text-container">
-        <h1> 
-            COMING SOON.....
-        </h1>
+    <h1>
+        Merchandise
+    </h1>
+
+    <div class="container">
+        <div class="text-container">
+            <h1>
+                Currently Trending
+            </h1>
+            <h3>
+                Grab yours now!!!!
+            </h3>
+        </div>
+        <div class="photo">
+            <Photo images={Trend} width="500px" height="500px" />
+        </div>
     </div>
-</div>
+
+    <h1>
+        Buy our best of the deals
+    </h1>
+
+    <div class="item-list">
+        <ItemCard
+            staticImage="/images/merch/badge.jpg"
+            galleryImages={galleryImages}
+            price="999"
+        />
+
+        <ItemCard
+            staticImage="/images/merch/hoodie.jpg"
+            galleryImages={galleryImages}
+            price="10"
+        />
+
+        <ItemCard
+            staticImage="/images/merch/shirt.jpg"
+            galleryImages={galleryImages}
+            price="50200"
+        />
+    </div>
 </main>
 
 <style>
-    /* General container settings */
     .container {
-    display: flex;
-    flex-direction: column; /* Image on top, text below */
-    align-items: center;
-    justify-content: flex-start; /* Start from the top */
-    width: 70vw; /* 80% of the viewport width */
-    height: 70vh; /* 80% of the viewport height */
-    padding: 3%;
-    box-sizing: border-box;
-    background-color: rgba(190, 188, 188, 0.0);
-    border-radius: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-}
-
-
-    .image-container {
-        width: 100%; 
-        display: flex; 
-        justify-content: center; 
-        height: 30vh; /* Reduced height for smaller screens */
-        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 20px auto;
     }
 
-    .text-container {
-        width: 100%;
-        padding-left: 20px; 
-        color: aliceblue;
-        text-align: center; /* Centered text for smaller screens */
-    }
-
+    /* Keep 'Merchandise' on top */
     h1 {
-        font-size: 10%; /* Default font size */
-        font-weight: 500; /* Make heading slightly bolder */
-        padding: 10px;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 20px;
+        text-transform: uppercase;
     }
 
     h1:hover {
-    color: #00ffff;
-    transform: scale(1.03);
-    text-decoration-skip-ink:auto;
-    transition: 0.3s;
-    user-select: none;
-  }
-
-    p {
-        font-size: 1rem; /* Reduced font size for paragraphs */
-        padding: 0;
+        color: #00ffff;
+        transform: scale(1.02);
+        text-decoration-skip-ink: auto;
+        transition: 0.3s;
         user-select: none;
     }
 
-    img {
-        max-width: 80%; /* Limit image size on small screens */
-        height: auto; 
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
     }
 
-    
+    .text-container h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
 
-    /* Media query for larger screens */
-    @media (min-width: 600px) {
+    .text-container h3 {
+        font-size: 1.2rem;
+    }
+
+    .photo {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .item-list {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly; /* Spread out cards evenly */
+        margin-top: 20px;
+        flex-wrap: wrap; /* Allow wrapping if there are too many cards */
+        width: 90%; /* Ensure cards don't go beyond container width */
+        margin: auto;
+    }
+
+    .item-list > * {
+        flex: 1 1 calc(25% - 20px); /* Flex items take up 25% of the width minus gap */
+        max-width: 300px; /* Limit card width */
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.8rem;
+        }
+
+        /* Stack items vertically on smaller screens */
         .container {
-            flex-direction: row; /* Switch back to row layout on larger screens */
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
         }
 
-        .image-container {
-            height: 70vh; /* Keep the larger height on bigger screens */
+        .text-container h1 {
+            font-size: 1.7rem;
         }
 
-        h1 {
-            font-size: 3rem; /* Slightly larger font size on bigger screens */
+        .text-container h3 {
+            font-size: 1.5rem;
         }
 
-        p {
-            font-size: 1.2rem;
+        .photo {
+            width: 100%;
+            justify-content: center;
         }
 
-        
-    }
-
-    /* Additional style adjustments for small screens */
-    @media (max-width: 400px) {
-        h1 {
-            font-size: 2rem; /* Increase font size for small screens */
-            font-weight: 600; /* Make it bolder */
+        .item-list {
+            flex-direction: column; /* Stack cards vertically */
+            align-items: center;
+            gap: 10px;
         }
 
-        .image-container {
-            height: 50%; /* Keep the larger height on bigger screens */
-            width: auto;
+        .item-list > * {
+            flex: 1 1 100%; /* Full width for smaller screens */
+            max-width: 100%; /* Remove max-width limit */
         }
     }
 </style>
+
