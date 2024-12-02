@@ -93,7 +93,7 @@
         }
 
         h1 {
-            font-size: 3rem; /* Slightly larger font size on bigger screens */
+            font-size: 2rem; /* Slightly larger font size on bigger screens */
         }
 
         p {
@@ -105,8 +105,13 @@
 
     /* Additional style adjustments for small screens */
     @media (max-width: 400px) {
+        .container {
+            width: auto;
+            height: auto; /* Auto height for smaller screens */
+        }
+
         h1 {
-            font-size: 2rem; /* Increase font size for small screens */
+            font-size: 1.6rem; /* Increase font size for small screens */
             font-weight: 600; /* Make it bolder */
         }
 
