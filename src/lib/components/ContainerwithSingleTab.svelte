@@ -4,11 +4,30 @@
     export let path = "/images/plane.jpg";
     export let prize = 0;
     export let fee = 0;
-    export let dis = head;
+    export let dis = "";
     export let form = "/placeholder";
     export let rule = "/placeholder";
+    let button1text="Learn more";
 
-    import Button from "$lib/components/Button.svelte";
+    let showDescription = false;  // Variable to control the visibility of the description
+
+    function toggleDescription() {
+        if (dis){
+    showDescription = !showDescription;  // Toggle the visibility
+        
+    if (button1text === "Learn more") {
+        button1text = "read less";
+    } else {
+        button1text = "Learn more";
+    }
+}
+
+else {
+        // Redirect to another page if 'dis' is empty
+        window.location.href = "/placeholder"; // Change '/other-page' to the desired URL
+    }
+}
+
 </script>
 
 <div class="container">
@@ -30,13 +49,65 @@
         </div>
         <br /><br />
         <div class="but-contain">
-            <Button Text="Rule-book" link={rule}></Button>
-            <Button Text="Apply now" link={form}></Button>
+            <a on:click={toggleDescription}>
+                <button class="space-button">{button1text}</button>
+            </a>
+            {#if showDescription}
+            <div class="description">
+                <p>{dis}</p>  <!-- This is the description that will appear when the button is clicked -->
+            </div>
+        {/if}
+            <a href={form}>
+                <button class="space-button">Apply now</button>
+            </a>
         </div>
+        
     </div>
 </div>
 
 <style>
+    /* Button styling */
+    .space-button {
+        padding: 15px 30px;
+        color: #00FFFF; /* Cyan text */
+        background-color: #000;
+        border: 2px solid #00FFFF; /* Cyan border */
+        border-radius: 8px;
+        font-size: 18px;
+        font-family: sans-serif;
+        cursor: pointer;
+        transition: all 0.4s ease; /* Smooth transition */
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    /* Hover effect */
+    .space-button::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300%;
+        height: 300%;
+        background: radial-gradient(circle, rgba(0, 255, 255, 0.4), transparent);
+        transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .space-button:hover::before {
+        width: 150%;
+        height: 150%;
+        opacity: 1;
+    }
+
+    .space-button:hover {
+        color: #fff; /* Change text to white on hover */
+    }
+
+    /* Styling for the container */
     .but-contain {
         display: flex;
         justify-content: center; /* Center buttons horizontally */
@@ -46,12 +117,14 @@
         width: 100%; /* Ensure the container takes up full width */
     }
 
+    /* Other styles for the container, text, etc., remain unchanged */
+
     .container {
         display: flex;
         flex-direction: column; /* Image on top, text below */
         align-items: center;
         justify-content: flex-start; /* Start from the top */
-        width:50vw; /* Mobile screen width - 80% of the viewport */
+        width: 50vw; /* Mobile screen width - 80% of the viewport */
         max-width: 425px; /* Limit the width on larger screens */
         padding: 3%;
         box-sizing: border-box;
@@ -60,7 +133,8 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        height: 970px; /* Maintain consistent height */
+        height: auto; /* Maintain consistent height */
+        min-height: 970px;
         margin-top: 30px; /* Add a gap to the top */
     }
 
@@ -109,18 +183,15 @@
     }
 
     .head {
-    font-weight: 800;
-    font-size: 1.25rem;
-    color: rgb(255, 255, 255);
-    text-align: center; /* Center the heading */
-    transition: color 0.3s ease, background 0.3s ease;
-
-    /* Add borders */
-    border-top: 2px solid rgba(255, 255, 255, 0.606); /* Line above the heading */
-    border-bottom: 2px solid rgba(255, 255, 255, 0.606); /* Line below the heading */
-    padding: 10px 0; /* Add spacing inside the borders */
-}
-
+        font-weight: 800;
+        font-size: 1.25rem;
+        color: rgb(255, 255, 255);
+        text-align: center; /* Center the heading */
+        transition: color 0.3s ease, background 0.3s ease;
+        border-top: 2px solid rgba(255, 255, 255, 0.606); /* Line above the heading */
+        border-bottom: 2px solid rgba(255, 255, 255, 0.606); /* Line below the heading */
+        padding: 10px 0; /* Add spacing inside the borders */
+    }
 
     p {
         color: whitesmoke;
@@ -128,9 +199,9 @@
         padding-bottom: 15px;
         text-align: center; /* Center the text */
         font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .container:hover .head {
@@ -159,6 +230,10 @@
         color: white;
         font-size: 1rem;
         font-family: "Josefin Sans", sans-serif;
+    }
+
+    .description{
+        padding: 10px;
     }
 
     /* Responsive Design for smaller screens */

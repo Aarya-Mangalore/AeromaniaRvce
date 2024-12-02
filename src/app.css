@@ -33,9 +33,9 @@ body {
 
 @media (max-width: 768px) {
   body {
-      background-size: auto 110%; /* Adjusts size for smaller screens to ensure it fills the screen */
-      background-position: center 60%; /* Adjust for smaller screens */
-      background-attachment: fixed; /* Allow scrolling on smaller screens to avoid performance issues */
+    background-size: auto 110%; /* Adjusts size for smaller screens to ensure it fills the screen */
+    background-position: center 60%; /* Adjust for smaller screens */
+    background-attachment: fixed; /* Allow scrolling on smaller screens to avoid performance issues */
   }
 }
 
@@ -98,4 +98,47 @@ h1, h3 {
 
 :global(body) {
   font-family: 'CustomFont', sans-serif;
+}
+
+/* Button styling */
+.space-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: var(--ff-paragraph); /* Apply the updated font */
+  background-color: black;
+  color: var(--clr-primary-200); /* White text */
+  border: 2px solid var(--clr-ta-5); /* Use one of your theme colors */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth hover effects */
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Hover effect */
+.space-button:hover {
+  background-color: var(--clr-ta-5); /* Change to one of the theme colors */
+  color: white; /* Change text to white on hover */
+  transform: scale(1.05); /* Slight scaling effect */
+}
+
+.space-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.4), transparent);
+  transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: -1;
+}
+
+.space-button:hover::before {
+  width: 150%;
+  height: 150%;
+  opacity: 1;
 }

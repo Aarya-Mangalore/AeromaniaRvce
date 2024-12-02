@@ -10,12 +10,20 @@
     <div class="super-container">
         <Containerl 
             head="STATIC FIRE FIESTA" 
-            path="/images/plane.jpg" 
+            path="/event/sft.png" 
             text="Join a hands-on workshop to create solid rocket propellants and put your skills to the test in a thrilling live thrust showdown!"
             fee=1199
+            dis="Join us for an exhilarating journey into the world of rocketry with our Solid Rocket Motor Workshop! This hands-on event offers participants the unique opportunity to delve into the science of propulsion, craft their own solid propellant grains, and fire them under supervision. Discover the principles that power rockets, gain practical experience in motor fabrication, and feel the thrill of testing your creation in action. Perfect for aspiring aerospace engineers, science enthusiasts, or anyone curious about the mechanics of space exploration, this workshop promises an unforgettable blend of learning, creativity, and excitement."
             />
 
-        <Placer />
+            <Containerl 
+            head="BLACK HOLE" 
+            path="/event/Blackhole.png" 
+            text="Join a hands-on workshop to
+                have a great time in
+                Exploring skies and beyond!!!"
+            fee=1199
+            />
         <Placer />
     </div>
 </main>
