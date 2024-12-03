@@ -41,8 +41,8 @@
         <div class="container-container">
             <div class="box"><p>Enhanced vision in aerospace field</p></div>
             <div class="box"><p>Witness the marvel of aerospace engineering</p></div>
-            <div class="box"><p>better understanding of let alone therory studied in your class</p></div>
-            <div class="box"><p>Good to see RVU girls</p></div>
+            <div class="box"><p>better understanding of let alone therory studied in class</p></div>
+            <div class="box"><p>Explore the campus of RV College of engineering</p></div>
         </div>
     </div>
 </main>
@@ -101,6 +101,7 @@
         border-width: 3px;
         transition: 0.3s;
     }
+    
 
     p {
         font-size: 1.5rem;

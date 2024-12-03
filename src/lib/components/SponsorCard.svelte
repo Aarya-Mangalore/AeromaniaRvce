@@ -75,7 +75,7 @@
   }
 
   /* On very small screens, adjust card size */
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     .card-container {
       width: 100%; /* Cards take full width on very small screens */
     }
@@ -93,6 +93,6 @@
 <div class="card-container">
   <a class="card" href={hrefURL} target="_blank" rel="noopener noreferrer">
     <img class="image" src={imageurl} alt={name} />
-    <div class="name-container">{name}</div>
+
   </a>
 </div>

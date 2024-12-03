@@ -3,15 +3,19 @@
     import ItemCard from "$lib/components/ItemCard.svelte";
 
     const Trend = [
-        "/images/merch/badge.jpg",
-        "/images/merch/hoodie.jpg",
-        "/images/merch/shirt.jpg"
+        "/images/merch/shirtfront.jpg",
+        "/images/merch/shirtback.jpg",
     ];
 
     const galleryImages = [
-        "/images/merch/badge.jpg",
+        "/images/merch/shirtfront.jpg",
+        "/images/merch/shirtback.jpg",
+    ];
+
+    const galleryImages2 = [
+        "/images/merch/shirt.jpg",
         "/images/merch/hoodie.jpg",
-        "/images/merch/shirt.jpg"
+        "/images/merch/badge.jpg",
     ];
 </script>
 
@@ -39,25 +43,19 @@
     </h1>
 
     <div class="item-list">
+
         <ItemCard
-            Itemname="cool lookin' badge "
-            staticImage="/images/merch/badge.jpg"
+            Itemname="Aeromania T-shirt"
+            staticImage="/images/merch/shirtfront.jpg"
             galleryImages={galleryImages}
-            price="999"
+            price="400"
         />
 
         <ItemCard
-            Itemname="Hot Hoodie"
+        Itemname="Aeromania hoodie"
             staticImage="/images/merch/hoodie.jpg"
-            galleryImages={galleryImages}
-            price="10"
-        />
-
-        <ItemCard
-            Itemname="Aura T-shirt"
-            staticImage="/images/merch/shirt.jpg"
-            galleryImages={galleryImages}
-            price="50200"
+            galleryImages={galleryImages2}
+            price="999"
         />
     </div>
 </main>

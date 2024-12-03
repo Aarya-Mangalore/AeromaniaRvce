@@ -4,73 +4,76 @@
 </script>
 
 <main>
-
     <h1>Events</h1>
-    <br><br>
+    <br /><br />
     <div class="super-container">
-        <Containerl 
-            head="AEROGENESIS" 
-            path="/event/aerogenisis.jpg" 
-            text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions." 
+        <Containerl
+            head="AEROGENESIS"
+            path="/event/aerogenisis.jpg"
+            text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions."
             form="https://forms.gle/ycC4XDrYP7u7JDvx6 "
-            prize=30000
-            fee=1499
+            prize="30000"
+            fee="1499"
         />
         <Containerr
             head="AEROCATACLYSM"
-            path="/event/aerocataclysm.jpg" 
-            text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash." 
+            path="/event/aerocataclysm.jpg"
+            text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash."
             form="https://forms.gle/7R7wTHMUJ5o5BrtM8 "
-            prize=10000
-            fee=799
+            prize="10000"
+            fee="799"
         />
-        <Containerl 
+        <Containerl
             head="SKYFORGE"
-            path="/event/skyforge.jpg" 
-            text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!" 
-            form="https://forms.gle/dLWpK7ijWbWse31G6" 
-            prize=8000
-            fee=599
+            path="/event/skyforge.jpg"
+            text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
+            form="https://forms.gle/dLWpK7ijWbWse31G6"
+            prize="8000"
+            fee="599"
         />
         <Containerr
             head="AERO ODYSSEY"
-            path="/event/aeroodyssey.jpg" 
+            path="/event/aeroodyssey.jpg"
             text="Embark on a thrilling treasure hunt, solve clues, and race to build and launch rockets in this ultimate test of teamwork, creativity, and engineering!"
             form="https://forms.gle/NcV6udRcBfQdDext5"
-            prize=5000
-            fee=399
+            prize="5000"
+            fee="399"
         />
-        <Containerl 
-            head="DESIGN DYNAMO" 
-            path="/images/plane.jpg" 
-            text="A high-speed design challenge where CAED enthusiasts create aerospace components from 2D layouts to 3D models, testing your speed and accuracy to the limit!"
-            form="https://forms.gle/EQ2P5s48eCCmr4ws5"
-            prize=3000
-            fee=249
+
+        <Containerr
+            head="PAYLOAD PARADOX"
+            path="/event/payloadparadox.jpg"
+            text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!"
+            prize="12000"
+            fee="999"
+            rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=sharing"
         />
+
         <Containerr
             head="THE LOST ASTRONAUT"
-            path="/event/lostastronaut.jpg" 
+            path="/event/lostastronaut.jpg"
             text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
             rule="https://drive.google.com/file/d/1ni1GEa7ZF8balrYbYWLrBA3bhMFLQV-2/view?usp=sharing"
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
-            prize=3000
-            fee=299
+            prize="3000"
+            fee="299"
         />
+
         <Containerl
-            head="PAPER PILOTS" 
-            path="/event/Paperpilots.jpg" 
+            head="PAPER PILOTS"
+            path="/event/Paperpilots.jpg"
             text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
-            prize=3000
-            fee=29
-            />
-        <Containerr 
-            head="PAYLOAD PARADOX" 
-            path="/event/payloadparadox.jpg" 
-            text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!" 
-            prize=12000
-            fee=999
-            rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=sharing"
+            prize="3000"
+            fee="29"
+        />
+
+        <Containerl
+            head="DESIGN DYNAMO"
+            path="/event/designdynamo.jpg"
+            text="A high-speed design challenge where CAED enthusiasts create aerospace components from 2D layouts to 3D models, testing your speed and accuracy to the limit!"
+            form="https://forms.gle/EQ2P5s48eCCmr4ws5"
+            prize="3000"
+            fee="249"
         />
     </div>
 </main>
@@ -111,10 +114,10 @@
         }
 
         h1 {
-        font-size: 1.4rem;
-        font-weight: 500;
-        padding: 0px;
-        text-align: center;
-    }
+            font-size: 1.4rem;
+            font-weight: 500;
+            padding: 0px;
+            text-align: center;
+        }
     }
 </style>

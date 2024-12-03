@@ -60,6 +60,7 @@
         width: 45%;
         color: aliceblue;
         text-align: left; /* Default to left align for text */
+        padding-left: 50px;
     }
 
     .media-container {

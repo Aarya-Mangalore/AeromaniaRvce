@@ -14,7 +14,7 @@
                   <Spons name="Boeing" imageurl="/sponser/Boeing.png" hrefURL="https://www.boeing.co.in/"/>
                   <Spons name="IIT GATE classes" imageurl="/sponser/IITgate.png" hrefURL="https://www.iitiansgateclasses.com/"/>
                   <Spons name="Spartificial" imageurl="/sponser/Spartificial.jpeg" hrefURL="https://spartificial.com/"/>
-                  <CirSpons name="Aeronautical society of India" imageurl="/sponser/ASI.png" hrefURL="https://www.aerosocietyindia.co.in/"/>
+                  <Spons name="Aeronautical society of India" imageurl="/sponser/ASI.png" hrefURL="https://www.aerosocietyindia.co.in/"/>
               </div>
           </div>
       </div>

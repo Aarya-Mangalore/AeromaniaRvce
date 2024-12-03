@@ -5,7 +5,7 @@
 <!-- Top Left Container -->
 <div class="top-left">
 <a href="/" class="button">Home</a>
-<a href="/placeholder" class="button">Merchandise</a>
+<a href="/merchandise" class="button">Merchandise</a>
 <a href="/sponser" class="button sponsor">Sponsors</a>
 </div>
 
@@ -18,7 +18,7 @@
 
 <!-- Bottom Left Container -->
 <div class="bottom-left">
-<a href="https://www.instagram.com/aeromania_rvce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="button">Instagram</a>
+<a href="/openday" class="button">Open day</a>
 </div>
 
 <!-- Bottom Right Container -->

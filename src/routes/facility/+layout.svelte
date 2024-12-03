@@ -14,12 +14,10 @@
 </head>
 
 
-<br><br><br><br><br><br><br>
+
 
 <main class="content">
   <slot />
-
-  <br><br><br><br><br><br>
 </main>
 
 

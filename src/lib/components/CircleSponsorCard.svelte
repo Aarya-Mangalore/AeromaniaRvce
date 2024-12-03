@@ -7,7 +7,7 @@
 <div class="card-container">
   <a class="card" href={hrefURL} target="_blank" rel="noopener noreferrer">
     <img class="image" src={imageurl} alt={name} />
-    <div class="name-container">{name}</div>
+    
   </a>
 </div>
 
