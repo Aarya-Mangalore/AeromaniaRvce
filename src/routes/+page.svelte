@@ -3,6 +3,7 @@
     import Button from "$lib/components/Button.svelte";
     import Count from "$lib/components/Timer.svelte";
     import Video from "$lib/components/video.svelte";
+    import Content from "$lib/components/Content.svelte";
     import "../app.css";
     import Foot from "../lib/components/Footer.svelte";
     import Photos from "$lib/components/Photogallery.svelte";
@@ -59,29 +60,17 @@
             <br /><br /><br /><br /><br /><br />
         </div>
     </div>
-    <div class="container2">
-        <h1>About aeromania</h1>
-    </div>
-    <div class="container">
-        <div class="content-container">
-            <div class="text-container">
-                <p>
-                    AeroMania is a 3-day Aero Technical fest organized by the
+
+    <Content
+        Head="About aeromania"
+        text="AeroMania is a 3-day Aero Technical fest organized by the
                     Department of Aerospace Engineering at RV College of
                     Engineering, Bangalore. AeroMania aims to bring together
                     enthusiasts from various engineering colleges, providing a
                     platform for participants to learn, grow, and showcase their
-                    creativity in the field of aerospace engineering.
-                </p>
-            </div>
-            <div class="video-container">
-                <img
-                    src="/images/comingsoon.png"
-                    alt="A visual placeholder for the video"
-                />
-            </div>
-        </div>
-    </div>
+                    creativity in the field of aerospace engineering."
+        Image="/images/comingsoon.png"
+    />
 
     <div class="container">
         <div class="text-container">
@@ -127,10 +116,6 @@
 <style>
     /* General container settings */
 
-    .Welcome h1 {
-        padding-top: 10%;
-    }
-
     .Timer {
         pointer-events: none;
     }
@@ -142,27 +127,6 @@
         padding-bottom: 10%;
     }
 
-    .container2 {
-        display: flex;
-        align-items: left;
-        padding: 2%;
-        flex-direction: row;
-        padding: 10%;
-        padding-bottom: 2%;
-    }
-
-    .content-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex;
-        width: 100%;
-    }
-
-    .content-container h1 {
-        text-align: left;
-        padding-left: 10vb;
-    }
-
     .text-container {
         width: 45%;
         padding-left: 20px;
@@ -170,13 +134,6 @@
         text-align: center;
     }
 
-    .video-container {
-        width: 50%;
-        padding-left: 20px;
-        display: flex;
-        justify-content: center;
-        height: auto;
-    }
 
     h1 {
         text-transform: uppercase;
@@ -278,18 +235,7 @@
             font-size: 1.2rem;
         }
 
-        .Welcome h1 {
-            padding-top: 25%;
-        }
-
-        .content-container {
-            flex-direction: column;
-            align-items: center;
-            padding: 0%;
-        }
-
-        .text-container,
-        .video-container {
+        .text-container {
             width: 90%;
             margin-bottom: 20px;
         }
@@ -306,16 +252,5 @@
             user-select: none;
         }
 
-        .content-container h1 {
-            text-align: center;
-        }
-
-        .container2 {
-            display: flex;
-            align-items: center;
-            padding: 2%;
-            flex-direction: column;
-            padding: 0%;
-        }
     }
 </style>

@@ -150,6 +150,7 @@
         .container {
             width: 80vw; /* 80% width */
             height: auto; /* Auto height for smaller screens */
+            min-height: 10px;
         }
 
         .image {

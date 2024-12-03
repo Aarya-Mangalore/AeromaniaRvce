@@ -7,6 +7,7 @@
     export let dis = "";
     export let form = "/placeholder";
     export let rule = "/placeholder";
+    export let teamsize;
     let button1text="Learn more";
 
     let showDescription = false;  // Variable to control the visibility of the description
@@ -44,6 +45,12 @@ else {
                         <td class="label">Registration fee:</td>
                         <td>₹{fee}</td>
                     </tr>
+                    <tr>
+                    {#if teamsize}
+                    <td class="label">Team size:</td>
+                    <td> {teamsize}</td>
+                    {/if}
+                </tr>
                 </tbody>
             </table>
         </div>
@@ -56,7 +63,7 @@ else {
             <div class="description">
                 <p>{dis}</p>  <!-- This is the description that will appear when the button is clicked -->
             </div>
-        {/if}
+            {/if}
             <a href={form}>
                 <button class="space-button">Apply now</button>
             </a>

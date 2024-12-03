@@ -86,6 +86,7 @@
         .container {
             width: 80vw; /* 80% width */
             height: auto; /* Auto height for smaller screens */
+            
         }
 
         .image-container {

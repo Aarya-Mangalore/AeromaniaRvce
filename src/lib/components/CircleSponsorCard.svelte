@@ -1,8 +1,15 @@
 <script>
-  export let imageurl = '/sponser/lakshmiji.png';
-  export let hrefURL = '';
-  export let name = 'Sponsor Name';
+  export let imageurl = "/sponser/lakshmiji.png";
+  export let hrefURL = "";
+  export let name = "Sponsor Name";
 </script>
+
+<div class="card-container">
+  <a class="card" href={hrefURL} target="_blank" rel="noopener noreferrer">
+    <img class="image" src={imageurl} alt={name} />
+    <div class="name-container">{name}</div>
+  </a>
+</div>
 
 <style>
   .card-container {
@@ -23,7 +30,9 @@
     align-items: center;
     flex-direction: column; /* Stack image and text */
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
   }
 
   .image {
@@ -33,7 +42,9 @@
     display: block;
     margin: auto;
     border-radius: 50%; /* Circular shape */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease; /* Smooth transition */
   }
 
   .card-container:hover img {
@@ -64,17 +75,15 @@
     .card-container {
       width: 100%; /* Full width for very small screens */
       padding: 5%;
-
     }
 
     .card {
       min-height: auto; /* Even smaller height on small screens */
     }
-    
+
     .name-container {
       font-size: 1rem; /* Smaller text on small screens */
     }
-    
 
     .image {
       width: 40vw; /* Adjust width for very small screens */
@@ -82,10 +91,3 @@
     }
   }
 </style>
-
-<div class="card-container">
-  <a class="card" href={hrefURL} target="_blank" rel="noopener noreferrer">
-    <img class="image" src={imageurl} alt={name} />
-    <div class="name-container">{name}</div>
-  </a>
-</div>
