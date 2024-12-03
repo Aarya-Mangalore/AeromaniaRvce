@@ -24,7 +24,7 @@
 
 else {
         // Redirect to another page if 'dis' is empty
-        window.location.href = "/placeholder"; // Change '/other-page' to the desired URL
+        window.location.href = rule; // Change '/other-page' to the desired URL
     }
 }
 

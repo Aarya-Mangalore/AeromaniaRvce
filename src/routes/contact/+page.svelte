@@ -54,7 +54,7 @@
             <SocialCard
                 logo="/Icons/PhIcon.png"
                 name="Call us"
-                link="tel:+918792159569"
+                link="tel:+918971866108"
             />
             <SocialCard
                 logo="/Icons/MailLogo.png"

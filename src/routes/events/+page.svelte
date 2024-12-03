@@ -50,7 +50,7 @@
         />
         <Containerr
             head="THE LOST ASTRONAUT"
-            path="/images/plane.jpg" 
+            path="/event/lostastronaut.jpg" 
             text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
             rule="https://drive.google.com/file/d/1ni1GEa7ZF8balrYbYWLrBA3bhMFLQV-2/view?usp=sharing"
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
@@ -59,7 +59,7 @@
         />
         <Containerl
             head="PAPER PILOTS" 
-            path="/images/plane.jpg" 
+            path="/event/Paperpilots.jpg" 
             text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
             prize=3000
             fee=29

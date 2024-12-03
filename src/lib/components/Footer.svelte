@@ -33,8 +33,8 @@
         <tr>
           <td class="label">Phone:</td>
           <td>
-            <a href="tel:+918792159569">
-              +91 87921 59569
+            <a href="tel:+918971866108">
+              +91 89718 66108
               <span class="icon-circle">
                 <img src={phone} alt="Phone Icon" />
               </span>

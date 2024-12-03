@@ -17,12 +17,11 @@
             />
 
             <Containerl 
-            head="BLACK HOLE" 
-            path="/event/Blackhole.png" 
-            text="Join a hands-on workshop to
-                have a great time in
-                Exploring skies and beyond!!!"
-            fee=1199
+            head="BLACK HOLE SPACE TECH" 
+            path="/event/Blackhole.jpeg" 
+            text="Join a hands-on workshop on satellite simulations, recognized by ISRO, and dive into the tech shaping the future of space exploration!"
+            rule="https://drive.google.com/file/d/1P8u46iAvlgvz_FeXBv87X0nHkc8ZAj6s/view?usp=sharing"
+            fee=550
             />
         <Placer />
     </div>
