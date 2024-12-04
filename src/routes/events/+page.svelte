@@ -20,6 +20,7 @@
             path="/event/aerocataclysm.jpg"
             text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash."
             form="https://forms.gle/7R7wTHMUJ5o5BrtM8 "
+            rule="https://drive.google.com/file/d/1CZgPROFoy6RH6GwjWxgMcZAwjrE9mWMa/view?usp=drive_link"
             prize="10000"
             fee="799"
         />
@@ -36,6 +37,7 @@
             path="/event/aeroodyssey.jpg"
             text="Embark on a thrilling treasure hunt, solve clues, and race to build and launch rockets in this ultimate test of teamwork, creativity, and engineering!"
             form="https://forms.gle/NcV6udRcBfQdDext5"
+            rule="https://drive.google.com/file/d/1lFuO7gEmmUDcNXlaSLDuo_1867ktXcze/view?usp=drive_link"
             prize="5000"
             fee="399"
         />
@@ -46,14 +48,14 @@
             text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!"
             prize="12000"
             fee="999"
-            rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=sharing"
+            rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=drive_link"
         />
 
         <Containerr
             head="THE LOST ASTRONAUT"
             path="/event/lostastronaut.jpg"
             text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
-            rule="https://drive.google.com/file/d/1ni1GEa7ZF8balrYbYWLrBA3bhMFLQV-2/view?usp=sharing"
+            rule="https://drive.google.com/file/d/1ni1GEa7ZF8balrYbYWLrBA3bhMFLQV-2/view?usp=drive_link"
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
             prize="3000"
             fee="299"
@@ -72,6 +74,7 @@
             path="/event/designdynamo.jpg"
             text="A high-speed design challenge where CAED enthusiasts create aerospace components from 2D layouts to 3D models, testing your speed and accuracy to the limit!"
             form="https://forms.gle/EQ2P5s48eCCmr4ws5"
+            rule="https://drive.google.com/file/d/1FW8hS2Qi4s7shyS4Ua-ZOPvEgzGmWuzn/view?usp=drive_link"
             prize="3000"
             fee="249"
         />
