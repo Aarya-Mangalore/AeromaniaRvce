@@ -80,7 +80,7 @@
       width: 100%;
       height: 75px;
       background-color: rgba(0, 0, 0, 0.8);
-      z-index: 100;
+      z-index: 13000;
     }
   
     .logo {

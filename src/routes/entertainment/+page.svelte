@@ -23,34 +23,51 @@
         <Containerl 
         head="FPV V/S ASHWA & HELIOS" 
         path="/images/plane.jpg" 
-        text="Witness the aerial agility of FPV drones take on Ashwa's precision and Helios's off-road prowess in this high-energy event of engineering excellence." 
-         />
+        text="Experience the thrilling competition between FPV drones and two engineering marvels, 
+        Ashwa and Helios cars, in this high-energy event. Watch as FPV drones showcase their impressive aerial agility, 
+        navigating through challenging obstacles with unmatched precision and speed. Meanwhile, Ashwa, 
+        known for its exceptional precision, demonstrates superior control and performance, while Helios takes on 
+        tough terrains, showcasing its off-road prowess. This event highlights the incredible engineering capabilities of 
+        each machine, celebrating cutting-edge technology and innovation in a spectacular showdown of speed, control, and 
+        durability." 
+        />
 
         
         
         <Containerl 
         head="SOLID & HYBRID MOTOR DEMOSNTRATION"
         path="/images/plane.jpg" 
-        text="Experience the dynamic world of rocketry at our
-        Hybrid and Solid Motor Demonstration. Explore
-        solid and hybrid rocket motor technologies through
-        static tests, gaining insights into thrust and
-        propulsion. Don't miss this engaging showcase of
-        aerospace engineering!" 
-         />
+        text="Step into the dynamic world of rocketry at our Hybrid and Solid Motor Demonstration.
+         Watch as both solid and hybrid rocket motors undergo 
+        static tests, offering a fascinating glimpse into the science of thrust, fuel combustion, and propulsion efficiency. 
+        Learn about the advantages and challenges of each motor type, as experts explain how solid motors provide reliable 
+        and straightforward propulsion, while hybrid motors combine the best of both worlds for improved control and 
+        performance. Don’t miss this engaging showcase that highlights the innovation and expertise driving the future of 
+        aerospace engineering!"
+        />
 
 
         <Containerl
         head="JET-SET GIGGLES" 
         path="/images/plane.jpg" 
-        text="Enjoy a hilarious evening of stand-up comedy, blending aviation themes with witty punchlines and sky-high humor for an unforgettable laugh-out-loud experience!" 
-         />
+        text="Prepare for an evening full of laughter at 'Jet-set Giggles,' 
+        a stand-up comedy event that combines aviation themes with sharp wit and hilarious punchlines. 
+        Enjoy an unforgettable night as comedians take you on a high-flying journey, mixing sky-high humor with clever 
+        aviation references. From turbulence in the skies to the quirky world of pilots and passengers, 
+        this event promises a perfect blend of lighthearted comedy and aviation antics.
+         Don't miss out on this uproarious experience that will have you laughing all the way to the runway!"        
+        />
 
          <Containerl 
         head="COSMIC WATCH"
         path="/event/cosmicwatch.jpg" 
-        text="Join us for a stargazing adventure and discover the wonders of the night sky with a captivating solar watch, perfect for astronomy lovers and curious minds alike!" 
-         />
+        text="Embark on a mesmerizing stargazing adventure with 'Cosmic Watch.' 
+        Explore the mysteries of the night sky while using a captivating solar watch, designed to enhance your celestial 
+        journey. Whether you're an avid astronomy enthusiast or simply curious about the cosmos, this experience offers a 
+        unique opportunity to gaze at stars, planets, and constellations while learning about the wonders of the universe. 
+        With expert guidance, this event promises to ignite your curiosity and deepen 
+        your appreciation for the vastness of space!"
+        />
 
          
 

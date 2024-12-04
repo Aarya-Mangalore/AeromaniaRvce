@@ -40,8 +40,9 @@ A cascade wind tunnel is a specialized type of wind tunnel used primarily for te
     image="/images/facilities/microgasturbine.jpg"
     />
 
-    <Content Head="Universal Drilling Machine"
-    text="A UDM (Universal Drilling Machine) is a versatile, multi-functional machine tool used for drilling, reaming, tapping, and other machining operations. It is designed to handle a wide range of tasks with varying sizes and types of workpieces. The machine features a modular design, allowing for quick adjustments and configuration changes to accommodate different types of operations. UDMs are commonly used in industries like automotive, aerospace, and manufacturing for precise hole-making processes. Their ability to handle multiple operations in one setup increases productivity and ensures high accuracy in the machining of components"
+    <Content Head="fatigue testing Machine"
+    text="A Fatigue Testing Machine is a device used to determine the endurance limit and fatigue life of materials and components under cyclic loading. It applies repeated stress or strain to a specimen to simulate real-world conditions and assess its durability over time. The machine helps analyze failure patterns, understand material behavior under varying load amplitudes, and ensure reliability in critical applications like aerospace, automotive, and structural engineering. These insights are crucial for designing components that can withstand prolonged operational stresses without catastrophic failure."
+    image="/images/facilities/FTM.jpg"
     />
 
     <Content Head="Computer-Aided Engineering Design and Computational Mechanics Lab"

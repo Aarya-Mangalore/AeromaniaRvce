@@ -33,7 +33,7 @@
             </p>
         </div>
         <br /><br />
-        <Button Text="Learn more" link="/facility" />
+        <Button Text="Facilities in Aerospace Department" link="/facility" />
     </div>
 
     <div class="container">
@@ -60,7 +60,7 @@
             <div class="box">
                 <p>
                     Explore More: <br />Additional details available via the
-                    provided link.
+                    provided link above.
                 </p>
             </div>
         </div>
@@ -83,8 +83,8 @@
 
             <Container
                 head="TEAM JATAYU"
-                text="The team designs and fabricates drones with advanced systems like computer vision, image processing, and autonomy, using innovative materials like balsa wood and carbon fiber. Their UAVs serve applications in surveillance, reconnaissance, search and rescue, and agriculture. Notable projects include the flagship search-and-rescue drone 'Vayu,' reconnaissance plane 'Silver Surfer,' and octacopter 'Sentinel,' reflecting their focus on cutting-edge research and development in aerospace technology."
-                path="/logos/clubs/jatayu.png"
+                text="The team designs and fabricates drones with advanced systems such as computer vision, image processing, and autonomy, using innovative materials like balsa wood and carbon fiber. Their UAVs serve applications in surveillance, reconnaissance, search and rescue, and agriculture. Notable projects include the flagship search-and-rescue drone 'Vayu,' the reconnaissance plane 'Silver Surfer,' and the octacopter 'Sentinel,' reflecting their focus on cutting-edge research and development in aerospace technology.The team participated in five competitions in 2024: Vayurava, Dronacharya, Multicopter Challenge, Fly Fest, and Quadcopter Challenge, winning three of them"
+                path="/logos/clubs/jatayu.jpg"
             />
 
             <Container

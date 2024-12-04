@@ -86,6 +86,7 @@
     img {
         max-width: 90%;
         height: auto;
+        max-height: 700px;
     }
 
     video {
@@ -97,7 +98,7 @@
     @media (max-width: 768px) {
 
         .container2{
-            padding-top: 70px;
+            padding-top: 40px;
         }
 
         .content-container {
@@ -109,6 +110,10 @@
         .media-container {
             width: 90%;
             padding: 0%;
+        }
+
+        .media-container{
+            padding-bottom: 25px;
         }
 
         h1 {

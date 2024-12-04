@@ -60,7 +60,7 @@
     padding: 10px 0; /* Add spacing inside the borders */
 }
 
-    h1:hover {
+    .container:hover h1{
     color: #00ffff;
     transform: scale(1.03);
     text-decoration-skip-ink:auto;

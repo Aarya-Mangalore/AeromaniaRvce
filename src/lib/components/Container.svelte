@@ -43,7 +43,7 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-        min-height: 800px; /* Maintain consistent height */
+        min-height: 975px; /* Maintain consistent height */
         height: auto;
         margin-top: 30px; /* Add a gap to the top */
     }

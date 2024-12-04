@@ -32,7 +32,7 @@
             <div class="student-coordinators">
                 <Card
                     name="Dr. Supreeth R"
-                    imageurl="/images/profile.jpg"
+                    imageurl="/persons/supreethr.jpg"
                     role="Faculty at Aerospace Dept"
                     ph="9980844119"
                 />

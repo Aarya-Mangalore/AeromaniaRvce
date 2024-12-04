@@ -69,15 +69,15 @@
                     enthusiasts from various engineering colleges, providing a
                     platform for participants to learn, grow, and showcase their
                     creativity in the field of aerospace engineering."
-        Image="/images/comingsoon.png"
+        image="/logos/Aeromania3.png"
     />
 
-    <div class="container">
+    <!---<div class="container">
         <div class="text-container">
             <h1>Title sponsor</h1>
             <h3>Loading.....</h3>
         </div>
-    </div>
+    </div>--->
 
     <div class="container">
         <h1>Photo Gallery</h1>
