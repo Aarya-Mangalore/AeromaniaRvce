@@ -71,7 +71,15 @@
         <div class="container-container">
             <Container
                 head="TEAM ANTARIKSH"
-                text="Team Antariksh is the student space technology team of R V College of Engineering, Bengaluru, driven by the motto 'Skies and Beyond.' The team is working on RVSAT-1, India’s first CubeSat with a microbiological payload, set to launch on ISRO’s PSLV platform. They’ve also achieved success with the Ardra sounding rocket and secured top rankings at the 2023 Launching Across the States Competition (LASC). Through innovative projects, Team Antariksh continues to advance student-led space exploration."
+                text="Team Antariksh, from RV College of Engineering, is a 100+ student team advancing space 
+                technology with expertise in satellite and rocket systems.
+                The team showcased its rocketry prowess at the Latin American Space Challenge (LASC), securing 27th 
+                place overall, 2nd in Asia, and 12th in the 1 km solid motor category.
+                The flagship CubeSat, RVSat-1, launching on ISRO’s PSLV PS4 Orbital Platform (POEM-4), studies 
+                microbial behavior in microgravity, making it India’s first microbiological payload.
+                Mission Aarohan features Ardra, Ananta, and Arka—high-powered rockets showcasing innovations 
+                in propulsion, aerodynamics, and telemetry. Ardra’s successful launch with an I-class motor, 
+                reaching an apogee of 660 meters, highlights our expertise as we prepare for LASC 2024"
                 path="/logos/clubs/antariksh.png"
             />
 
@@ -89,7 +97,7 @@
 
             <Container
                 head="TEAM AEROASTRO"
-                text="The Open Day at RVCE will witness the launch of the Aerospace Department's inaugural magazine issue. The magazine, 'Aurelia', shall showcase the ongoing projects of the Aerospace clubs, achievements of the students and the faculty, and the journey of accomplished alumni. The magazine will also detail some of the latest technologies and trends in the global Aerospace industry. Several copies of the Department magazine shall be displayed for visitors to read during Open Day, allowing for a deeper insight about the department. "
+                text="Team AeroAstro, a pioneering student group, leads innovation with cutting-edge eVTOL projects like the MQ-23 Demo 2 tilt-rotor and Project Heron tilt-wing aircraft. Their achievements include getting selected for presenting two research papers at the 2024 AeSI CFD Symposium held at BIT Mesra, attaining international recognition at NASA Space Apps Challenge by emerging in the top 100 teams out of 1000 global teams, and creating their in-house graphic novel Sora Mugen, showcasing a blend of technical expertise and creative vision."
                 path="/logos/clubs/aeroastro.jpeg"
             />
         </div>

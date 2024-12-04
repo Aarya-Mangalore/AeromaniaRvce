@@ -20,7 +20,7 @@
                 />
                 <Card
                     name="Samanyu S"
-                    imageurl="/images/profile.jpg"
+                    imageurl="/persons/samanyus.jpg"
                     ph="9353986466"
                     role="Student in Aerospace engineering"
                 />
