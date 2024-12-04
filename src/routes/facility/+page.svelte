@@ -5,7 +5,7 @@
 <main>
 
     <h1>
-        Open Day
+        Facilities in Aerospace department
     </h1>
 
     <Content Head="low subsonic Wind tunnel"

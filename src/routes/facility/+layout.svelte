@@ -17,6 +17,11 @@
 
 
 <main class="content">
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
   <slot />
 </main>
 
