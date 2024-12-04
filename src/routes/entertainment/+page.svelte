@@ -1,6 +1,6 @@
 <script>
     import Containerl from "$lib/components/Container.svelte";
-    import Containerr from "$lib/components/Container.svelte";
+    import Container from "$lib/components/ContainerwithSingleTab.svelte";
 </script>
 
 <main>
@@ -10,6 +10,16 @@
     </h1>
     <br><br>
     <div class="super-container">
+
+        <Container
+            head="FIFA FIGHT"
+            path="/images/plane.jpg"
+            text="Join the ultimate FIFA 18 knockout tournament on PS4! Players go head-to-head in single-elimination matches, with each victory bringing them closer to the championship. Prove your skills and claim the title"
+            form=""
+            dis="Take control of your favorite teams and players, including legends like Cristiano Ronaldo, Lionel Messi, Neymar, and more! From high-speed counterattacks with Real Madrid to silky skills with Barcelona, every playstyle is at your fingertips. Will you choose the powerhouse teams, or surprise your opponent with an underdog victory?"
+            fee="50"
+        />
+        
         <Containerl 
         head="FPV V/S ASHWA & HELIOS" 
         path="/images/plane.jpg" 
@@ -42,6 +52,8 @@
         text="Join us for a stargazing adventure and discover the wonders of the night sky with a captivating solar watch, perfect for astronomy lovers and curious minds alike!" 
          />
 
+         
+
     </div>
 </main>
 
@@ -51,7 +63,7 @@
         display: flex; /* Use flexbox for layout */
         justify-content: center; /* Center items horizontally */
         align-items: center; /* Center items vertically */
-        flex-wrap: wrap; /* Wrap items if the screen is too small */
+        flex-wrap:wrap; /* Wrap items if the screen is too small */
         width: 100%;
         gap: 70px; /* Space between the items */
         padding: 20px; /* Add padding around the container */

@@ -1,8 +1,8 @@
 <script>
     export let Head = "a good thing";
     export let text = "a good facility";
-    export let image = "/images/comingsoon.png"; // Path to the image
-    export let video = "/videos/sample.mp4"; // Path to the video
+    export let image; // Path to the image
+    export let video ; // Path to the video
     export let align = "center"; // Can be 'left' or 'right'
 </script>
 
@@ -72,7 +72,7 @@
 
     h1 {
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 800;
         margin: 0;
     }
@@ -95,6 +95,11 @@
 
     /* Adjustments for smaller screens */
     @media (max-width: 768px) {
+
+        .container2{
+            padding-top: 70px;
+        }
+
         .content-container {
             flex-direction: column;
             align-items: center;
@@ -120,7 +125,7 @@
         }
 
         p {
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
         .text-container {

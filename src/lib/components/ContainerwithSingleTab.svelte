@@ -2,7 +2,6 @@
     export let text = "write content";
     export let head = "write heading";
     export let path = "/images/plane.jpg";
-    export let prize = 0;
     export let fee = 0;
     export let dis = "";
     export let form = "/placeholder";
@@ -141,7 +140,7 @@ else {
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
         height: auto; /* Maintain consistent height */
-        min-height: 970px;
+        min-height: 800px;
         margin-top: 30px; /* Add a gap to the top */
     }
 
