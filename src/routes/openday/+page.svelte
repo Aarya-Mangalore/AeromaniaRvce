@@ -70,32 +70,6 @@
         <h1>innovative student clubs</h1>
         <div class="container-container">
             <Container
-                head="TEAM ANTARIKSH"
-                text="Team Antariksh, from RV College of Engineering, is a 100+ student team advancing space 
-                technology with expertise in satellite and rocket systems.
-                The team showcased its rocketry prowess at the Latin American Space Challenge (LASC), securing 27th 
-                place overall, 2nd in Asia in the 1 km solid motor category.
-                The flagship CubeSat, RVSat-1, launching on ISRO’s PSLV PS4 Orbital Platform (POEM-4), studies 
-                microbial behavior in microgravity, making it India’s first microbiological payload.
-                Mission Aarohan features Ardra, Ananta, and Arka—high-powered rockets showcasing innovations 
-                in propulsion, aerodynamics, and telemetry. Ardra’s successful launch with an I-class motor, 
-                reaching an apogee of 660 meters, highlights our expertise as we prepare for LASC 2024"
-                path="/logos/clubs/antariksh.png"
-            />
-
-            <Container
-                head="TEAM VYOMA"
-                text="Team Vyoma, the aero-design team of RV College of Engineering. The team has excelled in
-                 national and international competitions, winning awards like the NASA Systems Engineering Award in 
-                 2013 and representing India at events such as SAE Aero-Design and AIAA DBF. They focus on developing 
-                 cutting-edge UAV technology, advancing aerospace innovation, and inspiring future engineers. Notable
-                 achievements include ranking globally in design competitions, showcasing aircraft at prestigious
-                  expos, and pioneering autonomous UAV systems like V.E.N.G.E.A.N.C.E. Their journey reflects a 
-                  commitment to innovation, research, and pushing the boundaries of aerospace engineering. "
-                path="/logos/clubs/vyoma.jpeg"
-            />
-
-            <Container
                 head="PROJECT JATAYU"
                 text="The team designs and fabricates drones with advanced systems such as computer vision, 
                 image processing, and autonomy, using innovative materials like balsa wood and carbon fiber. Their 
@@ -117,6 +91,44 @@
                   Sora Mugen, showcasing a blend of technical expertise and creative vision."
                 path="/logos/clubs/aeroastro.jpeg"
             />
+
+            <Container
+                head="TEAM ANTARIKSH"
+                text="Team Antariksh, from RV College of Engineering, is a 100+ student team advancing space 
+                technology with expertise in satellite and rocket systems.
+                The team showcased its rocketry prowess at the Latin American Space Challenge (LASC), securing 27th 
+                place overall, 2nd in Asia in the 1 km solid motor category.
+                The flagship CubeSat, RVSat-1, launching on ISRO’s PSLV PS4 Orbital Platform (POEM-4), studies 
+                microbial behavior in microgravity, making it India’s first microbiological payload.
+                Mission Aarohan features Ardra, Ananta, and Arka—high-powered rockets showcasing innovations 
+                in propulsion, aerodynamics, and telemetry. Ardra’s successful launch with an I-class motor, 
+                reaching an apogee of 660 meters, highlights our expertise as we prepare for LASC 2024"
+                path="/logos/clubs/antariksh.png"
+            />
+
+            <Container
+                head="TEAM Dhruva"
+                text="Team Dhruva, the astrophysics club of RV College of Engineering, 
+                is dedicated to fostering curiosity about the cosmos through innovative projects and research. 
+                The club engages in building telescopes, astrophotography, and analyzing phenomena like gravitational waves and
+                 galactic interactions. It hosts stargazing events, coding competitions, and interactive sessions to inspire and 
+                 educate enthusiasts. 
+                Dhruva strives to make astrophysics accessible and enjoyable while exploring the mysteries of the universe."
+                path="/logos/clubs/dhruva.jpeg"
+            />
+
+            <Container
+                head="TEAM VYOMA"
+                text="Team Vyoma, the aero-design team of RV College of Engineering. The team has excelled in
+                 national and international competitions, winning awards like the NASA Systems Engineering Award in 
+                 2013 and representing India at events such as SAE Aero-Design and AIAA DBF. They focus on developing 
+                 cutting-edge UAV technology, advancing aerospace innovation, and inspiring future engineers. Notable
+                 achievements include ranking globally in design competitions, showcasing aircraft at prestigious
+                  expos, and pioneering autonomous UAV systems like V.E.N.G.E.A.N.C.E. Their journey reflects a 
+                  commitment to innovation, research, and pushing the boundaries of aerospace engineering. "
+                path="/logos/clubs/vyoma.jpeg"
+            />
+
         </div>
     </div>
 </main>

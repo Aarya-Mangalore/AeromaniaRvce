@@ -49,18 +49,16 @@
     <br /><br />
     <div class="container">
         <div class="text-container">
-            <br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br />
 
             <div class="Timer">
                 <h1>event</h1>
                 <h1>launching in</h1>
                 <h1>T-minus</h1>
                 <br/>
-                <br/>
-                <br/>
                 <Count />
             </div>
-            <br /><br /><br /><br /><br /><br />
+           
         </div>
     </div>
 
@@ -175,8 +173,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: clamp(100px, 15vw, 200px);
-        height: clamp(100px, 15vw, 200px);
+        width: clamp(90px, 15vw, 180px);
+        height: clamp(90px, 15vw, 180px);
         position: relative;
         background: none;
         transition:
@@ -219,7 +217,9 @@
     /* Adjustments for smaller screens */
     @media (max-width: 768px) {
         .registercirlce {
-            bottom: 23px; /* Align the button at the very bottom */
+            bottom: 2%; /* Align the button at the very bottom */
+            right: 0%;
+            left: 75%;
         }
 
         .container {
@@ -230,17 +230,18 @@
         }
 
         .register_main {
-            width: clamp(150px, 20vw, 200px);
-            height: clamp(150px, 20vw, 200px);
+            width: clamp(125px, 20vw, 200px);
+            height: clamp(125px, 20vw, 200px);
         }
 
         .register_main p {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
 
         .text-container {
             width: 90%;
             margin-bottom: 20px;
+            padding: 0%;
         }
 
         h1 {

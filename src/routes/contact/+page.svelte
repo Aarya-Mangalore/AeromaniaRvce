@@ -99,7 +99,7 @@
     .social-handles-container {
         display: flex;
         justify-content: center;
-        width: 70%; /* Cover a percentage of the screen */
+        width: 80%; /* Cover a percentage of the screen */
         margin: 0 auto; /* Center the social handles container */
         padding: 20px;
     }

@@ -23,6 +23,8 @@
   <br />
   <br />
   <slot />
+  <br />
+  <br />
 </main>
 
 

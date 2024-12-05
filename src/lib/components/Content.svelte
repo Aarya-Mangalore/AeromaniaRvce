@@ -86,7 +86,7 @@
     img {
         max-width: 90%;
         height: auto;
-        max-height: 700px;
+        max-height: 75vh;
     }
 
     video {
