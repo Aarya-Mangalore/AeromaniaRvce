@@ -35,7 +35,7 @@
         
         
         <Containerl 
-        head="SOLID & HYBRID MOTOR DEMOSNTRATION"
+        head="SOLID MOTOR DEMOSNTRATION"
         path="/images/plane.jpg" 
         text="Step into the dynamic world of rocketry at our Hybrid and Solid Motor Demonstration.
          Watch as both solid and hybrid rocket motors undergo 

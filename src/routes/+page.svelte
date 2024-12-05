@@ -52,9 +52,12 @@
             <br /><br /><br /><br /><br /><br />
 
             <div class="Timer">
-                <h1>Pre-events</h1>
+                <h1>event</h1>
                 <h1>launching in</h1>
                 <h1>T-minus</h1>
+                <br/>
+                <br/>
+                <br/>
                 <Count />
             </div>
             <br /><br /><br /><br /><br /><br />

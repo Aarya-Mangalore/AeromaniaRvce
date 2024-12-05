@@ -74,7 +74,7 @@
                 text="Team Antariksh, from RV College of Engineering, is a 100+ student team advancing space 
                 technology with expertise in satellite and rocket systems.
                 The team showcased its rocketry prowess at the Latin American Space Challenge (LASC), securing 27th 
-                place overall, 2nd in Asia, and 12th in the 1 km solid motor category.
+                place overall, 2nd in Asia in the 1 km solid motor category.
                 The flagship CubeSat, RVSat-1, launching on ISRO’s PSLV PS4 Orbital Platform (POEM-4), studies 
                 microbial behavior in microgravity, making it India’s first microbiological payload.
                 Mission Aarohan features Ardra, Ananta, and Arka—high-powered rockets showcasing innovations 
@@ -85,19 +85,36 @@
 
             <Container
                 head="TEAM VYOMA"
-                text="Team Vyoma, the aero-design team of RV College of Engineering. The team has excelled in national and international competitions, winning awards like the NASA Systems Engineering Award in 2013 and representing India at events such as SAE Aero-Design and AIAA DBF. They focus on developing cutting-edge UAV technology, advancing aerospace innovation, and inspiring future engineers. Notable achievements include ranking globally in design competitions, showcasing aircraft at prestigious expos, and pioneering autonomous UAV systems like V.E.N.G.E.A.N.C.E. Their journey reflects a commitment to innovation, research, and pushing the boundaries of aerospace engineering. "
+                text="Team Vyoma, the aero-design team of RV College of Engineering. The team has excelled in
+                 national and international competitions, winning awards like the NASA Systems Engineering Award in 
+                 2013 and representing India at events such as SAE Aero-Design and AIAA DBF. They focus on developing 
+                 cutting-edge UAV technology, advancing aerospace innovation, and inspiring future engineers. Notable
+                 achievements include ranking globally in design competitions, showcasing aircraft at prestigious
+                  expos, and pioneering autonomous UAV systems like V.E.N.G.E.A.N.C.E. Their journey reflects a 
+                  commitment to innovation, research, and pushing the boundaries of aerospace engineering. "
                 path="/logos/clubs/vyoma.jpeg"
             />
 
             <Container
-                head="TEAM JATAYU"
-                text="The team designs and fabricates drones with advanced systems such as computer vision, image processing, and autonomy, using innovative materials like balsa wood and carbon fiber. Their UAVs serve applications in surveillance, reconnaissance, search and rescue, and agriculture. Notable projects include the flagship search-and-rescue drone 'Vayu,' the reconnaissance plane 'Silver Surfer,' and the octacopter 'Sentinel,' reflecting their focus on cutting-edge research and development in aerospace technology.The team participated in five competitions in 2024: Vayurava, Dronacharya, Multicopter Challenge, Fly Fest, and Quadcopter Challenge, winning three of them"
+                head="PROJECT JATAYU"
+                text="The team designs and fabricates drones with advanced systems such as computer vision, 
+                image processing, and autonomy, using innovative materials like balsa wood and carbon fiber. Their 
+                UAVs serve applications in surveillance, reconnaissance, search and rescue, and agriculture. Notable
+                 projects include the flagship search-and-rescue drone 'Vayu,' the reconnaissance plane 'Silver Surfer,
+                 ' and the octacopter 'Sentinel,' reflecting their focus on cutting-edge research and development in 
+                 aerospace technology.The team participated in five competitions in 2024: Vayurava, Dronacharya,
+                  Multicopter Challenge, Fly Fest, and Quadcopter Challenge, winning three of them"
                 path="/logos/clubs/jatayu.jpg"
             />
 
             <Container
                 head="TEAM AEROASTRO"
-                text="Team AeroAstro, a pioneering student group, leads innovation with cutting-edge eVTOL projects like the MQ-23 Demo 2 tilt-rotor and Project Heron tilt-wing aircraft. Their achievements include getting selected for presenting two research papers at the 2024 AeSI CFD Symposium held at BIT Mesra, attaining international recognition at NASA Space Apps Challenge by emerging in the top 100 teams out of 1000 global teams, and creating their in-house graphic novel Sora Mugen, showcasing a blend of technical expertise and creative vision."
+                text="Team AeroAstro, a pioneering student group, leads innovation with cutting-edge
+                 eVTOL projects like the MQ-23 Demo 2 tilt-rotor and Project Heron tilt-wing aircraft. 
+                 Their achievements include getting selected for presenting two research papers at the 2024 AeSI
+                  CFD Symposium held at BIT Mesra, attaining international recognition at NASA Space Apps Challenge 
+                  by emerging in the top 100 teams out of 1000 global teams, and creating their in-house graphic novel 
+                  Sora Mugen, showcasing a blend of technical expertise and creative vision."
                 path="/logos/clubs/aeroastro.jpeg"
             />
         </div>

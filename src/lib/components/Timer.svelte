@@ -3,12 +3,11 @@
 </script>
 
 <div class="NavBig">
-  <iframe src="https://free.timeanddate.com/countdown/i9n99z8q/n438/cf12/cm0/cu4/ct0/cs1/ca2/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs100/szw900/szh379/tac0f0f0f/tpc0f0f0f/mac0f0f0f/mpc0f0f0f/iso2024-11-29T11:00:00" allowtransparency="true" frameborder="0" width="305" height="135"></iframe>
+  <iframe src="https://free.timeanddate.com/countdown/i9nx7xcr/n438/cf12/cm0/cu4/ct0/cs0/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>
 
 </div>
 <div class="NavSmall">
-  <iframe src="https://free.timeanddate.com/countdown/i9n9b1g7/n438/cf12/cm0/cu4/ct0/cs1/ca2/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs100/szw1000/szh421/tac0f0f0f/tpc0f0f0f/mac0f0f0f/mpc0f0f0f/iso2024-11-29T11:00:00/pd2" allowtransparency="true" frameborder="0" width="338" height="150"></iframe>
-
+  <iframe src="https://free.timeanddate.com/countdown/i9nx7o8n/n438/cf12/cm0/cu4/ct0/cs0/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>
 </div>
 
 <style>

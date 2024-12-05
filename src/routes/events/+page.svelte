@@ -49,6 +49,7 @@
             prize="12000"
             fee="999"
             rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=drive_link"
+            form="https://docs.google.com/forms/d/e/1FAIpQLScH4szaY6n_FyJ1jKYc23fSqvcV1D_iQTXDIMFIOCSwq0vfTg/viewform"
         />
 
         <Containerr
