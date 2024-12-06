@@ -23,7 +23,7 @@
   <style>
     .card-container {
       width: 100%;
-      max-width: 300px;
+      max-width: 275px;
       background-color: #1e1e1e;
       border-radius: 10px;
       position: relative;

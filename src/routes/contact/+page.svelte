@@ -38,7 +38,7 @@
                 />
                 <Card
                     name="S Srinivasan"
-                    imageurl="/images/profile.jpg"
+                    imageurl="/persons/Srisrinivasan.jpg"
                     role="Faculty at Aerospace Dept"
                     ph="9901998773"
                 />
@@ -164,6 +164,10 @@
         h3 {
             font-size: 1.5rem;
             font-weight: 600;
+        }
+
+        .student-coordinators{
+            align-items: center;
         }
     }
 </style>

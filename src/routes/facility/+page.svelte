@@ -47,6 +47,7 @@ A cascade wind tunnel is a specialized type of wind tunnel used primarily for te
 
     <Content Head="Computer-Aided Engineering Design and Computational Mechanics Lab"
     text="It is a specialized facility used for designing and simulating engineering systems and structures. In this lab, students and researchers utilize CAD software to create detailed 2D and 3D models of mechanical components and assemblies. Computational mechanics tools are employed to perform simulations, such as finite element analysis (FEA), computational fluid dynamics (CFD), and stress analysis, to predict the performance of designs under various conditions. This lab is crucial for understanding material behaviors, optimizing designs, and ensuring safety and efficiency in real-world applications, particularly in fields like aerospace, automotive, and civil engineering."
+    image="/images/facilities/CADlab.jpg"
     />
 
 </main>

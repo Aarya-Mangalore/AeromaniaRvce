@@ -37,13 +37,10 @@
         <Containerl 
         head="SOLID MOTOR DEMOSNTRATION"
         path="/images/plane.jpg" 
-        text="Step into the dynamic world of rocketry at our Hybrid and Solid Motor Demonstration.
-         Watch as both solid and hybrid rocket motors undergo 
-        static tests, offering a fascinating glimpse into the science of thrust, fuel combustion, and propulsion efficiency. 
-        Learn about the advantages and challenges of each motor type, as experts explain how solid motors provide reliable 
-        and straightforward propulsion, while hybrid motors combine the best of both worlds for improved control and 
-        performance. Don’t miss this engaging showcase that highlights the innovation and expertise driving the future of 
-        aerospace engineering!"
+        text="Step into the exciting world of rocketry at our Solid Motor Demonstration.
+Watch solid rocket motors in action during static tests, offering a fascinating look into the science of thrust, fuel combustion, and propulsion efficiency.
+Discover how solid motors provide reliable, straightforward propulsion, making them a key technology in space exploration.
+With expert explanations and live demonstrations, this showcase offers a deeper understanding of the engineering and innovation driving the future of rocketry and aerospace engineering."
         />
 
 
