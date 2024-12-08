@@ -2,66 +2,71 @@
     export let text = "write content";
     export let head = "write heading";
     export let path = "/images/plane.jpg";
-    export let prize = 0
-    export let fee = 0;
-    export let dis = head;
-    export let rule = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
-    export let form = "https://youtu.be/uHgt8giw1LY?si=G2foSsvGU5exnAjC";
+    export let dis;
+    export let rule;
+    export let form;
+    export let tab1text;
+    export let tab1val;
+    export let tab2text;
+    export let tab2val;
 
     import Button from "$lib/components/Button.svelte";
 </script>
 
 <div class="container">
+    <img alt={dis} src={path} class="image" />
     <div class="text-container">
         <h1 class="head">{head}</h1>
-        <br>
+        <br />
         <p>{text}</p>
         <!-- Transparent Table Below Text -->
         <div class="table-container">
             <table class="transparent-table">
                 <tbody>
+                    {#if tab1text}
                     <tr>
-                        <td class="label">Prize Money:</td>
-                        <td>
-                            ₹{prize}
-                        </td>
+                        <td class="label">{tab1text}</td>
+                        <td>{tab1val}</td>
                     </tr>
+                    {/if}
+                    {#if tab2text}
                     <tr>
-                        <td class="label">Registration fee:</td>
-                        <td>
-                            ₹{fee}
-                        </td>
+                        <td class="label">{tab2text}</td>
+                        <td>{tab2val}</td>
                     </tr>
+                    {/if}
                 </tbody>
             </table>
         </div>
-        <br><br>
+        <br /><br />
         <div class="but-contain">
-        <Button Text="Rule-book" link={rule}></Button>
-    
-        <Button Text="Apply now" link={form}></Button>
+            {#if rule}
+            <Button Text="Rule-book" link={rule}></Button>
+            {/if}
+            {#if form}
+            <Button Text="Apply now" link={form}></Button>
+            {/if}
+        </div>
     </div>
-    </div>
-    
-    <img alt={dis} src={path} class="image" />
 </div>
 
 <style>
-
-.but-contain {
-    display: flex;
-    justify-content: center; /* Center buttons horizontally */
-    align-items: center; /* Center buttons vertically (if needed) */
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 20px; /* Space between buttons */
-    width: 100%; /* Ensure the container takes up full width */
-}
+    .but-contain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
 
     .container {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        width: 70vw;
+        width: 50vw;
+        max-width: 425px;
         padding: 3%;
         box-sizing: border-box;
         background-color: rgba(190, 188, 188, 0.36);
@@ -70,6 +75,7 @@
         overflow: hidden;
         transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
         height: auto;
+        margin-top: 30px;
     }
 
     .container:hover {
@@ -85,7 +91,7 @@
         top: 50%;
         left: 50%;
         width: 300%;
-        height: 300%;
+        height: 600%;
         background: radial-gradient(circle, rgba(0, 255, 255, 0.2), transparent);
         transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
         transform: translate(-50%, -50%);
@@ -100,35 +106,42 @@
     }
 
     .text-container {
-        width: 50%;
+        width: 100%;
         padding: 20px;
-        text-align: left;
+        text-align: center;
+        color: whitesmoke;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .image {
-        width: 50%;
+        width: 100%;
         height: auto;
         border-radius: 20px;
+        object-fit: cover;
+        padding-top: 30px;
     }
 
     .head {
         font-weight: 800;
-        text-decoration: none;
-        font-size: 1.7rem;
-        text-align: left;
-        color: white;
+        font-size: 1.25rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
         transition: color 0.3s ease, background 0.3s ease;
+        border-top: 2px solid rgba(255, 255, 255, 0.606);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.606);
+        padding: 10px 0;
     }
 
     p {
         color: whitesmoke;
+        font-size: 1rem;
         padding-bottom: 15px;
-        text-align: left;
-        text-shadow: 
-            1px 1px 0 black, 
-            -1px -1px 0 black,
-            1px -1px 0 black, 
-            -1px 1px 0 black;
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .container:hover .head {
@@ -138,17 +151,15 @@
         color: transparent;
     }
 
-    /* Transparent table styles */
     .table-container {
-        width: 50%; /* Same width as text-container */
-        margin-top: 20px; /* Space between content and table */
-        text-align: center; /* Center content in table */
+        width: 100%;
+        margin-top: 20px;
     }
 
     .transparent-table {
         width: 100%;
         border-collapse: collapse;
-        background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+        background-color: rgba(255, 255, 255, 0.0);
         border-radius: 10px;
     }
 
@@ -157,46 +168,37 @@
         text-align: center;
         color: white;
         font-size: 1rem;
-        user-select: none;
+        font-family: "Josefin Sans", sans-serif;
     }
 
-    /* Responsive Design for smaller screens */
     @media (max-width: 830px) {
         .container {
-            width: 80vw; /* 80% width */
-            flex-direction: column-reverse; /* Reverse the order of image and text */
-            justify-content: center; /* Center content vertically */
+            width: 80vw;
+            height: auto;
         }
 
         .image {
-            width: 70%; /* Center the image */
-            margin-bottom: 20px; /* Space between image and text */
+            width: 70%;
+            margin-bottom: 20px;
         }
 
         .text-container {
-            width: 100%; /* Full width for the text container */
-            text-align: center; /* Center the text */
+            width: 100%;
+            text-align: center;
             font-size: 0.8rem;
         }
 
         .head {
             text-align: center;
-            width: 70%; /* Set width to 70% of container */
-            margin: 0 auto; /* Center the heading horizontally */
-            font-size: 1.2rem; /* Adjust heading size for smaller screens */
+            font-size: 1rem;
         }
 
         p {
-            font-size: 0.9rem; /* Adjust paragraph size for smaller screens */
-        }
-
-        .table-container {
-            width: 100%; /* Full width for table on smaller screens */
-            margin-top: 20px;
+            font-size: 0.9rem;
         }
 
         .transparent-table td {
-            font-size: 0.9rem; /* Adjust font size for smaller screens */
+            font-size: 0.9rem;
         }
     }
 </style>

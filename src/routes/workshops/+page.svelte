@@ -1,6 +1,6 @@
 <script>
     import Containerl from "$lib/components/ContainerwithSingleTab.svelte";
-    import Containerr from "$lib/components/ContainerBoxrightTab.svelte";
+    import Containerr from "$lib/components/ContainerBoxwithvariabletab.svelte";
     import Placer from "$lib/components/placeholder.svelte";
 </script>
 

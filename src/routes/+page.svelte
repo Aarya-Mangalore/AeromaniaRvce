@@ -37,6 +37,10 @@
             }
         }, 6400);
     });
+
+    const bigIframe='<iframe src="https://free.timeanddate.com/countdown/i9o3tnng/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-09T13:30:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>';
+    const smallIframe='<iframe src="https://free.timeanddate.com/countdown/i9o3tu29/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-09T13:30:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>';
+
 </script>
 
 <main>
@@ -52,11 +56,12 @@
             <br /><br /><br /><br />
 
             <div class="Timer">
-                <h1>event</h1>
+                <h1>Pre-events</h1>
                 <h1>launching in</h1>
                 <h1>T-minus</h1>
                 <br/>
-                <Count />
+                <Count {smallIframe}
+                {bigIframe}/>
             </div>
            
         </div>

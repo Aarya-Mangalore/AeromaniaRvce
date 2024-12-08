@@ -21,6 +21,7 @@
         <div class="table-container">
             <table class="transparent-table">
                 <tbody>
+                    
                     <tr>
                         <td class="label">Prize Money:</td>
                         <td>₹{prize}</td>
