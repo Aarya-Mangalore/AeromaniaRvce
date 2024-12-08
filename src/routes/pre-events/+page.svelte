@@ -91,18 +91,38 @@
         color: #ffffff;
     }
 
+    .heading:hover{
+        color: #00ffff;
+        transform: scale(1.02);
+        text-decoration-skip-ink: auto;
+        transition: 0.3s;
+    }
+
     .upcoming-event {
-        width: 100%;
+        width: 40%;
         max-width: 1200px;
-        text-align: left; /* Align text to the left */
+        text-align: center; /* Align text to the left */
         margin-bottom: 20px;
     }
 
     .upcoming-event h3 {
         font-size: 1.5rem;
         color: #ffffff;
-        padding-top: 30px;
+        border-top: 3px solid #ffffff69;
+        border-bottom: 3px solid #ffffff69;
+        padding-top: 15px;
+        padding-bottom: 15px;
         text-transform: uppercase;
+        
+    }
+
+    .upcoming-event:hover h3{
+        color: #00ffff;
+        transform: scale(1.02);
+        text-decoration-skip-ink: auto;
+        border-top: 3px solid #00bbff7e;
+        border-bottom: 3px solid #00bbff7e;
+        transition: 0.3s;
     }
 
     .content-section {

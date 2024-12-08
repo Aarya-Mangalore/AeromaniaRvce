@@ -15,18 +15,22 @@
 /* Default: Show NavbarSmall, hide NavbarBig */
 .NavBig {
   display: none;
+  pointer-events: none;
 }
 .NavSmall {
   display: block;
+  pointer-events: none;
 }
 
 /* For screens larger than 1220px: Show NavbarBig, hide NavbarSmall */
 @media (min-width: 1220px) {
   .NavBig {
     display: block;
+    pointer-events: none;
   }
   .NavSmall {
     display: none;
+    pointer-events: none;
   }
 }
 </style>
