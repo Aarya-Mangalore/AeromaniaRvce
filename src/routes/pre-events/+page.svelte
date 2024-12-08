@@ -19,14 +19,17 @@
     <div class="outer-container">
         <!-- Upcoming Event Section -->
         <div class="upcoming-event">
-            <h3>Upcoming Event</h3>
+            <h3>Flash-mob Performance</h3>
         </div>
 
         <div class="content-section">
             <!-- Left Section -->
             <div class="left-section">
-                <h3>Flashmob Performance</h3>
-                <p>Flash mob is a good dancing event to create nausense in the society</p>
+                <p>Feel the rhythm and energy at Aeromania 2024's electrifying Flashmob!
+                    Watch the Biotech Quadrangle come alive with music, dance, and excitement.
+                    A perfect kickoff to the fun—whether you love surprises or just want to groove!
+                    Don't miss this burst of spontaneity and joy!</p>
+                    <h3>Coming in</h3>
                 <Timer {smallIframe} {bigIframe} />
             </div>
 
@@ -42,9 +45,7 @@
             <Container  
                 path="/event/flashmob/thumbnail.jpg"
                 head="FLASH-MOB PERFORMANCE" 
-                text="Get ready to experience the magic of spontaneity and rhythm at Aeromania 2024 with an electrifying Flashmob Performance!
-Watch as the Biotech Quadrangle transforms into a stage bursting with energy, music, and dance. This dynamic performance is not just a treat for the eyes but a perfect kickoff to the exciting events of Aeromania. Whether you're a dancer at heart or someone who loves the thrill of surprises, this is the moment to let loose and enjoy!
-" 
+                text="Get ready to experience the magic of spontaneity and rhythm at Aeromania 2024 with an electrifying Flashmob Performance!" 
                 tab1text="Location:"
                 tab1val="Bio-tech Quadrangle"
                 tab2text="Time:"
@@ -55,15 +56,17 @@ Watch as the Biotech Quadrangle transforms into a stage bursting with energy, mu
                 text="Get ready for a fun-filled meme competition with an aerospace twist! Show off your creativity by designing hilarious and innovative memes based on aerospace themes. The wittier, the better! Perfect for those with a flair for humor and a passion for aviation!"
                 form="https://forms.gle/kpjPWqJ9qncULfMq7"
                 path="/event/memomania.jpg"
+                tab2text="Registration fee:"
+                tab2val="₹ 29"
             />
             <Container  
                 head="PAPER PILOTS"
                 path="/event/Paperpilots.jpg"
                 text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
                 tab1text="Prize:"
-                tab1val="₹3000"
+                tab1val="₹ 3000"
                 tab2text="Registration fee:"
-                tab2val="₹29"
+                tab2val="₹ 29"
                 form="https://forms.gle/7CG3Qb34ve1V4yTk6"
             />
         </div>
@@ -152,64 +155,63 @@ Watch as the Biotech Quadrangle transforms into a stage bursting with energy, mu
     }
 
     @media (max-width: 768px) {
-        .outer-container {
-        display: flex;
+    .outer-container {
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
+        align-items: center; /* Center align the container's content */
     }
 
     .heading {
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 1.5rem;
+        font-weight: 400;
         text-align: center;
         margin-bottom: 20px;
-        color: #ffffff;
     }
 
     .upcoming-event {
         width: 100%;
-        max-width: 1200px;
-        text-align: left; /* Align text to the left */
-        margin-bottom: 20px;
+        max-width: 100%;
+        text-align: center; /* Center align the text */
+        margin-bottom: 10px;
     }
 
     .upcoming-event h3 {
-        font-size: 1.5rem;
-        color: #ffffff;
-        padding-top: 30px;
-        text-transform: uppercase;
+        font-size: 1.2rem;
+        padding-top: 20px;
+        text-align: center; /* Center align the heading */
     }
 
     .content-section {
-    flex-direction: column;
-    gap:10px;
+        flex-direction: column; /* Stack the sections vertically */
+        align-items: center; /* Center align the sections */
+        gap: 10px;
+        text-align: center; /* Center align text within sections */
     }
-
 
     .left-section {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 10px;
-        text-align: left;
-        padding-bottom: 40px;
-    }
-    .left-section h3{
-        padding: 40px;
-        padding-left: 0%;
-        text-transform: uppercase;
-        font-size: 1.5rem;
+        text-align: center; /* Center align text */
+        padding-bottom: 20px;
     }
 
-    
+    .left-section h3 {
+        font-size: 1.5rem;
+        padding:20px;
+    }
+
+    .right-section {
+        justify-content: center; /* Center align content */
+        align-items: center; /* Center align content */
+        text-align: center;
+    }
 
     .cards-container {
-        gap: 10px;
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+        gap: 20px; /* Adjust gap for readability */
     }
 
+    p {
+        text-align: center; /* Center align paragraphs */
     }
+}
+
 </style>
