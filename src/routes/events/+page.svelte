@@ -1,6 +1,8 @@
 <script>
     import Containerl from "$lib/components/ContainerWithTab.svelte";
     import Containerr from "$lib/components/ContainerWithTab.svelte";
+    import Button from "$lib/components/Button.svelte";
+    import { text } from "@sveltejs/kit";
 </script>
 
 <main>
@@ -41,7 +43,6 @@
             prize="5000"
             fee="399"
         />
-
         <Containerr
             head="PAYLOAD PARADOX"
             path="/event/payloadparadox.jpg"
@@ -51,7 +52,6 @@
             rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=drive_link"
             form="https://docs.google.com/forms/d/e/1FAIpQLScH4szaY6n_FyJ1jKYc23fSqvcV1D_iQTXDIMFIOCSwq0vfTg/viewform"
         />
-
         <Containerr
             head="THE LOST ASTRONAUT"
             path="/event/lostastronaut.jpg"
@@ -61,15 +61,6 @@
             prize="3000"
             fee="299"
         />
-
-        <Containerl
-            head="PAPER PILOTS"
-            path="/event/Paperpilots.jpg"
-            text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
-            prize="3000"
-            fee="29"
-        />
-
         <Containerl
             head="DESIGN DYNAMO"
             path="/event/designdynamo.jpg"
@@ -79,14 +70,19 @@
             prize="3000"
             fee="249"
         />
-
-        
+    </div>
+    <div class="container">
+        <h3>Looking for Pre-events?</h3>
+        <p>Click below to continue</p>
+        <Button
+            Text="Pre-events"
+            link="/pre-events"
+        />
     </div>
 </main>
 
 <style>
     .super-container {
-        position: absolute;
         display: flex; /* Use flexbox for layout */
         justify-content: center; /* Center items horizontally */
         align-items: center; /* Center items vertically */
@@ -112,6 +108,28 @@
         user-select: none;
     }
 
+    .container {
+        text-align: center; /* Center the pre-events text */
+        margin-top: 20px; /* Add spacing between the super-container and this text */
+        padding: 5%;
+    }
+
+    .container h3 {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+
+    .container p {
+        color: whitesmoke;
+        font-size: 1.3rem;
+        padding-bottom: 30px;
+        text-align: center; /* Center the text */
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
     @media (max-width: 830px) {
         .super-container {
             flex-direction: column; /* Stack items vertically on smaller screens */
@@ -124,6 +142,14 @@
             font-weight: 500;
             padding: 0px;
             text-align: center;
+        }
+
+        .container h3{
+            font-size: 1.4rem;
+        }
+
+        .container p{
+            font-size: 1rem;
         }
     }
 </style>
