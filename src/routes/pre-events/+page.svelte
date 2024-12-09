@@ -56,6 +56,8 @@
                 text="Get ready for a fun-filled meme competition with an aerospace twist! Show off your creativity by designing hilarious and innovative memes based on aerospace themes. The wittier, the better! Perfect for those with a flair for humor and a passion for aviation!"
                 form="https://forms.gle/kpjPWqJ9qncULfMq7"
                 path="/event/memomania.jpg"
+                tab1text="Prize:"
+                tab1val="₹ 799"
                 tab2text="Registration fee:"
                 tab2val="₹ 29"
             />
@@ -188,8 +190,8 @@
     }
 
     .upcoming-event {
-        width: 100%;
-        max-width: 100%;
+        width: 60%;
+        max-width: 80%;
         text-align: center; /* Center align the text */
         margin-bottom: 10px;
     }
