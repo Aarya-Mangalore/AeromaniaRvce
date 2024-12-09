@@ -190,8 +190,8 @@
     }
 
     .upcoming-event {
-        width: 60%;
-        max-width: 80%;
+        width: 80%;
+        max-width: 95%;
         text-align: center; /* Center align the text */
         margin-bottom: 10px;
     }
