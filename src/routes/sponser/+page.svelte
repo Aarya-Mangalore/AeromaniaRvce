@@ -6,15 +6,51 @@
   <main>
       <h1>Meet our Sponsors</h1>
       <div class="super-duper-container">
+
+            <div class="super-container">
+                <div class="container">
+                    <Spons  name="Black hole space tech" 
+                            imageurl="/sponser/Blackhole.png" 
+                            hrefURL="https://in.linkedin.com/company/black-hole-space-tech-bhst" 
+                            />
+                </div>
+            </div>
+
+            <div class="super-container">
+                <h3>
+                    Banking partner
+                </h3>
+                <div class="container">
+                    <Spons  name="Yes bank" 
+                            imageurl="/sponser/yesbank.png" 
+                            hrefURL="https://www.yesbank.in/" 
+                            />
+                </div>
+            </div>
         
           <div class="super-container">
               <h3>OUR PAST SPONSORS</h3>
               <div class="container">
-                  <Spons name="Spash hospital" imageurl="/sponser/sparsh.png" hrefURL="https://www.sparshhospital.com/" />
-                  <Spons name="Boeing" imageurl="/sponser/Boeing.png" hrefURL="https://www.boeing.co.in/"/>
-                  <Spons name="IIT GATE classes" imageurl="/sponser/IITgate.png" hrefURL="https://www.iitiansgateclasses.com/"/>
-                  <Spons name="Spartificial" imageurl="/sponser/Spartificial.jpeg" hrefURL="https://spartificial.com/"/>
-                  <Spons name="Aeronautical society of India" imageurl="/sponser/ASI.png" hrefURL="https://www.aerosocietyindia.co.in/"/>
+                  <Spons    name="Sparsh hospital" 
+                            imageurl="/sponser/sparsh.png" 
+                            hrefURL="https://www.sparshhospital.com/" 
+                            />
+                  <Spons    name="Boeing" 
+                            imageurl="/sponser/Boeing.png" 
+                            hrefURL="https://www.boeing.co.in/"
+                            />
+                  <Spons    name="IIT GATE classes" 
+                            imageurl="/sponser/IITgate.png" 
+                            hrefURL="https://www.iitiansgateclasses.com/"
+                            />
+                  <Spons    name="Spartificial" 
+                            imageurl="/sponser/Spartificial.png" 
+                            hrefURL="https://spartificial.com/"
+                            />
+                  <Spons    name="Aeronautical society of India" 
+                            imageurl="/sponser/ASI.png" 
+                            hrefURL="https://www.aerosocietyindia.co.in/"
+                            />
               </div>
           </div>
       </div>
@@ -62,17 +98,32 @@
   
       @media (max-width: 400px) {
           h1 {
-              font-size: 2rem;
+              font-size: 1.7rem;
+              padding: 0%;
+              padding-bottom: 10px;
           }
   
           h3 {
-              font-size: 1.5rem;
+              font-size: 1.4rem;
+              padding: 0%;
+              padding-bottom: 0px;
+              padding-top: 50px;
+          }
+
+          .super-container{
+            padding: 0px;
           }
   
           .super-duper-container {
-              padding: 5%;
+              padding: 2.5%;
               width: 95%;
           }
+
+          .container {
+          justify-content: center;
+          gap: 0px;
+          margin-top: 0px;
+      }
       }
   </style>
   

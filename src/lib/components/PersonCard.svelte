@@ -104,7 +104,7 @@
   
     @media (max-width: 768px) {
       .card-container {
-        max-width: 45%;
+        max-width: 46%;
       }
 
     .info-container h6 {
@@ -117,6 +117,10 @@
 
     .links a {
       font-size: 0.8rem;
+    }
+
+    .image-container{
+      width: 90%;
     }
     }
   </style>

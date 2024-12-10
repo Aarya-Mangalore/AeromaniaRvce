@@ -9,6 +9,7 @@ export default defineConfig({
     },
   },
   server: {
+    port: 2404, // Set the desired port
     strictPort: true, // Ensure consistent port usage
     watch: {
       usePolling: true, // Useful for Docker or VM environments

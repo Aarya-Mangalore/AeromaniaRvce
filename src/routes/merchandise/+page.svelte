@@ -51,12 +51,6 @@
             price="400"
         />
 
-        <ItemCard
-        Itemname="Aeromania hoodie"
-            staticImage="/images/merch/hoodie.jpg"
-            galleryImages={galleryImages2}
-            price="999"
-        />
     </div>
 </main>
 

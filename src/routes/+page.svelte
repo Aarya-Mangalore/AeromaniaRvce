@@ -38,10 +38,9 @@
         }, 6400);
     });
 
-    const bigIframe='<iframe src="https://free.timeanddate.com/countdown/i9o3tnng/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-09T13:30:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>';
-    const smallIframe='<iframe src="https://free.timeanddate.com/countdown/i9o3tu29/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-09T13:30:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>';
-
-</script>
+    const bigIframe='<iframe src="https://free.timeanddate.com/countdown/i9o7jfco/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>'
+    const smallIframe='<iframe src="https://free.timeanddate.com/countdown/i9o7ju6t/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw700/szh295/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="229" height="59"></iframe>'
+</script> 
 
 <main>
     {#if showVideo}
@@ -56,23 +55,30 @@
             <br /><br /><br /><br />
 
             <div class="Timer">
-                <h1>Pre-events</h1>
+                <h1>event</h1>
                 <h1>launching in</h1>
                 <h1>T-minus</h1>
                 <br/>
                 <Count {smallIframe}
                 {bigIframe}/>
-                
             </div>
-            <br/>
-            <br/>
-            <Button
-            Text="Pre-events"
-            link="/pre-events"
-        />
+            
         </div>
     </div>
 
+    <div class="Pre-event">
+    <h1>
+        Excited for pre-events?
+    </h1>
+    <p>
+        Check out all Pre-events coming up with the link given below 
+    </p>
+
+    <Button
+            Text="Pre-events"
+            link="/pre-events"
+        />
+</div>
     <Content
         Head="About aeromania"
         text="AeroMania is a 3-day Aero Technical fest organized by the
@@ -93,20 +99,8 @@
 
     <div class="container">
         <h1>Photo Gallery</h1>
-        <Photos images={galleryImages} width="600px" height="800px" />
+        <Photos images={galleryImages} width="500px" height="600px" />
     </div>
-
-    <a href="/events">
-        <div class="registercirlce">
-            <div class="register_main">
-                <video class="register_video" autoplay muted loop>
-                    <source src="/video/radar.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-                <p>Get into lobby</p>
-            </div>
-        </div>
-    </a>
 
     <div class="container">
         <div class="text-container">
@@ -121,6 +115,20 @@
             link="https://drive.google.com/file/d/1Rq2L39_z-mfKqQ24Ogqlip2mS6qzvPsp/view?usp=sharing"
         />
     </div>
+    
+    <a href="/events">
+        <div class="registercirlce">
+            <div class="register_main">
+                <video class="register_video" autoplay muted loop>
+                    <source src="/video/radar.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <p>Get into lobby</p>
+            </div>
+        </div>
+    </a>
+
+    
 
     <Foot />
 </main>
@@ -128,6 +136,26 @@
 <style>
     /* General container settings */
 
+    .Pre-event{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Pre-event h1{
+        
+        font-size: 1.8rem;
+        width: 80%;
+        padding-bottom: 2%;
+    }
+
+    .Pre-event p{
+        color: aliceblue;
+        font-size: 1.5rem;
+        padding-bottom: 2%;
+        width: 90%;
+    }
     .Timer {
         pointer-events: none;
     }
@@ -227,6 +255,15 @@
 
     /* Adjustments for smaller screens */
     @media (max-width: 768px) {
+        .Pre-event h1{
+            font-size: 1.4rem;
+            padding-bottom: 20px;
+        }
+
+        .Pre-event p{
+            font-size: 0.9rem;
+            padding-bottom: 30px;
+        }
         .registercirlce {
             bottom: 2%; /* Align the button at the very bottom */
             right: 0%;
@@ -256,7 +293,7 @@
         }
 
         h1 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             font-weight: 100;
             font-weight: 800;
         }

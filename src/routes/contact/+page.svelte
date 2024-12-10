@@ -8,6 +8,7 @@
     <h1>Contacts</h1>
 
     <!-- Student Coordinators Section with Flexbox -->
+     
     <div class="super-contain">
         <div class="student-coordinators-container">
             <h3>Student Convener</h3>
@@ -46,9 +47,88 @@
         </div>
     </div>
 
+    <div class="super-contain">
+        <div class="student-coordinators-container">
+            <h3>Event Coordinators</h3>
+            <div class="student-coordinators">
+                <Card
+                    name="Tarun Prabash P"
+                    imageurl="/images/profile.jpg"
+                    ph="8971866108"
+                    role="Student in Aerospace engineering"
+                />
+                <Card
+                    name="Sumedh S Bhat"
+                    imageurl="/persons/sumedh.jpg"
+                    ph="8197544869"
+                    role="Student in Aerospace engineering"
+                />
+
+                <Card
+                    name="Ashok R"
+                    imageurl="/images/profile.jpg"
+                    ph="7975245649"
+                    role="Student in Aerospace engineering"
+                />
+            </div>
+        </div>
+    </div>
+
+    <div class="super-contain">
+        <div class="student-coordinators-container">
+            <h3>Marketing and publicity leads</h3>
+            <div class="student-coordinators">
+                <Card
+                    name="Samanyu S"
+                    imageurl="/persons/samanyus.jpg"
+                    ph="9353986466"
+                    role="Student in Aerospace engineering"
+                />
+                <Card
+                    name="Sumedh S Bhat"
+                    imageurl="/persons/sumedh.jpg"
+                    ph="8197544869"
+                    role="Student in Aerospace engineering"
+                />
+            </div>
+        </div>
+
+        <div class="student-coordinators-container">
+            <h3>Content & Publicity Leads</h3>
+            <div class="student-coordinators">
+                <Card
+                    name="Neha Arun Mandi"
+                    imageurl="/persons/Neha.png"
+                    ph="9513239459"
+                    role="Student in Aerospace engineering"
+                />
+                <Card
+                    name="Rishika Bandyopadhyay"
+                    imageurl="/persons/rishika.jpg"
+                    ph="9810834535"
+                    role="Student in Aerospace engineering"
+                />
+            </div>
+        </div>
+    </div>
+
+    <div class="super-contain">
+        <div class="student-coordinators-container">
+            <h3>Website Lead</h3>
+            <div class="student-coordinators">
+                <Card
+                    name="Aarya Mangalore"
+                    imageurl="/persons/Aarya.jpg"
+                    ph="8792159569"
+                    role="Student in Aerospace engineering"
+                />
+            </div>
+        </div>
+    </div>
+
     <!-- Social Handles Section -->
     <h1>Social Handles</h1>
-    <br><br>
+    <br /><br />
     <div class="social-handles-container">
         <div class="social-handles">
             <SocialCard
@@ -73,12 +153,12 @@
 <style>
     /* General container settings */
     .super-contain {
-        display: flex; /* Use flexbox for layout */
-        justify-content: center; /* Center items horizontally */
-        align-items: center; /* Center items vertically */
-        flex-wrap: wrap; /* Wrap items if the screen is too small */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         width: 100%;
-        gap: 70px; /* Space between the items */
+        gap: 70px;
         padding: 20px;
     }
 
@@ -89,9 +169,9 @@
     /* Flex layout for Student Coordinators */
     .student-coordinators {
         display: flex;
-        flex-wrap: wrap; /* Enables wrapping for rows */
-        justify-content: center; /* Center items in the row */
-        gap: 20px; /* Space between items */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
         padding-bottom: 50px;
     }
 
@@ -99,23 +179,21 @@
     .social-handles-container {
         display: flex;
         justify-content: center;
-        width: 80%; /* Cover a percentage of the screen */
-        margin: 0 auto; /* Center the social handles container */
+        width: 80%;
+        margin: 0 auto;
         padding: 20px;
     }
 
-
     .social-handles {
         display: flex;
-        flex-wrap: wrap; /* Allow wrapping */
-        justify-content: center; /* Center items */
-        gap: 10px; /* Add consistent spacing between cards */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
         width: 100%;
     }
 
-    /* Apply individual spacing for each card */
     .social-handles > * {
-        margin: 10px; /* Add spacing around each card */
+        margin: 10px;
     }
 
     h1 {
@@ -123,7 +201,7 @@
         font-weight: 500;
         padding-top: 20px;
         text-align: center;
-        text-transform: uppercase;
+        text-transform: uppercase; /* Capitalize all text */
     }
 
     h1:hover {
@@ -138,18 +216,32 @@
         font-weight: 500;
         padding: 10px;
         text-align: center;
+        text-transform: uppercase; /* Capitalize all text */
     }
 
     /* Responsive design for smaller screens */
     @media (max-width: 600px) {
         .social-handles {
-            flex-direction: column; /* Stack items vertically */
-            align-items: center; /* Center items horizontally */
-            gap: 15px; /* Reduce gap between cards */
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
         }
 
         .social-handles-container {
-            width: 90%; /* Increase width on smaller screens */
+            width: 90%;
+            padding: 0;
+        }
+
+        .super-contain {
+            padding: 0;
+        }
+
+        .student-coordinators-container {
+            padding: 0;
+        }
+
+        .student-coordinators {
+            padding: 0;
         }
     }
 
@@ -159,15 +251,32 @@
             font-size: 1.4rem;
             font-weight: 500;
             text-align: center;
+            padding: 0;
         }
 
         h3 {
             font-size: 1.5rem;
             font-weight: 600;
+            padding: 0;
+            padding-top: 30px;
+            padding-bottom: 15px;
         }
 
-        .student-coordinators{
+        .social-handles {
+            gap: 10px;
+        }
+
+        .super-contain {
+            padding: 0;
+        }
+
+        .student-coordinators-container {
+            padding: 0;
+        }
+
+        .student-coordinators {
             align-items: center;
+            padding: 0;
         }
     }
 </style>

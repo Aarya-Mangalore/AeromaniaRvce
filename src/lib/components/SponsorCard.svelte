@@ -1,6 +1,6 @@
 <script>
   export let imageurl = '/sponser/lakshmiji.png';
-  export let hrefURL = '';
+  export let hrefURL;
   export let name = 'Sponsor Name';
 </script>
 
@@ -12,9 +12,8 @@
   }
 
   .card {
-    width: 100%;
-    height: auto; /* Auto-adjusting height */
-    min-height: 400px; /* Default min-height for larger screens */
+    width: 100%; /* Responsive width */
+    aspect-ratio: 1 / 1; /* Ensures a perfect square */
     padding: 10px;
     border-radius: 8px;
     background: transparent; /* Fully transparent background */
@@ -23,27 +22,27 @@
     align-items: center;
     flex-direction: column; /* Stack image and text */
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; /* Ensure hover effects are confined to the card */
+    transition: transform 0.3s ease, background 0.3s ease;
   }
 
-  /* Add hover effects for image */
+  .card-container:hover .card {
+    transform: scale(1.05); /* Slight scaling effect for the card */
+    background: radial-gradient(circle, rgba(0,255,255,0.5) 0%, rgb(15, 15, 15) 70%);
+    background-clip: padding-box; /* Ensure the gradient fits within the card container */
+  }
+
   .image {
-    width: 90%;
-    height: auto;
+    width: 70%; /* Image takes 80% of the card's width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the image is scaled properly within its container */
     display: block;
     margin: auto;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    transition: transform 0.3s ease; /* Smooth transition */
   }
 
-  /* Hover effect on image */
   .card-container:hover img {
     transform: scale(1.1); /* Slight zoom on the image */
-    box-shadow: 0 0 15px 4px rgba(0, 255, 255, 0.8); /* Cyan glow effect on the image */
-  }
-
-  .card:hover .name-container {
-    color: #1f9cb3; /* Change text color */
-    transition: color 0.3s ease; /* Smooth color transition */
   }
 
   .name-container {
@@ -55,44 +54,24 @@
     transition: color 0.3s ease; /* Prepare for hover effect */
   }
 
-  /* Ensure two cards per row on smaller screens */
-  @media (max-width: 800px) {
-    .super-duper-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+  @media (max-width: 830px){
+    .card-container{
+      width: 90%;
+      max-width: 500px;
     }
 
-    .card-container {
-      width: 45%; /* Make cards take up 45% of the width */
-      margin-bottom: 20px; /* Space between cards */
+    .image{
+      width:70%
     }
 
-    .card {
-      min-height: 350px; /* Reduced min-height for smaller screens */
-    }
-
+    .card-container:hover .card {
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.597) 0%, rgba(15, 15, 15, 0) 80%);
   }
-
-  /* On very small screens, adjust card size */
-  @media (max-width: 500px) {
-    .card-container {
-      width: 100%; /* Cards take full width on very small screens */
-    }
-
-    .card {
-      min-height: 300px; /* Further reduced min-height for very small screens */
-    }
-    
-    .name-container{
-      font-size: 1rem;
-    }
   }
 </style>
 
 <div class="card-container">
   <a class="card" href={hrefURL} target="_blank" rel="noopener noreferrer">
     <img class="image" src={imageurl} alt={name} />
-
   </a>
 </div>
