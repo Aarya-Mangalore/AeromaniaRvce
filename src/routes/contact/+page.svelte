@@ -8,7 +8,6 @@
     <h1>Contacts</h1>
 
     <!-- Student Coordinators Section with Flexbox -->
-     
     <div class="super-contain">
         <div class="student-coordinators-container">
             <h3>Student Convener</h3>
@@ -63,7 +62,6 @@
                     ph="8197544869"
                     role="Student in Aerospace engineering"
                 />
-
                 <Card
                     name="Ashok R"
                     imageurl="/images/profile.jpg"
@@ -76,7 +74,7 @@
 
     <div class="super-contain">
         <div class="student-coordinators-container">
-            <h3>Marketing and publicity leads</h3>
+            <h3>Marketing and Publicity Leads</h3>
             <div class="student-coordinators">
                 <Card
                     name="Samanyu S"
@@ -128,7 +126,7 @@
 
     <!-- Social Handles Section -->
     <h1>Social Handles</h1>
-    <br /><br />
+
     <div class="social-handles-container">
         <div class="social-handles">
             <SocialCard
@@ -192,31 +190,22 @@
         width: 100%;
     }
 
-    .social-handles > * {
-        margin: 10px;
-    }
-
     h1 {
         font-size: 2rem;
         font-weight: 500;
         padding-top: 20px;
+        padding-bottom: 20px;
         text-align: center;
-        text-transform: uppercase; /* Capitalize all text */
-    }
-
-    h1:hover {
-        color: #00ffff;
-        transform: scale(1.02);
-        transition: 0.3s;
-        user-select: none;
+        text-transform: uppercase;
     }
 
     h3 {
         font-size: 1.4rem;
         font-weight: 500;
-        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         text-align: center;
-        text-transform: uppercase; /* Capitalize all text */
+        text-transform: uppercase;
     }
 
     /* Responsive design for smaller screens */
@@ -249,25 +238,22 @@
     @media (max-width: 400px) {
         h1 {
             font-size: 1.4rem;
-            font-weight: 500;
-            text-align: center;
-            padding: 0;
         }
 
         h3 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            padding: 0;
+            font-size: 1.1rem;
+            padding-bottom: 10px;
             padding-top: 30px;
-            padding-bottom: 15px;
         }
 
         .social-handles {
-            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
         }
 
         .super-contain {
-            padding: 0;
+            padding-top: 50px;
         }
 
         .student-coordinators-container {
@@ -275,7 +261,6 @@
         }
 
         .student-coordinators {
-            align-items: center;
             padding: 0;
         }
     }
