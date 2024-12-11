@@ -23,7 +23,7 @@
             path="/event/aerocataclysm.jpg"
             text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash."
             form="https://docs.google.com/forms/d/e/1FAIpQLSdnJ8boOy5YGdBiOowg_ltX7wSdgmNVeaDoBQ9HbraDX7bbMQ/viewform"
-            rule="https://drive.google.com/file/d/1LPJE6mndGnzHYoqfwaEv7vIQO6CRjkA7/view?usp=sharing"
+            rule="https://drive.google.com/file/d/1O_o0F5BXJjmI6D6BSh24WhFEjv98Y0cu/view?usp=sharing"
             prize="10000"
             fee="799"
         />
