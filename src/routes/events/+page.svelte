@@ -58,7 +58,7 @@
             head="THE LOST ASTRONAUT"
             path="/event/lostastronaut.jpg"
             text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
-            rule="https://drive.google.com/file/d/19UBNg1nZSHkwyBY5hxS2hZUdliRNas-n/view?usp=sharing"
+            rule="https://drive.google.com/file/d/1gpghVb6chKZtZ0tv3UJMcm5VpDhTs_uB/view?usp=sharing"
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
             prize="3000"
             fee="299"
@@ -68,7 +68,7 @@
             path="/event/designdynamo.jpg"
             text="A high-speed design challenge where CAED enthusiasts create aerospace components from 2D layouts to 3D models, testing your speed and accuracy to the limit!"
             form="https://forms.gle/EQ2P5s48eCCmr4ws5"
-            rule="https://drive.google.com/file/d/1xpv4d1q2EWZ_A0hSlKYVc5l19wjrlQAg/view?usp=sharing"
+            rule="https://drive.google.com/file/d/1grFwdLguE3ooNvqDj_PEFTsU2n3HLyVE/view?usp=sharing"
             prize="3000"
             fee="249"
         />
