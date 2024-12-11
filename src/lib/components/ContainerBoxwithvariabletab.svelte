@@ -9,11 +9,12 @@
     export let tab1val;
     export let tab2text;
     export let tab2val;
+    export let date;
 
     import Button from "$lib/components/Button.svelte";
 </script>
 
-<div class="container">
+<div class="container">    
     <img alt={dis} src={path} class="image" />
     <div class="text-container">
         <h1 class="head">{head}</h1>
@@ -48,6 +49,10 @@
             {/if}
         </div>
     </div>
+    {#if date}
+    <p class="date">{date}</p>
+    {/if}
+    <br>
 </div>
 
 <style>
@@ -58,6 +63,20 @@
         flex-direction: column;
         gap: 20px;
         width: 100%;
+    }
+
+    .date{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:70%;
+        border-top: 2px solid rgba(255, 255, 255, 0.606);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.606);
+    }
+    .container:hover .date{
+        background: linear-gradient(45deg, #1e04c4, #00b3cb);
+        -webkit-background-clip: text;
+        text-decoration: underline;
+        color: transparent;
     }
 
     .container {

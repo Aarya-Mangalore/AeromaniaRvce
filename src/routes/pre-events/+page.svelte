@@ -43,15 +43,6 @@
         <!-- Cards Section -->
         <div class="cards-container">
             <Container  
-                path="/event/flashmob/thumbnail.jpg"
-                head="FLASH-MOB PERFORMANCE" 
-                text="Get ready to experience the magic of spontaneity and rhythm at Aeromania 2024 with an electrifying Flashmob Performance!" 
-                tab1text="Location:"
-                tab1val="Bio-tech Quadrangle"
-                tab2text="Time:"
-                tab2val="1:30 pm"
-            />
-            <Container  
                 head="MEMOMANIA"
                 text="Get ready for a fun-filled meme competition with an aerospace twist! Show off your creativity by designing hilarious and innovative memes based on aerospace themes. The wittier, the better! Perfect for those with a flair for humor and a passion for aviation!"
                 form="https://forms.gle/kpjPWqJ9qncULfMq7"
@@ -72,7 +63,20 @@
                 form="https://forms.gle/7CG3Qb34ve1V4yTk6"
             />
         </div>
+
+        
     </div>
+    <br><br><br>
+    <h1 class="heading">Pre-Events Archive</h1>
+        <!-- Cards Section -->
+        <div class="cards-container">
+            <Container  
+                date="8th december 2024"
+                path="/event/flashmob/thumbnail.jpg"
+                head="FLASH-MOB PERFORMANCE" 
+                text="Get ready to experience the magic of spontaneity and rhythm at Aeromania 2024 with an electrifying Flashmob Performance!" 
+            />
+        </div>
 </main>
 
 <style>

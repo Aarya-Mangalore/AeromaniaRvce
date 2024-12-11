@@ -50,6 +50,7 @@
             staticImage="/images/merch/shirt/front.jpg"
             galleryImages={shirtImages}
             price="400"
+            link="https://forms.gle/JtsyFmPN1fCFpxRU9"
         />
 
         <ItemCard
