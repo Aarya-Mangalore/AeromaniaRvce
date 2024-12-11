@@ -9,7 +9,7 @@
     <div class="super-container">
         <Container
             head="FIFA FIGHT"
-            path="/images/plane.jpg"
+            path="/event/fifafight.png"
             text="Join the ultimate FIFA 18 knockout tournament on PS4! Players go head-to-head in single-elimination matches, with each victory bringing them closer to the championship. Prove your skills and claim the title"
             form=""
             dis="Take control of your favorite teams and players, including legends like Cristiano Ronaldo, Lionel Messi, Neymar, and more! From high-speed counterattacks with Real Madrid to silky skills with Barcelona, every playstyle is at your fingertips. Will you choose the powerhouse teams, or surprise your opponent with an underdog victory?"
@@ -18,7 +18,7 @@
 
         <Containerl
             head="FPV V/S ASHWA & HELIOS"
-            path="/images/plane.jpg"
+            path="/event/fpvvsdrone.jpg"
             text="Experience the thrilling competition between FPV drones and two engineering marvels, 
         Ashwa and Helios cars, in this high-energy event. Watch as FPV drones showcase their impressive aerial agility, 
         navigating through challenging obstacles with unmatched precision and speed. Meanwhile, Ashwa, 
@@ -29,8 +29,8 @@
         />
 
         <Containerl
-            head="SOLID MOTOR DEMOSNTRATION"
-            path="/images/plane.jpg"
+            head="SOLID MOTOR DEMONSTRATION"
+            path="/event/solidmotordemo.jpg"
             text="Step into the exciting world of rocketry at our Solid Motor Demonstration.
             Watch solid rocket motors in action during static tests, offering a fascinating look into the science of thrust, fuel combustion, and propulsion efficiency.
             Discover how solid motors provide reliable, straightforward propulsion, making them a key technology in space exploration.
@@ -39,7 +39,7 @@
 
         <Containerl
             head="JET-SET GIGGLES"
-            path="/images/plane.jpg"
+            path="/event/jetsetgiggles.jpg"
             text="Prepare for an evening full of laughter at 'Jet-set Giggles,' 
         a stand-up comedy event that combines aviation themes with sharp wit and hilarious punchlines. 
         Enjoy an unforgettable night as comedians take you on a high-flying journey, mixing sky-high humor with clever 

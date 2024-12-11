@@ -13,7 +13,8 @@
             head="AEROGENESIS"
             path="/event/aerogenisis.jpg"
             text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions."
-            form="https://forms.gle/ycC4XDrYP7u7JDvx6 "
+            form="https://docs.google.com/forms/d/e/1FAIpQLSc5LyYmoQ6HTasaJjtLAjSjMfkmqTacVeja9fJtceQn4jQ51g/viewform"
+            rule="https://drive.google.com/file/d/1QiotpYwQcixGVbT-G2_15svPjtEHOsXJ/view?usp=sharing"
             prize="30000"
             fee="1499"
         />
@@ -21,8 +22,8 @@
             head="AEROCATACLYSM"
             path="/event/aerocataclysm.jpg"
             text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash."
-            form="https://forms.gle/7R7wTHMUJ5o5BrtM8 "
-            rule="https://drive.google.com/file/d/1CZgPROFoy6RH6GwjWxgMcZAwjrE9mWMa/view?usp=drive_link"
+            form="https://docs.google.com/forms/d/e/1FAIpQLSdnJ8boOy5YGdBiOowg_ltX7wSdgmNVeaDoBQ9HbraDX7bbMQ/viewform"
+            rule="https://drive.google.com/file/d/1LPJE6mndGnzHYoqfwaEv7vIQO6CRjkA7/view?usp=sharing"
             prize="10000"
             fee="799"
         />
@@ -31,6 +32,7 @@
             path="/event/skyforge.jpg"
             text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
             form="https://forms.gle/dLWpK7ijWbWse31G6"
+            rule="https://drive.google.com/file/d/1YQxBZxwew40_uXmwghp8jZOqp7rbSDjD/view?usp=sharing"
             prize="8000"
             fee="599"
         />
@@ -38,8 +40,8 @@
             head="AERO ODYSSEY"
             path="/event/aeroodyssey.jpg"
             text="Embark on a thrilling treasure hunt, solve clues, and race to build and launch rockets in this ultimate test of teamwork, creativity, and engineering!"
-            form="https://forms.gle/NcV6udRcBfQdDext5"
-            rule="https://drive.google.com/file/d/1lFuO7gEmmUDcNXlaSLDuo_1867ktXcze/view?usp=drive_link"
+            form="https://forms.gle/LQMYApXGjvBTdx2y6"
+            rule="https://drive.google.com/file/d/1KL7ZKvZEMPEHABX5yXVfY9po-CzfjjR8/view?usp=sharing"
             prize="5000"
             fee="399"
         />
@@ -49,14 +51,14 @@
             text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!"
             prize="12000"
             fee="999"
-            rule="https://drive.google.com/file/d/13RJRHRKv1CEQMuYE3Um95t6CsinRBmiv/view?usp=drive_link"
-            form="https://docs.google.com/forms/d/e/1FAIpQLScH4szaY6n_FyJ1jKYc23fSqvcV1D_iQTXDIMFIOCSwq0vfTg/viewform"
+            rule="https://drive.google.com/file/d/1zx0WxvlpDYhI12xw-whBEUncJKO6gziT/view?usp=sharing"
+            form="https://forms.gle/wzPdSvcf2oca5zZn6"
         />
         <Containerr
             head="THE LOST ASTRONAUT"
             path="/event/lostastronaut.jpg"
             text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
-            rule="https://drive.google.com/file/d/1ni1GEa7ZF8balrYbYWLrBA3bhMFLQV-2/view?usp=drive_link"
+            rule="https://drive.google.com/file/d/19UBNg1nZSHkwyBY5hxS2hZUdliRNas-n/view?usp=sharing"
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
             prize="3000"
             fee="299"
@@ -66,7 +68,7 @@
             path="/event/designdynamo.jpg"
             text="A high-speed design challenge where CAED enthusiasts create aerospace components from 2D layouts to 3D models, testing your speed and accuracy to the limit!"
             form="https://forms.gle/EQ2P5s48eCCmr4ws5"
-            rule="https://drive.google.com/file/d/1FW8hS2Qi4s7shyS4Ua-ZOPvEgzGmWuzn/view?usp=drive_link"
+            rule="https://drive.google.com/file/d/1xpv4d1q2EWZ_A0hSlKYVc5l19wjrlQAg/view?usp=sharing"
             prize="3000"
             fee="249"
         />

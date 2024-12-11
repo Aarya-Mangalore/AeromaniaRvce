@@ -52,7 +52,7 @@
             <div class="student-coordinators">
                 <Card
                     name="Tarun Prabash P"
-                    imageurl="/images/profile.jpg"
+                    imageurl="/persons/tarun.jpg"
                     ph="8971866108"
                     role="Student in Aerospace engineering"
                 />
@@ -64,7 +64,7 @@
                 />
                 <Card
                     name="Ashok R"
-                    imageurl="/images/profile.jpg"
+                    imageurl="/persons/ashok.jpg"
                     ph="7975245649"
                     role="Student in Aerospace engineering"
                 />
@@ -253,7 +253,8 @@
         }
 
         .super-contain {
-            padding-top: 50px;
+            padding-top: 10px;
+            padding-bottom: 50px;
         }
 
         .student-coordinators-container {
