@@ -15,6 +15,7 @@
             fee=1099
             dis="Join us for an exhilarating journey into the world of rocketry with our Solid Rocket Motor Workshop! This hands-on event offers participants the unique opportunity to delve into the science of propulsion, craft their own solid propellant grains, and fire them under supervision. Discover the principles that power rockets, gain practical experience in motor fabrication, and feel the thrill of testing your creation in action. Perfect for aspiring aerospace engineers, science enthusiasts, or anyone curious about the mechanics of space exploration, this workshop promises an unforgettable blend of learning, creativity, and excitement."
             teamsize="3-5"
+            form="https://docs.google.com/forms/d/e/1FAIpQLSdGmwqJFBpe001cIYOnF1AhRlAdmdK4p-9U2Su0SJbSIVo95w/viewform"
             />
 
             <Containerl 

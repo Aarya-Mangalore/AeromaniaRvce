@@ -32,7 +32,7 @@
             path="/event/skyforge.jpg"
             text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
             form="https://forms.gle/dLWpK7ijWbWse31G6"
-            rule="https://drive.google.com/file/d/1YQxBZxwew40_uXmwghp8jZOqp7rbSDjD/view?usp=sharing"
+            rule="https://drive.google.com/file/d/16OJA4xHnTJNM286LSOLkkZKKHIKhEkIk/view?usp=sharing"
             prize="8000"
             fee="599"
         />

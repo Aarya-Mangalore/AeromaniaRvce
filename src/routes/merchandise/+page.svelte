@@ -2,20 +2,21 @@
     import Photo from "$lib/components/Photogallery.svelte";
     import ItemCard from "$lib/components/ItemCard.svelte";
 
+    const shirtImages = [
+        "/images/merch/shirt/front.jpg",
+        "/images/merch/shirt/back.jpg",
+    ];
+
+    const hoodieImages = [
+        "/images/merch/hoodie/front.jpg",
+        "/images/merch/hoodie/back.jpg",
+    ];
+
     const Trend = [
-        "/images/merch/shirtfront.jpg",
-        "/images/merch/shirtback.jpg",
-    ];
-
-    const galleryImages = [
-        "/images/merch/shirtfront.jpg",
-        "/images/merch/shirtback.jpg",
-    ];
-
-    const galleryImages2 = [
-        "/images/merch/shirt.jpg",
-        "/images/merch/hoodie.jpg",
-        "/images/merch/badge.jpg",
+        "/images/merch/shirt/front.jpg",
+        "/images/merch/shirt/back.jpg",
+        "/images/merch/hoodie/front.jpg",
+        "/images/merch/hoodie/back.jpg",
     ];
 </script>
 
@@ -46,15 +47,15 @@
 
         <ItemCard
             Itemname="Aeromania T-shirt"
-            staticImage="/images/merch/shirtfront.jpg"
-            galleryImages={galleryImages}
+            staticImage="/images/merch/shirt/front.jpg"
+            galleryImages={shirtImages}
             price="400"
         />
 
         <ItemCard
             Itemname="Aeromania Hoodie"
-            staticImage="/images/merch/hoodie.jpg"
-            galleryImages={galleryImages2}
+            staticImage="/images/merch/hoodie/front.jpg"
+            galleryImages={hoodieImages}
             price="999"
         />
 

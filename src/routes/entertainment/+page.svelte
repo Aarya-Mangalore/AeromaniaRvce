@@ -11,7 +11,6 @@
             head="FIFA FIGHT"
             path="/event/fifafight.png"
             text="Join the ultimate FIFA 18 knockout tournament on PS4! Players go head-to-head in single-elimination matches, with each victory bringing them closer to the championship. Prove your skills and claim the title"
-            form=""
             dis="Take control of your favorite teams and players, including legends like Cristiano Ronaldo, Lionel Messi, Neymar, and more! From high-speed counterattacks with Real Madrid to silky skills with Barcelona, every playstyle is at your fingertips. Will you choose the powerhouse teams, or surprise your opponent with an underdog victory?"
             fee="50"
         />
