@@ -7,10 +7,11 @@
     const smallIframe = `<iframe src="https://free.timeanddate.com/countdown/i9o3tu29/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-09T13:30:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>`;
 
     const galleryImages = [
-        "/event/flashmob/img1.jpg",
-        "/event/flashmob/img2.jpg",
-        "/event/flashmob/img3.jpg",
-        "/event/flashmob/img4.jpg"
+        "/event/flashmob2024/img1.jpg",
+        "/event/flashmob2024/img2.jpg",
+        "/event/flashmob2024/img3.jpg",
+        "/event/flashmob2024/img4.jpg",
+        "/event/flashmob2024/img5.jpg",
     ];
 </script>
 
@@ -35,7 +36,7 @@
 
             <!-- Right Section -->
             <div class="right-section">
-                <Photos images={galleryImages} width="500px" height="auto" />
+                <Photos images={galleryImages} width="500px" height="300px" />
             </div>
         </div>
 
@@ -71,8 +72,8 @@
         <!-- Cards Section -->
         <div class="cards-container">
             <Container  
-                date="8th december 2024"
-                path="/event/flashmob/thumbnail.jpg"
+                date="9th december 2024"
+                path="/event/flashmob2024/thumbnail.jpg"
                 head="FLASH-MOB PERFORMANCE" 
                 text="Get ready to experience the magic of spontaneity and rhythm at Aeromania 2024 with an electrifying Flashmob Performance!" 
             />
