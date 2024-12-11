@@ -41,7 +41,7 @@
             path="/event/aeroodyssey.jpg"
             text="Embark on a thrilling treasure hunt, solve clues, and race to build and launch rockets in this ultimate test of teamwork, creativity, and engineering!"
             form="https://forms.gle/LQMYApXGjvBTdx2y6"
-            rule="https://drive.google.com/file/d/1KL7ZKvZEMPEHABX5yXVfY9po-CzfjjR8/view?usp=sharing"
+            rule="https://drive.google.com/file/d/1laKdsfiXnnUlVNyKizSYFRndefhPJsxI/view?usp=sharing"
             prize="5000"
             fee="399"
         />
