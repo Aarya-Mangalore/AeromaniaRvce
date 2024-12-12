@@ -5,11 +5,13 @@
     export let dis;
     export let rule;
     export let form;
-    export let tab1text = "Rule-book";
+    export let tab1text;
     export let tab1val;
-    export let tab2text = "Apply now";
+    export let tab2text;
     export let tab2val;
     export let date;
+    export let Button1text="Rule-Book";
+    export let Button2text="Apply Now";
 
     import Button from "$lib/components/Button.svelte";
 
@@ -72,10 +74,10 @@
                     {/if}
                 {/if}
                 {#if rule}
-                    <Button Text="Rule-book" link={rule}></Button>
+                    <Button Text={Button1text} link={rule}></Button>
                 {/if}
                 {#if form}
-                    <Button Text="Apply now" link={form}></Button>
+                    <Button Text={Button2text} link={form}></Button>
                 {/if}
             </div>
         {/if}

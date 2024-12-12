@@ -26,6 +26,7 @@
             rule="https://drive.google.com/file/d/1P8u46iAvlgvz_FeXBv87X0nHkc8ZAj6s/view?usp=sharing"
             tab1text="Registration fee:"
             tab1val="₹ 550"
+            Button1text="Learn More"
             form="/placeholder"
             />
         <Placer />

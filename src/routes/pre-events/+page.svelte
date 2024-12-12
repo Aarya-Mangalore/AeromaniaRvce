@@ -57,7 +57,7 @@
             <!-- Right Section -->
             <div class="right-section">
                 <!--<Photos images={galleryImages} width="600px" height="500px" />-->
-                <img src="/event/Paperpilots.jpg" />
+                <img src="/event/Paperpilots.jpg" alt="Paper pilot"/>
             </div>
         </div>
 
@@ -66,7 +66,7 @@
         <div class="cards-container">
             <Container
                 head="PAPER PILOTS"
-                path="/event/Paperpilots.jpg"
+                path="/event/paperpilots.jpg"
                 text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
                 tab1text="Prize:"
                 tab1val="₹ 3000"
