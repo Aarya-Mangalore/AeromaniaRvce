@@ -66,7 +66,7 @@
         <div class="cards-container">
             <Container
                 head="PAPER PILOTS"
-                path="/event/paperpilots.jpg"
+                path="/event/paperpilot.jpg"
                 text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
                 tab1text="Prize:"
                 tab1val="₹ 3000"
