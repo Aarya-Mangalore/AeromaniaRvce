@@ -22,8 +22,8 @@
         <tr>
           <td class="label">Email:</td>
           <td>
-            <a href="mailto:aeromania@rvce.edu.in">
-              aeromania@rvce.edu.in
+            <a href="mailto:aeromaniarvce@gmail.com">
+              aeromaniarvce@gmail.com
               <span class="icon-circle">
                 <img src={maillogo} alt="Mail Logo" />
               </span>
