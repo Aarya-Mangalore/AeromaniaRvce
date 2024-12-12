@@ -106,7 +106,7 @@
                 path="/logos/clubs/antariksh.png"
             />
 
-           <!-- <Container
+           <Container
                 head="TEAM Dhruva"
                 text="Team Dhruva, the astrophysics club of RV College of Engineering, 
                 is dedicated to fostering curiosity about the cosmos through innovative projects and research. 
@@ -115,7 +115,7 @@
                  educate enthusiasts. 
                 Dhruva strives to make astrophysics accessible and enjoyable while exploring the mysteries of the universe."
                 path="/logos/clubs/dhruva.jpeg"
-            />-->
+            />
 
             <Container
                 head="TEAM VYOMA"
