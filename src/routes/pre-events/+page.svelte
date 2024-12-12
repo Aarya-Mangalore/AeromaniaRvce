@@ -13,6 +13,8 @@
         "/event/flashmob2024/img4.jpg",
         "/event/flashmob2024/img5.jpg",
     ];
+
+    const location="ET lane"
 </script>
 
 <main>
@@ -33,12 +35,23 @@
                     showcase your creativity and engineering skills by designing
                     the perfect plane to conquer the skies!
                 </p>
-                <p>
-                    
-The registration link is provided below for your convenience.
+                <p>          
+                    The registration link is provided below for your convenience.
                 </p>
+                <div class="table-container">
+                    <table class="transparent-table">
+                        <tbody>
+                            
+                            <tr>
+                                <td class="label">Location:</td>
+                                <td>{location}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <h3>Pre-Event in</h3>
                 <Timer {smallIframe} {bigIframe} />
+                
             </div>
 
             <!-- Right Section -->
@@ -60,6 +73,7 @@ The registration link is provided below for your convenience.
                 tab2text="Registration fee:"
                 tab2val="₹ 29"
                 form="https://forms.gle/BNP4TXTkd2vQFUuJ9"
+                date="13th December 2024"
             />
 
             <Container
@@ -163,6 +177,24 @@ The registration link is provided below for your convenience.
         text-transform: uppercase;
         font-size: 1.5rem;
     }
+    .table-container {
+        width: 100%; /* Full width for table */
+        margin-top: 20px; /* Space between content and table */
+    }
+
+    .transparent-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+        border-radius: 10px;
+    }
+
+    .transparent-table td {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+    }
 
     .right-section {
         flex: 1;
@@ -232,6 +264,10 @@ The registration link is provided below for your convenience.
         .left-section h3 {
             font-size: 1.5rem;
             padding: 20px;
+        }
+
+        .transparent-table  {
+            width: 90%;
         }
 
         .right-section {
