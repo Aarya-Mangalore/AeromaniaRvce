@@ -1,6 +1,5 @@
 <script>
-    import Containerl from "$lib/components/ContainerwithSingleTab.svelte";
-    import Containerr from "$lib/components/ContainerBoxwithvariabletab.svelte";
+    import Container from "$lib/components/ContainerBoxwithvariabletab.svelte";
     import Placer from "$lib/components/placeholder.svelte";
 </script>
 
@@ -8,22 +7,26 @@
     <h1>Workshops</h1>
     <br><br>
     <div class="super-container">
-        <Containerl 
-            head="STATIC FIRE FIESTA" 
-            path="/event/sft.png" 
+            <Container
+            head="STATIC FIRE FIESTA"
+            path="/event/sft.png"
             text="Join a hands-on workshop to create solid rocket propellants and put your skills to the test in a thrilling live thrust showdown!"
-            fee=1099
             dis="Join us for an exhilarating journey into the world of rocketry with our Solid Rocket Motor Workshop! This hands-on event offers participants the unique opportunity to delve into the science of propulsion, craft their own solid propellant grains, and fire them under supervision. Discover the principles that power rockets, gain practical experience in motor fabrication, and feel the thrill of testing your creation in action. Perfect for aspiring aerospace engineers, science enthusiasts, or anyone curious about the mechanics of space exploration, this workshop promises an unforgettable blend of learning, creativity, and excitement."
-            teamsize="3-5"
+            tab1text="Registration fee:"
+            tab1val="₹ 1099"
+            tab2text="Team size"
+            tab2val="3-5"
             form="https://docs.google.com/forms/d/e/1FAIpQLSdGmwqJFBpe001cIYOnF1AhRlAdmdK4p-9U2Su0SJbSIVo95w/viewform"
-            />
+        />
 
-            <Containerl 
+            <Container
             head="BLACK HOLE SPACE TECH" 
             path="/event/Blackhole.jpeg" 
             text="Join a hands-on workshop on satellite simulations, recognized by ISRO, and dive into the tech shaping the future of space exploration!"
             rule="https://drive.google.com/file/d/1P8u46iAvlgvz_FeXBv87X0nHkc8ZAj6s/view?usp=sharing"
-            fee=550
+            tab1text="Registration fee:"
+            tab1val="₹ 550"
+            form="/placeholder"
             />
         <Placer />
     </div>

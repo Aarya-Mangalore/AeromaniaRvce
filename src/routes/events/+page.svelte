@@ -1,6 +1,5 @@
 <script>
-    import Containerl from "$lib/components/ContainerWithTab.svelte";
-    import Containerr from "$lib/components/ContainerWithTab.svelte";
+    import Container from "$lib/components/ContainerBoxwithvariabletab.svelte";
     import Button from "$lib/components/Button.svelte";
     import { text } from "@sveltejs/kit";
 </script>
@@ -9,70 +8,91 @@
     <h1>Events</h1>
     <br /><br />
     <div class="super-container">
-        <Containerl
-            head="AEROGENESIS"
-            path="/event/aerogenisis.jpg"
-            text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions."
-            form="https://docs.google.com/forms/d/e/1FAIpQLSc5LyYmoQ6HTasaJjtLAjSjMfkmqTacVeja9fJtceQn4jQ51g/viewform"
-            rule="https://drive.google.com/file/d/1QiotpYwQcixGVbT-G2_15svPjtEHOsXJ/view?usp=sharing"
-            prize="30000"
-            fee="1499"
-        />
-        <Containerr
+        <Container
+                head="AEROGENESIS"
+                path="/event/aerogenisis.jpg"
+                text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions."
+                tab1text="Prize:"
+                tab1val="₹ 30000"
+                tab2text="Registration fee:"
+                tab2val="₹ 1499"
+                form="https://docs.google.com/forms/d/e/1FAIpQLSc5LyYmoQ6HTasaJjtLAjSjMfkmqTacVeja9fJtceQn4jQ51g/viewform"
+                rule="https://drive.google.com/file/d/1QiotpYwQcixGVbT-G2_15svPjtEHOsXJ/view?usp=sharing"
+            />
+
+        <Container
             head="AEROCATACLYSM"
             path="/event/aerocataclysm.jpg"
             text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash."
+            tab1text="Prize:"
+            tab1val="₹ 10000"
+            tab2text="Registration fee:"
+            tab2val="₹ 799"
             form="https://docs.google.com/forms/d/e/1FAIpQLSdnJ8boOy5YGdBiOowg_ltX7wSdgmNVeaDoBQ9HbraDX7bbMQ/viewform"
             rule="https://drive.google.com/file/d/1O_o0F5BXJjmI6D6BSh24WhFEjv98Y0cu/view?usp=sharing"
-            prize="10000"
-            fee="799"
-        />
-        <Containerl
+            />
+
+        <Container
             head="SKYFORGE"
             path="/event/skyforge.jpg"
             text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
+            tab1text="Prize:"
+            tab1val="₹ 8000"
+            tab2text="Registration fee:"
+            tab2val="₹ 599"
             form="https://forms.gle/dLWpK7ijWbWse31G6"
             rule="https://drive.google.com/file/d/16OJA4xHnTJNM286LSOLkkZKKHIKhEkIk/view?usp=sharing"
-            prize="8000"
-            fee="599"
         />
-        <Containerr
+
+        <Container
             head="AERO ODYSSEY"
             path="/event/aeroodyssey.jpg"
             text="Embark on a thrilling treasure hunt, solve clues, and race to build and launch rockets in this ultimate test of teamwork, creativity, and engineering!"
+            tab1text="Prize:"
+            tab1val="₹ 5000"
+            tab2text="Registration fee:"
+            tab2val="₹ 399"
             form="https://forms.gle/LQMYApXGjvBTdx2y6"
             rule="https://drive.google.com/file/d/1laKdsfiXnnUlVNyKizSYFRndefhPJsxI/view?usp=sharing"
-            prize="5000"
-            fee="399"
         />
-        <Containerr
+
+        <Container
             head="PAYLOAD PARADOX"
             path="/event/payloadparadox.jpg"
             text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!"
-            prize="12000"
-            fee="999"
-            rule="https://drive.google.com/file/d/1zx0WxvlpDYhI12xw-whBEUncJKO6gziT/view?usp=sharing"
+            tab1text="Prize:"
+            tab1val="₹ 12000"
+            tab2text="Registration fee:"
+            tab2val="₹ 999"
             form="https://forms.gle/wzPdSvcf2oca5zZn6"
+            rule="https://drive.google.com/file/d/1zx0WxvlpDYhI12xw-whBEUncJKO6gziT/view?usp=sharing"
         />
-        <Containerr
+
+        <Container
             head="THE LOST ASTRONAUT"
             path="/event/lostastronaut.jpg"
             text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
-            rule="https://drive.google.com/file/d/1gpghVb6chKZtZ0tv3UJMcm5VpDhTs_uB/view?usp=sharing"
+            tab1text="Prize:"
+            tab1val="₹ 3000"
+            tab2text="Registration fee:"
+            tab2val="₹ 299"
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
-            prize="3000"
-            fee="299"
+            rule="https://drive.google.com/file/d/1gpghVb6chKZtZ0tv3UJMcm5VpDhTs_uB/view?usp=sharing"
         />
-        <Containerl
+
+        <Container
             head="DESIGN DYNAMO"
             path="/event/designdynamo.jpg"
             text="A high-speed design challenge where CAED enthusiasts create aerospace components from 2D layouts to 3D models, testing your speed and accuracy to the limit!"
+            tab1text="Prize:"
+            tab1val="₹ 3000"
+            tab2text="Registration fee:"
+            tab2val="₹ 249"
             form="https://forms.gle/EQ2P5s48eCCmr4ws5"
             rule="https://drive.google.com/file/d/1grFwdLguE3ooNvqDj_PEFTsU2n3HLyVE/view?usp=sharing"
-            prize="3000"
-            fee="249"
         />
     </div>
+
     <div class="container">
         <h3>Looking for Pre-events?</h3>
         <p>Click below to continue</p>

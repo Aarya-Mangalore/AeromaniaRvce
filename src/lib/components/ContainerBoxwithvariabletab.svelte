@@ -5,54 +5,85 @@
     export let dis;
     export let rule;
     export let form;
-    export let tab1text;
+    export let tab1text = "Rule-book";
     export let tab1val;
-    export let tab2text;
+    export let tab2text = "Apply now";
     export let tab2val;
     export let date;
 
     import Button from "$lib/components/Button.svelte";
+
+    let showDescription = false;
+    let button1text = "Learn more"; // Initial button text
+
+    function toggleDescription() {
+        if (dis) {
+            showDescription = !showDescription;
+            button1text =
+                button1text === "Learn more" ? "Read less" : "Learn more";
+        } else {
+            window.location.href = rule; // Redirect if 'dis' is empty
+        }
+    }
 </script>
 
-<div class="container">    
-    <img alt={dis} src={path} class="image" />
+<div class="container">
+    <img alt={head} src={path} class="image" />
     <div class="text-container">
         <h1 class="head">{head}</h1>
         <br />
         <p>{text}</p>
+        {#if tab1val||tab2val}
+            
+        
         <!-- Transparent Table Below Text -->
         <div class="table-container">
             <table class="transparent-table">
                 <tbody>
-                    {#if tab1text}
-                    <tr>
-                        <td class="label">{tab1text}</td>
-                        <td>{tab1val}</td>
-                    </tr>
+                    {#if tab1val}
+                        <tr>
+                            <td class="label">{tab1text}</td>
+                            <td>{tab1val}</td>
+                        </tr>
                     {/if}
-                    {#if tab2text}
-                    <tr>
-                        <td class="label">{tab2text}</td>
-                        <td>{tab2val}</td>
-                    </tr>
+                    {#if tab2val}
+                        <tr>
+                            <td class="label">{tab2text}</td>
+                            <td>{tab2val}</td>
+                        </tr>
                     {/if}
                 </tbody>
             </table>
         </div>
-        <br /><br />
-        <div class="but-contain">
-            {#if rule}
-            <Button Text="Rule-book" link={rule}></Button>
-            {/if}
-            {#if form}
-            <Button Text="Apply now" link={form}></Button>
-            {/if}
-        </div>
+        {/if}
+        <br />
+        {#if dis || form || rule}
+            <div class="but-contain">
+                {#if dis}
+                    <!-- Toggle button -->
+                    <a on:click={toggleDescription}>
+                        <button class="space-button">{button1text}</button>
+                    </a>
+
+                    {#if showDescription}
+                        <div class="description">
+                            <p>{dis}</p>
+                        </div>
+                    {/if}
+                {/if}
+                {#if rule}
+                    <Button Text="Rule-book" link={rule}></Button>
+                {/if}
+                {#if form}
+                    <Button Text="Apply now" link={form}></Button>
+                {/if}
+            </div>
+        {/if}
     </div>
     {#if date}
-    <p class="date">{date}</p>
+        <p class="date">{date}</p>
     {/if}
-    <br>
+    <br />
 </div>
 
 <style>
@@ -65,14 +96,14 @@
         width: 100%;
     }
 
-    .date{
+    .date {
         padding-top: 10px;
         padding-bottom: 10px;
-        width:70%;
+        width: 70%;
         border-top: 2px solid rgba(255, 255, 255, 0.606);
         border-bottom: 2px solid rgba(255, 255, 255, 0.606);
     }
-    .container:hover .date{
+    .container:hover .date {
         background: linear-gradient(45deg, #1e04c4, #00b3cb);
         -webkit-background-clip: text;
         text-decoration: underline;
@@ -92,7 +123,10 @@
         border-radius: 30px;
         position: relative;
         overflow: hidden;
-        transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+        transition:
+            transform 0.3s ease,
+            background-color 0.3s ease,
+            border-color 0.3s ease;
         height: auto;
         margin-top: 30px;
     }
@@ -111,8 +145,16 @@
         left: 50%;
         width: 300%;
         height: 600%;
-        background: radial-gradient(circle, rgba(0, 255, 255, 0.2), transparent);
-        transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
+        background: radial-gradient(
+            circle,
+            rgba(0, 255, 255, 0.2),
+            transparent
+        );
+        transition:
+            width 0.4s ease,
+            height 0.4s ease,
+            top 0.4s ease,
+            left 0.4s ease;
         transform: translate(-50%, -50%);
         opacity: 0;
         z-index: -1;
@@ -146,7 +188,9 @@
         font-size: 1.25rem;
         color: rgb(255, 255, 255);
         text-align: center;
-        transition: color 0.3s ease, background 0.3s ease;
+        transition:
+            color 0.3s ease,
+            background 0.3s ease;
         border-top: 2px solid rgba(255, 255, 255, 0.606);
         border-bottom: 2px solid rgba(255, 255, 255, 0.606);
         padding: 10px 0;
@@ -178,7 +222,7 @@
     .transparent-table {
         width: 100%;
         border-collapse: collapse;
-        background-color: rgba(255, 255, 255, 0.0);
+        background-color: rgba(255, 255, 255, 0);
         border-radius: 10px;
     }
 
@@ -188,6 +232,53 @@
         color: white;
         font-size: 1rem;
         font-family: "Josefin Sans", sans-serif;
+    }
+
+    .space-button {
+        padding: 15px 30px;
+        color: #00ffff; /* Cyan text */
+        background-color: #000;
+        border: 2px solid #00ffff; /* Cyan border */
+        border-radius: 8px;
+        font-size: 18px;
+        font-family: sans-serif;
+        cursor: pointer;
+        transition: all 0.4s ease; /* Smooth transition */
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .space-button::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300%;
+        height: 300%;
+        background: radial-gradient(
+            circle,
+            rgba(0, 255, 255, 0.4),
+            transparent
+        );
+        transition:
+            width 0.4s ease,
+            height 0.4s ease,
+            top 0.4s ease,
+            left 0.4s ease;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .space-button:hover::before {
+        width: 150%;
+        height: 150%;
+        opacity: 1;
+    }
+
+    .space-button:hover {
+        color: #fff; /* Change text to white on hover */
     }
 
     @media (max-width: 830px) {
