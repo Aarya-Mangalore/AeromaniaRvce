@@ -6,7 +6,7 @@
     const bigIframe = `<iframe src="https://free.timeanddate.com/countdown/i9oa5j1l/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-13T12:00:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>`;
     const smallIframe = `<iframe src="https://free.timeanddate.com/countdown/i9oa58ys/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-13T12:00:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>`;
 
-    const galleryImages = [
+    const flashmob2024 = [
         "/event/flashmob2024/img1.jpg",
         "/event/flashmob2024/img2.jpg",
         "/event/flashmob2024/img3.jpg",
@@ -64,17 +64,7 @@
         <h1 class="heading">Coming soon!!</h1>
         <!-- Cards Section -->
         <div class="cards-container">
-            <Container
-                head="PAPER PILOTS"
-                path="/event/paperpilot.jpg"
-                text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
-                tab1text="Prize:"
-                tab1val="₹ 500"
-                tab2text="Registration fee:"
-                tab2val="₹ 29"
-                form="https://forms.gle/BNP4TXTkd2vQFUuJ9"
-                date="13th December 2024"
-            />
+            
 
             <Container
                 head="MEMOMANIA"
@@ -97,7 +87,19 @@
             path="/event/flashmob2024/thumbnail.jpg"
             head="FLASH-MOB PERFORMANCE"
             text="Get ready to experience the magic of spontaneity and rhythm at Aeromania 2024 with an electrifying Flashmob Performance!"
+            galleryImages={flashmob2024}
         />
+
+        <Container
+                head="PAPER PILOTS"
+                path="/event/paperpilot.jpg"
+                text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
+                tab1text="Prize:"
+                tab1val="₹ 500 + 14 days of cold-drinks"
+                tab2text="Winner:"
+                tab2val="Siddarth K Gole"
+                date="13th December 2024"
+            />
     </div>
 </main>
 

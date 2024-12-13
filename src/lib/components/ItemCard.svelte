@@ -5,7 +5,6 @@
     export let galleryImages = []; // Array of gallery images
     export let link="/placeholder"
     export let Itemname="not decided yet" 
-
     export let price; // Item price
 </script>
 

@@ -30,7 +30,7 @@
             tab2text="Registration fee:"
             tab2val="₹ 399"
             form="https://forms.gle/LQMYApXGjvBTdx2y6"
-            rule="https://drive.google.com/file/d/1laKdsfiXnnUlVNyKizSYFRndefhPJsxI/view?usp=sharing"
+            rule="https://drive.google.com/file/d/1X4GEvMaePzVqVTKaxsZFmv9IiEutNkVm/view?usp=drive_link"
             date="19th December 2024"
         />
 
