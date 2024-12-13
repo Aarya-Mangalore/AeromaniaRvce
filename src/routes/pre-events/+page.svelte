@@ -69,7 +69,7 @@
                 path="/event/paperpilot.jpg"
                 text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
                 tab1text="Prize:"
-                tab1val="₹ 3000"
+                tab1val="₹ 500"
                 tab2text="Registration fee:"
                 tab2val="₹ 29"
                 form="https://forms.gle/BNP4TXTkd2vQFUuJ9"
