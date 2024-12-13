@@ -20,6 +20,18 @@
             <h3>Working partners</h3>
             <div class="container">
                 <Spons
+                    name="Aeronautical society of India"
+                    imageurl="/sponser/ASI.png"
+                    hrefURL="https://www.aerosocietyindia.co.in/"
+                />
+                
+                <Spons
+                    name="Association of Bangalore Amateur Astronomers"
+                    imageurl="/sponser/ABAA.png"
+                    hrefURL="https://abaaonline.blogspot.com/"
+                />
+
+                <Spons
                     name="Black hole space tech"
                     imageurl="/sponser/Blackhole.png"
                     hrefURL="https://in.linkedin.com/company/black-hole-space-tech-bhst"
