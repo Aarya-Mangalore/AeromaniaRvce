@@ -10,8 +10,8 @@
     export let tab2text;
     export let tab2val;
     export let date;
-    export let Button1text="Rule-Book";
-    export let Button2text="Apply Now";
+    export let Button1text = "Rule-Book";
+    export let Button2text = "Apply Now";
 
     import Button from "$lib/components/Button.svelte";
 
@@ -35,38 +35,38 @@
         <h1 class="head">{head}</h1>
         <br />
         <p>{text}</p>
-        {#if tab1val||tab2val}
+        {#if date}
+            <p class="date">{date}</p>
+            <br>
             
-        
-        <!-- Transparent Table Below Text -->
-        <div class="table-container">
-            <table class="transparent-table">
-                <tbody>
-                    {#if tab1val}
-                        <tr>
-                            <td class="label">{tab1text}</td>
-                            <td>{tab1val}</td>
-                        </tr>
-                    {/if}
-                    {#if tab2val}
-                        <tr>
-                            <td class="label">{tab2text}</td>
-                            <td>{tab2val}</td>
-                        </tr>
-                    {/if}
-                </tbody>
-            </table>
-        </div>
+        {/if}
+        {#if tab1val || tab2val}
+            <div class="table-container">
+                <table class="transparent-table">
+                    <tbody>
+                        {#if tab1val}
+                            <tr>
+                                <td class="label">{tab1text}</td>
+                                <td>{tab1val}</td>
+                            </tr>
+                        {/if}
+                        {#if tab2val}
+                            <tr>
+                                <td class="label">{tab2text}</td>
+                                <td>{tab2val}</td>
+                            </tr>
+                        {/if}
+                    </tbody>
+                </table>
+            </div>
         {/if}
         <br />
         {#if dis || form || rule}
             <div class="but-contain">
                 {#if dis}
-                    <!-- Toggle button -->
                     <a on:click={toggleDescription}>
                         <button class="space-button">{button1text}</button>
                     </a>
-
                     {#if showDescription}
                         <div class="description">
                             <p>{dis}</p>
@@ -82,36 +82,10 @@
             </div>
         {/if}
     </div>
-    {#if date}
-        <p class="date">{date}</p>
-    {/if}
     <br />
 </div>
 
 <style>
-    .but-contain {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 20px;
-        width: 100%;
-    }
-
-    .date {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 70%;
-        border-top: 2px solid rgba(255, 255, 255, 0.606);
-        border-bottom: 2px solid rgba(255, 255, 255, 0.606);
-    }
-    .container:hover .date {
-        background: linear-gradient(45deg, #1e04c4, #00b3cb);
-        -webkit-background-clip: text;
-        text-decoration: underline;
-        color: transparent;
-    }
-
     .container {
         display: flex;
         flex-direction: column;
@@ -129,8 +103,8 @@
             transform 0.3s ease,
             background-color 0.3s ease,
             border-color 0.3s ease;
-        height: auto;
         margin-top: 30px;
+        text-align: center;
     }
 
     .container:hover {
@@ -169,12 +143,12 @@
     }
 
     .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         padding: 20px;
-        text-align: center;
         color: whitesmoke;
-        margin-top: 30px;
-        margin-bottom: 20px;
     }
 
     .image {
@@ -182,7 +156,7 @@
         height: auto;
         border-radius: 20px;
         object-fit: cover;
-        padding-top: 30px;
+        margin-bottom: 20px;
     }
 
     .head {
@@ -198,17 +172,6 @@
         padding: 10px 0;
     }
 
-    p {
-        color: whitesmoke;
-        font-size: 1rem;
-        padding-bottom: 15px;
-        text-align: center;
-        font-family: "Josefin Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-    }
-
     .container:hover .head {
         background: linear-gradient(45deg, #1e04c4, #00b3cb);
         -webkit-background-clip: text;
@@ -216,16 +179,48 @@
         color: transparent;
     }
 
+    p {
+        color: whitesmoke;
+        font-size: 1rem;
+        padding-bottom: 15px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .date {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 70%;
+        border-top: 2px solid rgba(255, 255, 255, 0.606);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.606);
+    }
+
+    .container:hover .date {
+        background: linear-gradient(45deg, #1e04c4, #00b3cb);
+        -webkit-background-clip: text;
+        text-decoration: underline;
+        color: transparent;
+    }
+
+    .but-contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
     .table-container {
+        display: flex;
+        justify-content: center;
         width: 100%;
-        margin-top: 20px;
     }
 
     .transparent-table {
-        width: 100%;
+        width: 90%;
         border-collapse: collapse;
         background-color: rgba(255, 255, 255, 0);
-        border-radius: 10px;
     }
 
     .transparent-table td {
@@ -238,14 +233,14 @@
 
     .space-button {
         padding: 15px 30px;
-        color: #00ffff; /* Cyan text */
+        color: #00ffff;
         background-color: #000;
-        border: 2px solid #00ffff; /* Cyan border */
+        border: 2px solid #00ffff;
         border-radius: 8px;
         font-size: 18px;
         font-family: sans-serif;
         cursor: pointer;
-        transition: all 0.4s ease; /* Smooth transition */
+        transition: all 0.4s ease;
         position: relative;
         overflow: hidden;
         z-index: 1;
@@ -280,7 +275,7 @@
     }
 
     .space-button:hover {
-        color: #fff; /* Change text to white on hover */
+        color: #fff;
     }
 
     @media (max-width: 830px) {
@@ -290,6 +285,7 @@
         }
 
         .image {
+            padding-top: 30px;
             width: 70%;
             margin-bottom: 20px;
         }
@@ -307,6 +303,10 @@
 
         p {
             font-size: 0.9rem;
+        }
+
+        .table-container{
+            padding-top: 10px;
         }
 
         .transparent-table td {

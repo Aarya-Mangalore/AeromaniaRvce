@@ -1,5 +1,6 @@
 <script>
     import Container from "$lib/components/ContainerBoxwithvariabletab.svelte";
+    import Button from "$lib/components/Button.svelte";
 </script>
 
 <main>
@@ -59,11 +60,18 @@
                     your appreciation for the vastness of space!"
         />
     </div>
+
+    <!-- Add the new component here -->
+    <div class="footer-container">
+        <h3>Looking for Pre-events?</h3>
+        <p>Click below to continue</p>
+        <Button Text="Pre-events" link="/pre-events" />
+    </div>
 </main>
 
 <style>
     .super-container {
-        position: absolute;
+        position: relative;
         display: flex; /* Use flexbox for layout */
         justify-content: center; /* Center items horizontally */
         align-items: center; /* Center items vertically */
@@ -89,6 +97,25 @@
         user-select: none;
     }
 
+    .footer-container {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.0);
+        color: white;
+        border-radius: 10px;
+    }
+
+    .footer-container h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .footer-container p {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
     @media (max-width: 830px) {
         .super-container {
             flex-direction: column; /* Stack items vertically on smaller screens */
@@ -101,6 +128,14 @@
             font-weight: 500;
             padding: 0px;
             text-align: center;
+        }
+
+        .footer-container h3{
+            font-size: 1.5rem;
+        }
+
+        .footer-container p{
+            padding-bottom: 10px;
         }
     }
 </style>

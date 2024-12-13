@@ -28,7 +28,7 @@
 
   .card-container:hover .card {
     transform: scale(1.05); /* Slight scaling effect for the card */
-    background: radial-gradient(circle, rgba(0,255,255,0.5) 0%, rgb(15, 15, 15) 70%);
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.755) 0%, rgb(15, 15, 15) 75%);
     background-clip: padding-box; /* Ensure the gradient fits within the card container */
   }
 
@@ -65,7 +65,7 @@
     }
 
     .card-container:hover .card {
-    background: radial-gradient(circle, rgba(0, 255, 255, 0.597) 0%, rgba(15, 15, 15, 0) 80%);
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.755) 0%, rgba(15, 15, 15, 0) 70%);
   }
   }
 </style>

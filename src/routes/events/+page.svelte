@@ -9,18 +9,6 @@
     <br /><br />
     <div class="super-container">
         <Container
-                head="AEROGENESIS"
-                path="/event/aerogenisis.jpg"
-                text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions."
-                tab1text="Prize:"
-                tab1val="₹ 30000"
-                tab2text="Registration fee:"
-                tab2val="₹ 1499"
-                form="https://docs.google.com/forms/d/e/1FAIpQLSc5LyYmoQ6HTasaJjtLAjSjMfkmqTacVeja9fJtceQn4jQ51g/viewform"
-                rule="https://drive.google.com/file/d/1QiotpYwQcixGVbT-G2_15svPjtEHOsXJ/view?usp=sharing"
-            />
-
-        <Container
             head="AEROCATACLYSM"
             path="/event/aerocataclysm.jpg"
             text="Analyze real cockpit recordings and lifelike scenarios to uncover the mystery of an aircraft crash."
@@ -30,18 +18,7 @@
             tab2val="₹ 799"
             form="https://docs.google.com/forms/d/e/1FAIpQLSdnJ8boOy5YGdBiOowg_ltX7wSdgmNVeaDoBQ9HbraDX7bbMQ/viewform"
             rule="https://drive.google.com/file/d/1O_o0F5BXJjmI6D6BSh24WhFEjv98Y0cu/view?usp=sharing"
-            />
-
-        <Container
-            head="SKYFORGE"
-            path="/event/skyforge.jpg"
-            text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
-            tab1text="Prize:"
-            tab1val="₹ 8000"
-            tab2text="Registration fee:"
-            tab2val="₹ 599"
-            form="https://forms.gle/dLWpK7ijWbWse31G6"
-            rule="https://drive.google.com/file/d/16OJA4xHnTJNM286LSOLkkZKKHIKhEkIk/view?usp=sharing"
+            date="19th December 2024"
         />
 
         <Container
@@ -54,30 +31,20 @@
             tab2val="₹ 399"
             form="https://forms.gle/LQMYApXGjvBTdx2y6"
             rule="https://drive.google.com/file/d/1laKdsfiXnnUlVNyKizSYFRndefhPJsxI/view?usp=sharing"
+            date="19th December 2024"
         />
 
         <Container
-            head="PAYLOAD PARADOX"
-            path="/event/payloadparadox.jpg"
-            text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!"
+            head="AEROGENESIS"
+            path="/event/aerogenisis.jpg"
+            text="An overnight hackathon unleashing creativity to tackle aerospace challenges and redefine the skies with innovative solutions."
             tab1text="Prize:"
-            tab1val="₹ 12000"
+            tab1val="₹ 30000"
             tab2text="Registration fee:"
-            tab2val="₹ 999"
-            form="https://forms.gle/wzPdSvcf2oca5zZn6"
-            rule="https://drive.google.com/file/d/1zx0WxvlpDYhI12xw-whBEUncJKO6gziT/view?usp=sharing"
-        />
-
-        <Container
-            head="THE LOST ASTRONAUT"
-            path="/event/lostastronaut.jpg"
-            text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
-            tab1text="Prize:"
-            tab1val="₹ 3000"
-            tab2text="Registration fee:"
-            tab2val="₹ 299"
-            form="https://forms.gle/57dBW33Bonnd4ZVQ9"
-            rule="https://drive.google.com/file/d/1gpghVb6chKZtZ0tv3UJMcm5VpDhTs_uB/view?usp=sharing"
+            tab2val="₹ 1499"
+            form="https://docs.google.com/forms/d/e/1FAIpQLSc5LyYmoQ6HTasaJjtLAjSjMfkmqTacVeja9fJtceQn4jQ51g/viewform"
+            rule="https://drive.google.com/file/d/1QiotpYwQcixGVbT-G2_15svPjtEHOsXJ/view?usp=sharing"
+            date="20th December 2024"
         />
 
         <Container
@@ -89,17 +56,53 @@
             tab2text="Registration fee:"
             tab2val="₹ 249"
             form="https://forms.gle/EQ2P5s48eCCmr4ws5"
-            rule="https://drive.google.com/file/d/1grFwdLguE3ooNvqDj_PEFTsU2n3HLyVE/view?usp=sharing"
+            rule="https://drive.google.com/file/d/1YAHogYW54cEJYqw9-jh2ymPIU1TXkVPy/view?usp=drive_link"
+            date="20th December 2024"
+        />
+
+        <Container
+            head="PAYLOAD PARADOX"
+            path="/event/payloadparadox.jpg"
+            text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!"
+            tab1text="Prize:"
+            tab1val="₹ 12000"
+            tab2text="Registration fee:"
+            tab2val="₹ 999"
+            form="https://forms.gle/wzPdSvcf2oca5zZn6"
+            rule="https://drive.google.com/file/d/1WdLgnJcOIN-De8cKGSaFw9iXplY54WGc/view?usp=drive_link"
+            date="20th December 2024"
+        />
+
+        <Container
+            head="SKYFORGE"
+            path="/event/skyforge.jpg"
+            text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
+            tab1text="Prize:"
+            tab1val="₹ 8000"
+            tab2text="Registration fee:"
+            tab2val="₹ 599"
+            form="https://forms.gle/dLWpK7ijWbWse31G6"
+            rule="https://drive.google.com/file/d/16OJA4xHnTJNM286LSOLkkZKKHIKhEkIk/view?usp=sharing"
+            date="20th December 2024"
+        />
+        <Container
+            head="THE LOST ASTRONAUT"
+            path="/event/lostastronaut.jpg"
+            text="Test your problem-solving skills in a space-themed escape room, where deciphering clues will be the key to unlocking the final exit!"
+            tab1text="Prize:"
+            tab1val="₹ 3000"
+            tab2text="Registration fee:"
+            tab2val="₹ 299"
+            form="https://forms.gle/57dBW33Bonnd4ZVQ9"
+            rule="https://drive.google.com/file/d/1gpghVb6chKZtZ0tv3UJMcm5VpDhTs_uB/view?usp=sharing"
+            date="20th December 2024"
         />
     </div>
 
     <div class="container">
         <h3>Looking for Pre-events?</h3>
         <p>Click below to continue</p>
-        <Button
-            Text="Pre-events"
-            link="/pre-events"
-        />
+        <Button Text="Pre-events" link="/pre-events" />
     </div>
 </main>
 
@@ -166,11 +169,11 @@
             text-align: center;
         }
 
-        .container h3{
+        .container h3 {
             font-size: 1.4rem;
         }
 
-        .container p{
+        .container p {
             font-size: 1rem;
         }
     }

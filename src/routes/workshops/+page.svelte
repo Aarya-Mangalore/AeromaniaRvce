@@ -5,9 +5,19 @@
 
 <main>
     <h1>Workshops</h1>
-    <br><br>
+    <br /><br />
     <div class="super-container">
-            <Container
+        <Container
+            head="BLACK HOLE SPACE TECH"
+            path="/event/Blackhole.jpeg"
+            text="Join a hands-on workshop on satellite simulations, recognized by ISRO, and dive into the tech shaping the future of space exploration!"
+            rule="https://drive.google.com/file/d/1P8u46iAvlgvz_FeXBv87X0nHkc8ZAj6s/view?usp=sharing"
+            tab1text="Registration fee:"
+            tab1val="₹ 550"
+            Button1text="Learn More"
+            form="/placeholder"
+        />
+        <Container
             head="STATIC FIRE FIESTA"
             path="/event/sft.png"
             text="Join a hands-on workshop to create solid rocket propellants and put your skills to the test in a thrilling live thrust showdown!"
@@ -17,18 +27,8 @@
             tab2text="Team size"
             tab2val="3-5"
             form="https://docs.google.com/forms/d/e/1FAIpQLSdGmwqJFBpe001cIYOnF1AhRlAdmdK4p-9U2Su0SJbSIVo95w/viewform"
+            date="19th December 2024"
         />
-
-            <Container
-            head="BLACK HOLE SPACE TECH" 
-            path="/event/Blackhole.jpeg" 
-            text="Join a hands-on workshop on satellite simulations, recognized by ISRO, and dive into the tech shaping the future of space exploration!"
-            rule="https://drive.google.com/file/d/1P8u46iAvlgvz_FeXBv87X0nHkc8ZAj6s/view?usp=sharing"
-            tab1text="Registration fee:"
-            tab1val="₹ 550"
-            Button1text="Learn More"
-            form="/placeholder"
-            />
         <Placer />
     </div>
 </main>
@@ -69,10 +69,10 @@
         }
 
         h1 {
-        font-size: 1.4rem;
-        font-weight: 500;
-        padding: 0px;
-        text-align: center;
-    }
+            font-size: 1.4rem;
+            font-weight: 500;
+            padding: 0px;
+            text-align: center;
+        }
     }
 </style>
