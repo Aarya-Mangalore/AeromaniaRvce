@@ -46,6 +46,6 @@
       color: #fff; /* Change text to white on hover */
   }
 </style>
-<a href={link}>
+<a href={link} target="_blank" rel="noopener noreferrer">
 <button class="space-button">{Text}</button>
 </a>
