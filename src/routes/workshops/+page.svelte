@@ -21,13 +21,13 @@
             head="STATIC FIRE FIESTA"
             path="/event/sft.png"
             text="Join a hands-on workshop to create solid rocket propellants and put your skills to the test in a thrilling live thrust showdown!"
-            dis="Join us for an exhilarating journey into the world of rocketry with our Solid Rocket Motor Workshop! This hands-on event offers participants the unique opportunity to delve into the science of propulsion, craft their own solid propellant grains, and fire them under supervision. Discover the principles that power rockets, gain practical experience in motor fabrication, and feel the thrill of testing your creation in action. Perfect for aspiring aerospace engineers, science enthusiasts, or anyone curious about the mechanics of space exploration, this workshop promises an unforgettable blend of learning, creativity, and excitement."
             tab1text="Registration fee:"
             tab1val="₹ 1099"
             tab2text="Team size"
             tab2val="3-5"
             form="https://docs.google.com/forms/d/e/1FAIpQLSdGmwqJFBpe001cIYOnF1AhRlAdmdK4p-9U2Su0SJbSIVo95w/viewform"
             date="19th December 2024"
+            rule="https://drive.google.com/file/d/1nNtRd17TzuGIYKyYPS_gq_x2ioEM7DAC/view?usp=drive_link"
         />
         <Placer />
     </div>
