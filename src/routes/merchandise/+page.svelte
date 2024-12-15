@@ -50,7 +50,6 @@
             staticImage="/images/merch/shirt/front.jpg"
             galleryImages={shirtImages}
             price="400"
-            link="https://forms.gle/JtsyFmPN1fCFpxRU9"
         />
 
         <ItemCard
@@ -58,7 +57,6 @@
             staticImage="/images/merch/hoodie/front.jpg"
             galleryImages={hoodieImages}
             price="999"
-            link="https://forms.gle/JtsyFmPN1fCFpxRU9"
         />
 
         <ItemCard
@@ -66,7 +64,6 @@
             staticImage="/images/merch/combo.jpg"
             galleryImages={Trend}
             price="1300"
-            link="https://forms.gle/JtsyFmPN1fCFpxRU9"
         />
 
     </div>

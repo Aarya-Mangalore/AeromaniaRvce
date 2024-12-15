@@ -3,8 +3,8 @@
     import Button from "./Button.svelte";
     export let staticImage; // URL for the static image
     export let galleryImages = []; // Array of gallery images
-    export let link="/placeholder"
-    export let Itemname="not decided yet" 
+    export let link;
+    export let Itemname = "not decided yet";
     export let price; // Item price
 </script>
 
@@ -18,24 +18,30 @@
         />
         {#if galleryImages.length > 0}
             <div class="gallery-wrapper">
-                <PhotoGallery images={galleryImages} width="100%" height="auto" />
+                <PhotoGallery
+                    images={galleryImages}
+                    width="100%"
+                    height="auto"
+                />
             </div>
         {/if}
     </div>
     <div class="details">
         <h2 class="price">{Itemname}</h2>
         <div class="table-container">
-        <table class="transparent-table">
-            <tbody>
-                <tr>
-                    <td class="label">Price:</td>
-                    <td>₹{price}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <br>
-        <Button Text="Buy Now" link={link} />
+            <table class="transparent-table">
+                <tbody>
+                    <tr>
+                        <td class="label">Price:</td>
+                        <td>₹{price}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        {#if link}
+            <br />
+            <Button Text="Buy Now" {link} />
+        {/if}
     </div>
 </div>
 
@@ -54,7 +60,10 @@
         overflow: hidden;
         padding: 3%;
         margin-top: 30px;
-        transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+        transition:
+            transform 0.3s ease,
+            background-color 0.3s ease,
+            box-shadow 0.3s ease;
         cursor: pointer;
     }
 
@@ -66,7 +75,7 @@
     .transparent-table {
         width: 100%;
         border-collapse: collapse;
-        background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+        background-color: rgba(255, 255, 255, 0); /* Transparent background */
         border-radius: 10px;
     }
 
@@ -78,7 +87,7 @@
         font-family: "Josefin Sans", sans-serif;
     }
 
-    .card:hover::before{
+    .card:hover::before {
         width: 150%;
         height: 150%;
         opacity: 1;
