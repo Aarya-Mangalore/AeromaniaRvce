@@ -3,8 +3,8 @@
     import Photos from "$lib/components/Photogallery.svelte";
     import Timer from "$lib/components/Timer.svelte";
 
-    const bigIframe = `<iframe src="https://free.timeanddate.com/countdown/i9oa5j1l/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-13T12:00:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>`;
-    const smallIframe = `<iframe src="https://free.timeanddate.com/countdown/i9oa58ys/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-13T12:00:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>`;
+    const bigIframe = `<iframe src="https://free.timeanddate.com/countdown/i9ojkdkc/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-19T09:30:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>`;
+    const smallIframe = `<iframe src="https://free.timeanddate.com/countdown/i9ojkfxt/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-19T09:30:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>`;
 
     const flashmob2024 = [
         "/event/flashmob2024/img1.jpg",
@@ -14,34 +14,34 @@
         "/event/flashmob2024/img5.jpg",
     ];
 
-    const location="ET lane"
+    const location = "IEM Auditorium";
 </script>
 
 <main>
-    <h1 class="heading">Pre-events</h1>
+    <h1 class="heading">KEY-NOTE TALKS</h1>
     <div class="outer-container">
         <!-- Upcoming Event Section -->
         <div class="upcoming-event">
-            <h3>Paper Pilots</h3>
+            <h3>SAE INDIA SEMINAR</h3>
         </div>
 
         <div class="content-section">
             <!-- Left Section -->
             <div class="left-section">
                 <p>
-                    Attention all aspiring aviators and paper craft enthusiasts!
-                    Get ready to take flight at Paper Pilots, the ultimate paper
-                    plane competition hosted by Aeromania. Here’s your chance to
-                    showcase your creativity and engineering skills by designing
-                    the perfect plane to conquer the skies!
-                </p>
-                <p>          
-                    The registration link is provided below for your convenience.
+                    We are thrilled to announce an incredible opportunity to
+                    learn from industry experts at the SAE India Seminar on
+                    Sustainable Engineering, a key highlight of Aeromania'24.
+                    Organized by the Society of Automotive Engineers (SAE)
+                    India, this event promises valuable insights into
+                    cutting-edge technologies, networking opportunities, and a
+                    chance to enhance your academic profile. Don't miss this
+                    chance to explore the future of sustainable mobility and
+                    elevate your skills. We look forward to your participation!
                 </p>
                 <div class="table-container">
                     <table class="transparent-table">
                         <tbody>
-                            
                             <tr>
                                 <td class="label">Location:</td>
                                 <td>{location}</td>
@@ -49,58 +49,35 @@
                         </tbody>
                     </table>
                 </div>
-                <h3>Pre-Event in</h3>
+                <h3>Talk starts in</h3>
                 <Timer {smallIframe} {bigIframe} />
-                
             </div>
 
             <!-- Right Section -->
             <div class="right-section">
                 <!--<Photos images={galleryImages} width="600px" height="500px" />-->
-                <img src="/event/Paperpilots.jpg" alt="Paper pilot"/>
+                <img src="/event/SAEindia.png" alt="Paper pilot" />
             </div>
         </div>
 
         <h1 class="heading">Coming soon!!</h1>
         <!-- Cards Section -->
         <div class="cards-container">
-            
-
             <Container
-                head="MEMOMANIA"
-                text="Get ready for a fun-filled meme competition with an aerospace twist! Show off your creativity by designing hilarious and innovative memes based on aerospace themes. The wittier, the better! Perfect for those with a flair for humor and a passion for aviation!"
-                form="https://forms.gle/kpjPWqJ9qncULfMq7"
-                path="/event/memomania.jpg"
-                tab1text="Prize:"
-                tab1val="₹ 799"
-                tab2text="Registration fee:"
-                tab2val="₹ 29"
+                head="SAE INDIA SEMINAR"
+                text="Join the SAE India Seminar on Sustainable Engineering at Aeromania'24, 
+                        organized by the Society of Automotive Engineers (SAE) India. Gain insights from industry experts, network 
+                        with professionals, and explore the future of mobility. Participants will also earn 
+                        5 activity points to enhance their academic profile. Register for any Aeromania 2024 event to attend."
+                path="/event/SAEindia.png"
+                tab1text="Location:"
+                tab1val="IEM Auditorium"
+                date="19th December 2024"
             />
         </div>
     </div>
     <br /><br /><br />
-    <h1 class="heading">Pre-Events Archive</h1>
-    <!-- Cards Section -->
-    <div class="cards-container">
-        <Container
-            date="9th december 2024"
-            path="/event/flashmob2024/thumbnail.jpg"
-            head="FLASH-MOB PERFORMANCE"
-            text="Get ready to experience the magic of spontaneity and rhythm at Aeromania 2024 with an electrifying Flashmob Performance!"
-            galleryImages={flashmob2024}
-        />
-
-        <Container
-                head="PAPER PILOTS"
-                path="/event/paperpilot.jpg"
-                text="Unleash your creativity in the ultimate paper plane competition! Design, fold, and customize to outfly the competition and claim the win."
-                tab2text="Prize:"
-                tab2val="₹ 500 + 14 days of cold-drinks"
-                tab1text="Winner:"
-                tab1val="Siddarth K Gole"
-                date="13th December 2024"
-            />
-    </div>
+   
 </main>
 
 <style>
@@ -187,7 +164,7 @@
     .transparent-table {
         width: 100%;
         border-collapse: collapse;
-        background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
+        background-color: rgba(255, 255, 255, 0); /* Transparent background */
         border-radius: 10px;
     }
 
@@ -234,8 +211,9 @@
         .heading {
             font-size: 1.5rem;
             font-weight: 400;
-            text-align: center;
-            margin-bottom: 20px;
+            text-align: center; /* Center the text inside the heading */
+            margin: 0 auto 20px auto; /* Center horizontally and add bottom margin */
+            width: 80%; /* Set width to 80% of the screen */
         }
 
         .upcoming-event {
@@ -268,8 +246,9 @@
             padding: 20px;
         }
 
-        .transparent-table  {
-            width: 90%;
+        .transparent-table {
+            width: 90%; /* Set the table width to 90% of the parent/container */
+            margin: 0 auto; /* Center the table horizontally */
         }
 
         .right-section {

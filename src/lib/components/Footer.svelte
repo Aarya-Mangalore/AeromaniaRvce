@@ -44,7 +44,7 @@
       </tbody>
     </table>
     <div class="slogan">
-      <p>"Pushing Boundaries of Aeronautics"</p>
+      <p>"Catch flights, not feelings"</p>
       <br />
       <a href="https://maps.app.goo.gl/wTsa5rAjbVsbWkeA7">
         <p>Aerospace Engineering</p>

@@ -18,11 +18,13 @@
 
 <!-- Bottom Left Container -->
 <div class="bottom-left">
-<a href="/openday" class="button">Open day</a>
+  <a href="/pre-events" class="button">Pre-events</a>
+  <a href="/talks" class="button">Keynote Talks</a>
 </div>
 
 <!-- Bottom Right Container -->
 <div class="bottom-right">
+  <a href="/openday" class="button">Open day</a>
 <a href="/contact" class="button">Contact Us</a>
 </div>
 

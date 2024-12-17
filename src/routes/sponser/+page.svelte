@@ -17,6 +17,16 @@
         </div>
 
         <div class="super-container">
+            <h3>Co-partners</h3>
+            <div class="container">
+                <Spons
+                    name="SAE India"
+                    imageurl="/sponser/SAEindia.png"
+                    hrefURL="https://saeindia.org/"
+                />
+        </div>
+
+        <div class="super-container">
             <h3>Working partners</h3>
             <div class="container">
                 <Spons
