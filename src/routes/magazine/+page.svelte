@@ -1,5 +1,5 @@
 <script>
-    import BookViewer from '$lib/components/BookViewer.svelte'; // Adjust the path based on your project structure
+    import BookViewer from '../../lib/components/Bookviewer.svelte'; // Adjust the path based on your project structure
   </script>
   
   <main>
