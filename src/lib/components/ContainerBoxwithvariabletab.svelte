@@ -233,6 +233,20 @@
         color: transparent;
     }
 
+    .container:hover .date-title {
+        background: linear-gradient(45deg, #1e04c4, #00b3cb);
+        -webkit-background-clip: text;
+        text-decoration: underline;
+        color: transparent;
+    }
+
+    .container:hover .date {
+        background: linear-gradient(45deg, #1e04c4, #00b3cb);
+        -webkit-background-clip: text;
+        text-decoration: underline;
+        color: transparent;
+    }
+
     .but-contain {
         display: flex;
         flex-direction: column;
