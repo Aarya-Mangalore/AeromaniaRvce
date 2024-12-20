@@ -79,6 +79,20 @@
             link="/pre-events"
         />
 </div>
+
+<div class="Pre-event">
+    <h1>
+        AURELIA
+    </h1>
+    <p>
+        Read our latest Department magazine published on 19th December 2024. Link is given below, click to continue
+    </p>
+
+    <Button
+            Text="Aurelia"
+            link="/magazine"
+        />
+</div>
     <Content
         Head="About aeromania"
         text="AeroMania is a 3-day Aero Technical fest organized by the

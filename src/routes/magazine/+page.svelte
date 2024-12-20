@@ -7,7 +7,8 @@
     <br>
     <br>
     <br>
-    <h1>AURELIA (inaugural edition)</h1>
+    <h1>AURELIA</h1>
+    <h3> (inaugural edition)</h3>
     <BookViewer />
   </main>
   
@@ -20,6 +21,12 @@
     h1 {
       font-size: 2rem;
       margin-bottom: 20px;
+    }
+
+    @media(max-width: 860px){
+        h1{
+            font-size: 2rem;
+        }
     }
   </style>
   
