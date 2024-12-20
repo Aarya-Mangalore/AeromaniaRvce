@@ -7,7 +7,7 @@
     <h1>Entertainments</h1>
     <br /><br />
     <div class="super-container">
-        <Container
+        <!--<Container
             head="FIFA FIGHT"
             path="/event/fifafight.png"
             text="Join the ultimate FIFA 18 knockout tournament on PS4! Players go head-to-head in single-elimination matches, with each victory bringing them closer to the championship. Prove your skills and claim the title"
@@ -15,6 +15,20 @@
             tab1text="Registration fee:"
             tab1val="₹ 50"
             form="/placeholder"
+            date=""
+        />-->
+
+        
+
+        <Container
+            head="SOLID MOTOR DEMONSTRATION"
+            path="/event/solidmotordemo.jpg"
+            text="Step into the exciting world of rocketry at our Solid Motor Demonstration.
+            Watch solid rocket motors in action during static tests, offering a fascinating look into the science of thrust, fuel combustion, and propulsion efficiency.
+            Discover how solid motors provide reliable, straightforward propulsion, making them a key technology in space exploration.
+            With expert explanations and live demonstrations, this showcase offers a deeper understanding of the engineering and innovation driving the future of rocketry and aerospace engineering."
+            date="19th December 2024"
+            time="2:00 PM"
         />
 
         <Container
@@ -27,15 +41,20 @@
                     tough terrains, showcasing its off-road prowess. This event highlights the incredible engineering capabilities of 
                     each machine, celebrating cutting-edge technology and innovation in a spectacular showdown of speed, control, and 
                     durability."
+                    date="20th December 2024"
+                    time="5:30 PM"
         />
-
         <Container
-            head="SOLID MOTOR DEMONSTRATION"
-            path="/event/solidmotordemo.jpg"
-            text="Step into the exciting world of rocketry at our Solid Motor Demonstration.
-            Watch solid rocket motors in action during static tests, offering a fascinating look into the science of thrust, fuel combustion, and propulsion efficiency.
-            Discover how solid motors provide reliable, straightforward propulsion, making them a key technology in space exploration.
-            With expert explanations and live demonstrations, this showcase offers a deeper understanding of the engineering and innovation driving the future of rocketry and aerospace engineering."
+            head="COSMIC WATCH"
+            path="/event/cosmicwatch.jpg"
+            text="Embark on a mesmerizing stargazing adventure with 'Cosmic Watch.' 
+                    Explore the mysteries of the night sky while using a captivating solar watch, designed to enhance your celestial 
+                    journey. Whether you're an avid astronomy enthusiast or simply curious about the cosmos, this experience offers a 
+                    unique opportunity to gaze at stars, planets, and constellations while learning about the wonders of the universe. 
+                    With expert guidance, this event promises to ignite your curiosity and deepen 
+                    your appreciation for the vastness of space!"
+                    date="20th December 2024"
+                    time="6:30 PM"
         />
 
         <Container
@@ -47,18 +66,11 @@
                     aviation references. From turbulence in the skies to the quirky world of pilots and passengers, 
                     this event promises a perfect blend of lighthearted comedy and aviation antics.
                     Don't miss out on this uproarious experience that will have you laughing all the way to the runway!"
+            date="21st December 2024"
+            time="11:00 AM"
         />
 
-        <Container
-            head="COSMIC WATCH"
-            path="/event/cosmicwatch.jpg"
-            text="Embark on a mesmerizing stargazing adventure with 'Cosmic Watch.' 
-                    Explore the mysteries of the night sky while using a captivating solar watch, designed to enhance your celestial 
-                    journey. Whether you're an avid astronomy enthusiast or simply curious about the cosmos, this experience offers a 
-                    unique opportunity to gaze at stars, planets, and constellations while learning about the wonders of the universe. 
-                    With expert guidance, this event promises to ignite your curiosity and deepen 
-                    your appreciation for the vastness of space!"
-        />
+        
     </div>
 
     <!-- Add the new component here -->

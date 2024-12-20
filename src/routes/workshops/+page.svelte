@@ -7,16 +7,7 @@
     <h1>Workshops</h1>
     <br /><br />
     <div class="super-container">
-        <Container
-            head="BLACK HOLE SPACE TECH"
-            path="/event/Blackhole.jpeg"
-            text="Join a hands-on workshop on satellite simulations, recognized by ISRO, and dive into the tech shaping the future of space exploration!"
-            rule="https://drive.google.com/file/d/1P8u46iAvlgvz_FeXBv87X0nHkc8ZAj6s/view?usp=sharing"
-            tab1text="Registration fee:"
-            tab1val="₹ 550"
-            Button1text="Learn More"
-            form="/placeholder"
-        />
+
         <Container
             head="STATIC FIRE FIESTA"
             path="/event/sft.png"
@@ -30,7 +21,19 @@
             rule="https://drive.google.com/file/d/1nNtRd17TzuGIYKyYPS_gq_x2ioEM7DAC/view?usp=drive_link"
             time="2:00 PM"
         />
-        <Placer />
+        
+        <Container
+            head="BLACK HOLE SPACE TECH"
+            path="/event/Blackhole.jpeg"
+            text="Join a hands-on workshop on satellite simulations, recognized by ISRO, and dive into the tech shaping the future of space exploration!"
+            rule="https://drive.google.com/file/d/1P8u46iAvlgvz_FeXBv87X0nHkc8ZAj6s/view?usp=sharing"
+            tab1text="Registration fee:"
+            tab1val="₹ 550"
+            Button1text="Learn More"
+            form="/placeholder"
+            date="coming soon..."
+        />
+        
     </div>
 </main>
 
