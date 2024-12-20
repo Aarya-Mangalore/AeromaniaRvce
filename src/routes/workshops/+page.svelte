@@ -28,6 +28,7 @@
             form="https://docs.google.com/forms/d/e/1FAIpQLSdGmwqJFBpe001cIYOnF1AhRlAdmdK4p-9U2Su0SJbSIVo95w/viewform"
             date="19th December 2024"
             rule="https://drive.google.com/file/d/1nNtRd17TzuGIYKyYPS_gq_x2ioEM7DAC/view?usp=drive_link"
+            time="2:00 PM"
         />
         <Placer />
     </div>

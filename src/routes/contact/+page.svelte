@@ -14,7 +14,7 @@
             <div class="student-coordinators">
                 <Card
                     name="Pavan Y K"
-                    imageurl="/images/profile.jpg"
+                    imageurl="/persons/pavan.jpg"
                     ph="9945502752"
                     role="Student in Aerospace engineering"
                 />

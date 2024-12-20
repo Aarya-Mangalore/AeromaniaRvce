@@ -10,6 +10,11 @@
     export let tab2text;
     export let tab2val;
     export let date;
+    export let time;
+    export let date2;
+    export let time2;
+    export let title1;
+    export let title2;
     export let Button1text = "Rule-Book";
     export let Button2text = "Apply Now";
 
@@ -35,10 +40,25 @@
         <h1 class="head">{head}</h1>
         <br />
         <p>{text}</p>
-        {#if date}
-            <p class="date">{date}</p>
+        {#if date || date2}
+            {#if date}
+                <div class="date-group">
+                    {#if title1}
+                        <p class="date-title">{title1}</p>
+                    {/if}
+                    <p class="date">{date}<br /><br />{time}</p>
+                </div>
+            {/if}
+
+            {#if date2}
             <br>
-            
+                <div class="date-group">
+                    {#if title2}
+                        <p class="date-title">{title2}</p>
+                    {/if}
+                    <p class="date">{date2}<br /><br />{time2}</p>
+                </div>
+            {/if}
         {/if}
         {#if tab1val || tab2val}
             <div class="table-container">
@@ -189,15 +209,24 @@
         font-style: normal;
     }
 
-    .date {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 70%;
+    .date-group {
+        width: 100%;
+        padding: 10px 0;
         border-top: 2px solid rgba(255, 255, 255, 0.606);
         border-bottom: 2px solid rgba(255, 255, 255, 0.606);
+        text-align: center;
     }
 
-    .container:hover .date {
+    .date-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .date {
+        margin: 5px 0;
+    }
+
+    .container:hover .date-group {
         background: linear-gradient(45deg, #1e04c4, #00b3cb);
         -webkit-background-clip: text;
         text-decoration: underline;
@@ -305,7 +334,7 @@
             font-size: 0.9rem;
         }
 
-        .table-container{
+        .table-container {
             padding-top: 10px;
         }
 

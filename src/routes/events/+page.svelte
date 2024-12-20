@@ -6,7 +6,7 @@
 
 <main>
     <h1>Events</h1>
-    <br /><br />
+    
     <div class="super-container">
         <Container
             head="AEROCATACLYSM"
@@ -18,7 +18,12 @@
             tab2val="₹ 799"
             form="https://docs.google.com/forms/d/e/1FAIpQLSdnJ8boOy5YGdBiOowg_ltX7wSdgmNVeaDoBQ9HbraDX7bbMQ/viewform"
             rule="https://drive.google.com/file/d/1O_o0F5BXJjmI6D6BSh24WhFEjv98Y0cu/view?usp=sharing"
+            title1="Round 1"
             date="19th December 2024"
+            time="3:30 PM"
+            title2="Round 2"
+            date2="20th December 2024"
+            time2="3:30 PM"
         />
 
         <Container
@@ -32,6 +37,25 @@
             form="https://forms.gle/LQMYApXGjvBTdx2y6"
             rule="https://drive.google.com/file/d/1X4GEvMaePzVqVTKaxsZFmv9IiEutNkVm/view?usp=drive_link"
             date="19th December 2024"
+            time="11:30 AM"
+        />
+
+        <Container
+            head="SKYFORGE"
+            path="/event/skyforge.jpg"
+            text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
+            tab1text="Prize:"
+            tab1val="₹ 8000"
+            tab2text="Registration fee:"
+            tab2val="₹ 599"
+            form="https://forms.gle/dLWpK7ijWbWse31G6"
+            rule="https://drive.google.com/file/d/16OJA4xHnTJNM286LSOLkkZKKHIKhEkIk/view?usp=sharing"
+            title1="Round 1"
+            date="19th December 2024"
+            time="2:00 PM"
+            title2="Round 2"
+            date2="20th December 2024"
+            time2="10:30 AM"
         />
 
         <Container
@@ -45,6 +69,7 @@
             form="https://docs.google.com/forms/d/e/1FAIpQLSc5LyYmoQ6HTasaJjtLAjSjMfkmqTacVeja9fJtceQn4jQ51g/viewform"
             rule="https://drive.google.com/file/d/1QiotpYwQcixGVbT-G2_15svPjtEHOsXJ/view?usp=sharing"
             date="20th December 2024"
+            time="9:00 PM"
         />
 
         <Container
@@ -58,9 +83,10 @@
             form="https://forms.gle/EQ2P5s48eCCmr4ws5"
             rule="https://drive.google.com/file/d/1YAHogYW54cEJYqw9-jh2ymPIU1TXkVPy/view?usp=drive_link"
             date="20th December 2024"
+            time="9:30 AM"
         />
 
-        <Container
+        <!--<Container
             head="PAYLOAD PARADOX"
             path="/event/payloadparadox.jpg"
             text="Showcase your ingenuity in this engineering challenge to create a groundbreaking drone payload drop mechanism. Precision, creativity, and compliance will lead you to victory!"
@@ -71,20 +97,9 @@
             form="https://forms.gle/wzPdSvcf2oca5zZn6"
             rule="https://drive.google.com/file/d/1WdLgnJcOIN-De8cKGSaFw9iXplY54WGc/view?usp=drive_link"
             date="20th December 2024"
-        />
+        />-->
 
-        <Container
-            head="SKYFORGE"
-            path="/event/skyforge.jpg"
-            text="Compete in a thrilling design event where your team bids for parts and crafts a unique airliner. The best pitch and design will soar to victory!"
-            tab1text="Prize:"
-            tab1val="₹ 8000"
-            tab2text="Registration fee:"
-            tab2val="₹ 599"
-            form="https://forms.gle/dLWpK7ijWbWse31G6"
-            rule="https://drive.google.com/file/d/16OJA4xHnTJNM286LSOLkkZKKHIKhEkIk/view?usp=sharing"
-            date="20th December 2024"
-        />
+        
         <Container
             head="THE LOST ASTRONAUT"
             path="/event/lostastronaut.jpg"
@@ -96,6 +111,7 @@
             form="https://forms.gle/57dBW33Bonnd4ZVQ9"
             rule="https://drive.google.com/file/d/1gpghVb6chKZtZ0tv3UJMcm5VpDhTs_uB/view?usp=sharing"
             date="20th December 2024"
+            time="3:15 PM"
         />
     </div>
 
