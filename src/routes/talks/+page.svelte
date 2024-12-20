@@ -3,8 +3,8 @@
     import Photos from "$lib/components/Photogallery.svelte";
     import Timer from "$lib/components/Timer.svelte";
 
-    const bigIframe = `<iframe src="https://free.timeanddate.com/countdown/i9ojkdkc/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-19T09:30:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>`;
-    const smallIframe = `<iframe src="https://free.timeanddate.com/countdown/i9ojkfxt/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-19T09:30:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>`;
+    const bigIframe = `<iframe src="https://free.timeanddate.com/countdown/i9oow6hx/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-20T14:00:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>`;
+    const smallIframe = `<iframe src="https://free.timeanddate.com/countdown/i9oovriv/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw800/szh337/iso2024-12-20T14:00:00" allowtransparency="true" frameborder="0" width="261" height="68"></iframe>`;
 
     const flashmob2024 = [
         "/event/flashmob2024/img1.jpg",
@@ -14,7 +14,6 @@
         "/event/flashmob2024/img5.jpg",
     ];
 
-    const location = "IEM Auditorium";
 </script>
 
 <main>
@@ -22,29 +21,25 @@
     <div class="outer-container">
         <!-- Upcoming Event Section -->
         <div class="upcoming-event">
-            <h3>SAE INDIA SEMINAR</h3>
+            <h3>INFLUENCER TALK</h3>
         </div>
 
         <div class="content-section">
             <!-- Left Section -->
             <div class="left-section">
                 <p>
-                    We are thrilled to announce an incredible opportunity to
-                    learn from industry experts at the SAE India Seminar on
-                    Sustainable Engineering, a key highlight of Aeromania'24.
-                    Organized by the Society of Automotive Engineers (SAE)
-                    India, this event promises valuable insights into
-                    cutting-edge technologies, networking opportunities, and a
-                    chance to enhance your academic profile. Don't miss this
-                    chance to explore the future of sustainable mobility and
-                    elevate your skills. We look forward to your participation!
+                    Get ready for an inspiring talk at Aeromania 2024 by Prachi Goswami and Tapesh Kumar! From navigating the 
+                    skies as pilots to captivating global audiences as digital influencers, they’ll share their remarkable journeys 
+                    of transformation, resilience, and the power of influence. Don’t miss the chance to hear how they blend their 
+                    passion for aviation with their online presence to inspire others to chase their dreams. 
+                    Be part of this unforgettable experience! 
                 </p>
                 <div class="table-container">
                     <table class="transparent-table">
                         <tbody>
                             <tr>
                                 <td class="label">Location:</td>
-                                <td>{location}</td>
+                                <td>ECE seminar hall</td>
                             </tr>
                         </tbody>
                     </table>
@@ -56,11 +51,46 @@
             <!-- Right Section -->
             <div class="right-section">
                 <!--<Photos images={galleryImages} width="600px" height="500px" />-->
-                <img src="/event/SAEindia.png" alt="Paper pilot" />
+                <img src="/event/influencertalk.jpg" alt="influencer talk" />
             </div>
         </div>
 
         <h1 class="heading">Coming soon!!</h1>
+        <!-- Cards Section -->
+        <div class="cards-container">
+
+            <Container
+                head="INFLUENCER TALK"
+                text="Join former pilots turned digital influencers Prachi Goswami and Tapesh Kumar at Aeromania 2024 as 
+                they share their remarkable journeys from aviation to the digital stage. Prachi blends her passion for flying 
+                with relatable stories that inspire, while Tapesh shares his experiences of transformation, resilience, and 
+                overcoming challenges. Together, they’ll inspire you to dream bigger and reach higher, proving that the sky is just the beginning."
+                path="/event/influencertalk.jpg"
+                tab1text="Location:"
+                tab1val="ECE seminar hall"
+                date="20th December 2024"
+                time="2:00 PM"
+            />
+
+            <Container
+                head="TALK BY AeSI"
+                text="Join us for an engaging keynote by the Aeronautical Society of India at Aeromania 2024. This talk will 
+                explore the latest innovations in aerospace technology, covering advancements in both civil and military aviation.
+                 Gain insights into the future of flight and space exploration, and discover the challenges and opportunities 
+                 shaping the aviation industry. Don't miss this opportunity to learn from experts and expand your knowledge of 
+                 the aerospace field. "
+                path="/sponser/ASI.png"
+                tab1text="Location:"
+                tab1val="IEM auditorium"
+
+                date="21st December 2024"
+                time="8:00 AM"
+            />
+        </div>
+
+        <br><br>
+
+        <h1 class="heading">Talk archive</h1>
         <!-- Cards Section -->
         <div class="cards-container">
             <Container
@@ -75,6 +105,7 @@
                 date="19th December 2024"
             />
         </div>
+
     </div>
     <br /><br /><br />
    
