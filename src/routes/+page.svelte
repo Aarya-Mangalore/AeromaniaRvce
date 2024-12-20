@@ -79,7 +79,9 @@
             link="/pre-events"
         />
 </div>
-
+<br>
+<br>
+<br>
 <div class="Pre-event">
     <h1>
         AURELIA
