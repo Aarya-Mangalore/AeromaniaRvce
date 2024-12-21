@@ -7,18 +7,59 @@
     <h1>Meet our Sponsors</h1>
     <div class="super-duper-container">
         <div class="super-container">
+            <h3>Platinum sponsors</h3>
             <div class="container">
                 <Spons
                     name="Microplastics"
                     imageurl="/sponser/microplastics.jpg"
                     hrefURL="https://www.linkedin.com/company/micro-plastics-pvt-ltd/"
                 />
+
+                <Spons
+                    name="CIERA"
+                    imageurl="/sponser/ciera.jpg"
+                    hrefURL="https://cieraindia.com/"
+                />
             </div>
         </div>
 
         <div class="super-container">
-            <h3>Co-partners</h3>
+            <h3>SILVER SPONSOR</h3>
             <div class="container">
+                <Spons
+                    name="Yes bank"
+                    imageurl="/sponser/yesbank.png"
+                    hrefURL="https://www.yesbank.in/"
+                />
+
+                <Spons
+                    name="ACT fibernet"
+                    imageurl="/sponser/act.png"
+                    hrefURL="https://www.actcorp.in/"
+                />
+            </div>
+        </div>
+
+        <div class="super-container">
+            <h3>TITLE SPONSOR</h3>
+            <div class="container">
+                <Spons
+                    name="Devi engineering solutions LLP"
+                    imageurl="/sponser/devi.png"
+                    hrefURL="https://www.devienggsol.com/"
+                />
+            </div>
+        </div>
+
+        <div class="super-container">
+            <h3>IN COLLABORATION WITH</h3>
+            <div class="container">
+                <Spons
+                    name="Aeronautical society of India"
+                    imageurl="/sponser/ASI.png"
+                    hrefURL="https://www.aerosocietyindia.co.in/"
+                />
+
                 <Spons
                     name="SAE India"
                     imageurl="/sponser/SAEindia.png"
@@ -29,11 +70,7 @@
         <div class="super-container">
             <h3>Working partners</h3>
             <div class="container">
-                <Spons
-                    name="Aeronautical society of India"
-                    imageurl="/sponser/ASI.png"
-                    hrefURL="https://www.aerosocietyindia.co.in/"
-                />
+                
                 
                 <Spons
                     name="Association of Bangalore Amateur Astronomers"
@@ -47,27 +84,42 @@
                     hrefURL="https://in.linkedin.com/company/black-hole-space-tech-bhst"
                 />
 
-                <Spons
-                    name="DS solidworks"
-                    imageurl="/sponser/DSSW.png"
-                    hrefURL="https://www.solidworks.com/"
-                />
+                
 
                 <Spons
                     name="Project X labs"
                     imageurl="/sponser/projectx.png"
                     hrefURL="https://projectxlabs.in/"
                 />
+
+                <Spons
+                    name="IGNITE GAMING"
+                    imageurl="/sponser/IGNITE.png"
+                    hrefURL="https://www.ignitegaming.com/"
+                />
+            </div>
+        </div>
+
+        
+
+        <div class="super-container">
+            <h3>EVENT SPONSOR</h3>
+            <div class="container">
+                <Spons
+                    name="DS solidworks"
+                    imageurl="/sponser/DSSW.png"
+                    hrefURL="https://www.solidworks.com/"
+                />
             </div>
         </div>
 
         <div class="super-container">
-            <h3>Banking partner</h3>
+            <h3>SWEETS SPONSOR</h3>
             <div class="container">
                 <Spons
-                    name="Yes bank"
-                    imageurl="/sponser/yesbank.png"
-                    hrefURL="https://www.yesbank.in/"
+                    name="Asha sweet center"
+                    imageurl="/sponser/asha.png"
+                    hrefURL="https://ashasweetcenter.com/?srsltid=AfmBOop39NXlKr8EmGR8zh_bmo3rKeeRJkBI8MvY_KC0fSgJRB4-AHLI"
                 />
             </div>
         </div>

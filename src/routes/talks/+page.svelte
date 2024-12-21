@@ -59,18 +59,7 @@
         <!-- Cards Section -->
         <div class="cards-container">
 
-            <Container
-                head="INFLUENCER TALK"
-                text="Join former pilots turned digital influencers Prachi Goswami and Tapesh Kumar at Aeromania 2024 as 
-                they share their remarkable journeys from aviation to the digital stage. Prachi blends her passion for flying 
-                with relatable stories that inspire, while Tapesh shares his experiences of transformation, resilience, and 
-                overcoming challenges. Together, they’ll inspire you to dream bigger and reach higher, proving that the sky is just the beginning."
-                path="/event/influencertalk.jpg"
-                tab1text="Location:"
-                tab1val="ECE seminar hall"
-                date="20th December 2024"
-                time="2:00 PM"
-            />
+            
 
             <Container
                 head="TALK BY AeSI"
@@ -103,6 +92,19 @@
                 tab1text="Location:"
                 tab1val="IEM Auditorium"
                 date="19th December 2024"
+            />
+
+            <Container
+                head="INFLUENCER TALK"
+                text="Join former pilots turned digital influencers Prachi Goswami and Tapesh Kumar at Aeromania 2024 as 
+                they share their remarkable journeys from aviation to the digital stage. Prachi blends her passion for flying 
+                with relatable stories that inspire, while Tapesh shares his experiences of transformation, resilience, and 
+                overcoming challenges. Together, they’ll inspire you to dream bigger and reach higher, proving that the sky is just the beginning."
+                path="/event/influencertalk.jpg"
+                tab1text="Location:"
+                tab1val="ECE seminar hall"
+                date="20th December 2024"
+                time="2:00 PM"
             />
         </div>
 
