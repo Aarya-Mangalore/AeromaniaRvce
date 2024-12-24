@@ -278,7 +278,7 @@
                     <div class="participants-table">
                         <h1>Winner</h1>
                         <div class="table-header">
-                            {event.winners.team || "Winner"}
+                            {event.winners.team}
                         </div>
                         <table>
                             <thead>
@@ -305,7 +305,7 @@
                         <div class="runner-up-team">
                             <h1>Runner-Up</h1>
                             <div class="table-header">
-                                {runnerUp.team || "Runner-Up"}
+                                {runnerUp.team}
                             </div>
                             <table>
                                 <thead>
