@@ -64,19 +64,6 @@
         <!-- Cards Section -->
 
         <div class="cards-container">
-            <Container
-                head="TALK BY AeSI"
-                text="Join us for an engaging keynote by the Aeronautical Society of India at Aeromania 2024. This talk will 
-                explore the latest innovations in aerospace technology, covering advancements in both civil and military aviation.
-                 Gain insights into the future of flight and space exploration, and discover the challenges and opportunities 
-                 shaping the aviation industry. Don't miss this opportunity to learn from experts and expand your knowledge of 
-                 the aerospace field. "
-                path="/sponser/ASI.png"
-                tab1text="Location:"
-                tab1val="IEM auditorium"
-                date="21st December 2024"
-                time="8:00 AM"
-            />
 
             <Container
                 head="SAE INDIA SEMINAR"

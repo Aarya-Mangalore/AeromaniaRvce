@@ -60,7 +60,7 @@
     <div class="Pre-event">
         <h1>AURELIA</h1>
         <p>
-            We are excited to share with you the latest edition of our
+            We are excited to share with you the first edition of our
             Department magazine, Aurelia, published on 19th December 2024. This
             issue highlights the achievements, events, and updates from our
             department, featuring insights from faculty, student stories, and
@@ -75,7 +75,7 @@
     <br />
     <br />
     <div class="Pre-event">
-        <h1>Event Results</h1>
+        <h1>The Results</h1>
         <p>
             the results of the events are out now !! Check out the winning teams
             and their members below, along with the runner-up teams. See who
