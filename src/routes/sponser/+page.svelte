@@ -6,6 +6,18 @@
 <main>
     <h1>Meet our Sponsors</h1>
     <div class="super-duper-container">
+
+        <div class="super-container">
+            <h3>OUR TITLE SPONSOR</h3>
+            <div class="container">
+                <Spons
+                    name="Devi engineering solutions LLP"
+                    imageurl="/sponser/devi.png"
+                    hrefURL="https://www.devienggsol.com/"
+                />
+            </div>
+        </div>
+
         <div class="super-container">
             <h3>Platinum sponsors</h3>
             <div class="container">
@@ -24,7 +36,7 @@
         </div>
 
         <div class="super-container">
-            <h3>SILVER SPONSOR</h3>
+            <h3>SILVER SPONSORS</h3>
             <div class="container">
                 <Spons
                     name="Yes bank"
@@ -40,16 +52,7 @@
             </div>
         </div>
 
-        <div class="super-container">
-            <h3>TITLE SPONSOR</h3>
-            <div class="container">
-                <Spons
-                    name="Devi engineering solutions LLP"
-                    imageurl="/sponser/devi.png"
-                    hrefURL="https://www.devienggsol.com/"
-                />
-            </div>
-        </div>
+        
 
         <div class="super-container">
             <h3>IN COLLABORATION WITH</h3>
@@ -76,20 +79,6 @@
                     name="Association of Bangalore Amateur Astronomers"
                     imageurl="/sponser/ABAA.png"
                     hrefURL="https://abaaonline.blogspot.com/"
-                />
-
-                <Spons
-                    name="Black hole space tech"
-                    imageurl="/sponser/Blackhole.png"
-                    hrefURL="https://in.linkedin.com/company/black-hole-space-tech-bhst"
-                />
-
-                
-
-                <Spons
-                    name="Project X labs"
-                    imageurl="/sponser/projectx.png"
-                    hrefURL="https://projectxlabs.in/"
                 />
 
                 <Spons

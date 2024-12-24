@@ -184,6 +184,26 @@
             ],
         },
         {
+            id: "thelostastronaut",
+            title: "The Lost Astronaut",
+            thumbnail: "/event/lostastronaut.jpg", // Replace with your image path
+            winners: {
+                team: "",
+                members: [
+                    {
+                        name: "Arya Sunil",
+                        college: "RV College of Engineering",
+                        branch: "",
+                    },
+                    {
+                        name: "Prakul B S",
+                        college: "RV College of Engineering",
+                        branch: "",
+                    },
+                ],
+            },
+        },
+        {
             id: "aerogenesis",
             title: "Aerogenesis",
             thumbnail: "/event/aerogenisis.jpg", // Replace with your image path

@@ -17,6 +17,7 @@
     export let title2;
     export let Button1text = "Rule-Book";
     export let Button2text = "Apply Now";
+    
 
     import Button from "$lib/components/Button.svelte";
 

@@ -13,26 +13,29 @@
         "/event/flashmob2024/img4.jpg",
         "/event/flashmob2024/img5.jpg",
     ];
-
 </script>
 
 <main>
     <h1 class="heading">KEY-NOTE TALKS</h1>
     <div class="outer-container">
-        <!-- Upcoming Event Section -->
+        <!-- Upcoming Event Section 
         <div class="upcoming-event">
             <h3>INFLUENCER TALK</h3>
         </div>
 
         <div class="content-section">
-            <!-- Left Section -->
+            
             <div class="left-section">
                 <p>
-                    Get ready for an inspiring talk at Aeromania 2024 by Prachi Goswami and Tapesh Kumar! From navigating the 
-                    skies as pilots to captivating global audiences as digital influencers, they’ll share their remarkable journeys 
-                    of transformation, resilience, and the power of influence. Don’t miss the chance to hear how they blend their 
-                    passion for aviation with their online presence to inspire others to chase their dreams. 
-                    Be part of this unforgettable experience! 
+                    Get ready for an inspiring talk at Aeromania 2024 by Prachi
+                    Goswami and Tapesh Kumar! From navigating the skies as
+                    pilots to captivating global audiences as digital
+                    influencers, they’ll share their remarkable journeys of
+                    transformation, resilience, and the power of influence.
+                    Don’t miss the chance to hear how they blend their passion
+                    for aviation with their online presence to inspire others to
+                    chase their dreams. Be part of this unforgettable
+                    experience!
                 </p>
                 <div class="table-container">
                     <table class="transparent-table">
@@ -48,19 +51,19 @@
                 <Timer {smallIframe} {bigIframe} />
             </div>
 
-            <!-- Right Section -->
+            
             <div class="right-section">
-                <!--<Photos images={galleryImages} width="600px" height="500px" />-->
+                
                 <img src="/event/influencertalk.jpg" alt="influencer talk" />
             </div>
-        </div>
+        </div>-->
 
-        <h1 class="heading">Coming soon!!</h1>
+        <br /><br />
+
+        <h1 class="heading">Talk archive</h1>
         <!-- Cards Section -->
+
         <div class="cards-container">
-
-            
-
             <Container
                 head="TALK BY AeSI"
                 text="Join us for an engaging keynote by the Aeronautical Society of India at Aeromania 2024. This talk will 
@@ -71,17 +74,10 @@
                 path="/sponser/ASI.png"
                 tab1text="Location:"
                 tab1val="IEM auditorium"
-
                 date="21st December 2024"
                 time="8:00 AM"
             />
-        </div>
 
-        <br><br>
-
-        <h1 class="heading">Talk archive</h1>
-        <!-- Cards Section -->
-        <div class="cards-container">
             <Container
                 head="SAE INDIA SEMINAR"
                 text="Join the SAE India Seminar on Sustainable Engineering at Aeromania'24, 
@@ -107,10 +103,8 @@
                 time="2:00 PM"
             />
         </div>
-
     </div>
     <br /><br /><br />
-   
 </main>
 
 <style>

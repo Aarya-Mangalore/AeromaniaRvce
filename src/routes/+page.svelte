@@ -38,9 +38,11 @@
         }, 6400);
     });
 
-    const bigIframe='<iframe src="https://free.timeanddate.com/countdown/i9o7jfco/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>'
-    const smallIframe='<iframe src="https://free.timeanddate.com/countdown/i9o7ju6t/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw700/szh295/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="229" height="59"></iframe>'
-</script> 
+    const bigIframe =
+        '<iframe src="https://free.timeanddate.com/countdown/i9o7jfco/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw1000/szh421/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="326" height="84"></iframe>';
+    const smallIframe =
+        '<iframe src="https://free.timeanddate.com/countdown/i9o7ju6t/n438/cf12/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw700/szh295/iso2024-12-19T10:00:00" allowtransparency="true" frameborder="0" width="229" height="59"></iframe>';
+</script>
 
 <main>
     {#if showVideo}
@@ -50,56 +52,37 @@
         </div>
     {/if}
     <br /><br />
-    <div class="container">
-        <div class="text-container">
-            <br /><br /><br /><br />
 
-            <div class="Timer">
-                <h1>event</h1>
-                <h1>launching in</h1>
-                <h1>T-minus</h1>
-                <br/>
-                <Count {smallIframe}
-                {bigIframe}/>
-            </div>
-            
-        </div>
-    </div>
-
+    
+    
     <div class="Pre-event">
-    <h1>
-        Event Results
-    </h1>
-    <p>
-     the results of the events are out now !! Check out the winning teams and their members below, along with the 
-        runner-up teams. See who took 
-        home the top honors and learn more about the participants from various colleges and branches. link is given below
-    </p>
+        <h1>AURELIA</h1>
+        <p>
+            We are excited to share with you the latest edition of our
+            Department magazine, Aurelia, published on 19th December 2024. This
+            issue highlights the achievements, events, and updates from our
+            department, featuring insights from faculty, student stories, and
+            ongoing projects. To stay informed and connected, click the link
+            below to access the full magazine and explore all the exciting
+            content. Don’t miss out on this informative read!
+        </p>
 
-    <Button
-            Text="Results"
-            link="/results"
-        />
-</div>
-<br>
-<br>
-<br>
-<div class="Pre-event">
-    <h1>
-        AURELIA
-    </h1>
-    <p>
-        We are excited to share with you the latest edition of our Department magazine, Aurelia, published on 19th December 2024. 
-        This issue highlights the achievements, events, and updates from our department, featuring 
-        insights from faculty, student stories, and ongoing projects. To stay informed and connected, click the link 
-        below to access the full magazine and explore all the exciting content. Don’t miss out on this informative read!
-    </p>
+        <Button Text="Aurelia" link="/magazine" />
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="Pre-event">
+        <h1>Event Results</h1>
+        <p>
+            the results of the events are out now !! Check out the winning teams
+            and their members below, along with the runner-up teams. See who
+            took home the top honors and learn more about the participants from
+            various colleges and branches. link is given below
+        </p>
 
-    <Button
-            Text="Aurelia"
-            link="/magazine"
-        />
-</div>
+        <Button Text="Results" link="/results" />
+    </div>
     <Content
         Head="About aeromania"
         text="AeroMania is a 3-day Aero Technical fest organized by the
@@ -136,7 +119,7 @@
             link="https://drive.google.com/file/d/1Rq2L39_z-mfKqQ24Ogqlip2mS6qzvPsp/view?usp=sharing"
         />
     </div>
-    
+
     <a href="/events">
         <div class="registercirlce">
             <div class="register_main">
@@ -149,29 +132,26 @@
         </div>
     </a>
 
-    
-
     <Foot />
 </main>
 
 <style>
     /* General container settings */
 
-    .Pre-event{
+    .Pre-event {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .Pre-event h1{
-        
+    .Pre-event h1 {
         font-size: 1.8rem;
         width: 80%;
         padding-bottom: 2%;
     }
 
-    .Pre-event p{
+    .Pre-event p {
         color: aliceblue;
         font-size: 1.5rem;
         padding-bottom: 2%;
@@ -194,7 +174,6 @@
         color: aliceblue;
         text-align: center;
     }
-
 
     h1 {
         text-transform: uppercase;
@@ -276,12 +255,12 @@
 
     /* Adjustments for smaller screens */
     @media (max-width: 768px) {
-        .Pre-event h1{
+        .Pre-event h1 {
             font-size: 1.4rem;
             padding-bottom: 20px;
         }
 
-        .Pre-event p{
+        .Pre-event p {
             font-size: 0.9rem;
             padding-bottom: 30px;
         }
@@ -324,6 +303,5 @@
             padding: 0;
             user-select: none;
         }
-
     }
 </style>
