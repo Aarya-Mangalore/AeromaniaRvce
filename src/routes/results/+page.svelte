@@ -454,8 +454,7 @@
         padding: 0.8rem;
         text-align: left;
         width: 33%;
-        text-transform: uppercase;
-        font-size: 0.7rem;
+        
     }
 
     td {
