@@ -18,7 +18,7 @@
 
 <!-- Bottom Left Container -->
 <div class="bottom-left">
-  <a href="/pre-events" class="button">Pre-events</a>
+  <a href="/results" class="button">Results</a>
   <a href="/talks" class="button">Keynote Talks</a>
 </div>
 

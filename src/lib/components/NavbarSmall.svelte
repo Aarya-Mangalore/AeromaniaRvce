@@ -48,6 +48,7 @@
       <li><a href="/events" on:click={closeMenu}>Events</a></li>
       <li><a href="/entertainment" on:click={closeMenu}>Entertainment</a></li>
       <li><a href="/workshops" on:click={closeMenu}>Workshops</a></li>
+      <li><a href="/results" on:click={closeMenu}>Results</a></li>
       <li><a href="/talks" on:click={closeMenu}>Keynote Talks</a></li>
       <li><a href="/merchandise" on:click={closeMenu}>Merchandise</a></li>
       <li><a href="/openday" on:click={closeMenu}>Open day</a></li>

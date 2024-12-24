@@ -68,15 +68,17 @@
 
     <div class="Pre-event">
     <h1>
-        Excited for pre-events?
+        Event Results
     </h1>
     <p>
-        Check out all Pre-events coming up with the link given below 
+     the results of the events are out now !! Check out the winning teams and their members below, along with the 
+        runner-up teams. See who took 
+        home the top honors and learn more about the participants from various colleges and branches. link is given below
     </p>
 
     <Button
-            Text="Pre-events"
-            link="/pre-events"
+            Text="Results"
+            link="/results"
         />
 </div>
 <br>
@@ -87,7 +89,10 @@
         AURELIA
     </h1>
     <p>
-        Read our latest Department magazine published on 19th December 2024. Link is given below, click to continue
+        We are excited to share with you the latest edition of our Department magazine, Aurelia, published on 19th December 2024. 
+        This issue highlights the achievements, events, and updates from our department, featuring 
+        insights from faculty, student stories, and ongoing projects. To stay informed and connected, click the link 
+        below to access the full magazine and explore all the exciting content. Don’t miss out on this informative read!
     </p>
 
     <Button
