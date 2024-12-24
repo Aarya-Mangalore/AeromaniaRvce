@@ -363,7 +363,6 @@
         padding: 0;
         background-color: #000;
         color: #0ff;
-        font-family: "CustomFont", sans-serif;
     }
 
     .results-container {
