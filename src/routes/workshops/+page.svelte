@@ -16,7 +16,6 @@
             tab1val="₹ 1099"
             tab2text="Team size"
             tab2val="3-5"
-            form="https://docs.google.com/forms/d/e/1FAIpQLSdGmwqJFBpe001cIYOnF1AhRlAdmdK4p-9U2Su0SJbSIVo95w/viewform"
             date="19th December 2024"
             rule="https://drive.google.com/file/d/1nNtRd17TzuGIYKyYPS_gq_x2ioEM7DAC/view?usp=drive_link"
             time="2:00 PM"
@@ -30,8 +29,6 @@
             tab1text="Registration fee:"
             tab1val="₹ 550"
             Button1text="Learn More"
-            form="/placeholder"
-            date="coming soon..."
         />
         
     </div>

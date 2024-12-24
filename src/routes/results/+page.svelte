@@ -1,58 +1,6 @@
 <script>
     let events = [
         {
-            id: "skyforge",
-            title: "Skyforge",
-            thumbnail: "/event/skyforge.jpg", // Replace with your image path
-            winners: {
-                team: "Team Lunar Codex",
-                members: [
-                    {
-                        name: "Syed Haseeb M",
-                        college: "Dayananda Sagar University",
-                        branch: "Aerospace Engineering",
-                    },
-                    {
-                        name: "Jaffer Sadiq",
-                        college: "Dayananda Sagar University",
-                        branch: "Aerospace Engineering",
-                    },
-                    {
-                        name: "Mohammed Safwan",
-                        college: "SVCE",
-                        branch: "Mechanical Engineering",
-                    },
-                    {
-                        name: "Mithun Sai K",
-                        college: "RV College of Engineering",
-                        branch: "Aerospace Engineering",
-                    },
-                ],
-            },
-            runnerUps: [
-                {
-                    team: "Team Stargazers",
-                    members: [
-                        {
-                            name: "Vishnu Charaan V",
-                            college: "RV College of Engineering",
-                            branch: "Electronics and Telecommunications Engineering",
-                        },
-                        {
-                            name: "Shyam Sreedaran",
-                            college: "RV College of Engineering",
-                            branch: "Electronics and Telecommunications Engineering",
-                        },
-                        {
-                            name: "Ravinuthala Sai",
-                            college: "RV College of Engineering",
-                            branch: "Electronics and Telecommunications Engineering",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
             id: "aerocataclysm",
             title: "Aerocataclysm",
             thumbnail: "/event/aerocataclysm.jpg", // Replace with your image path
@@ -103,105 +51,6 @@
                     ],
                 },
             ],
-        },
-        {
-            id: "design-dynamo",
-            title: "Design Dynamo",
-            thumbnail: "/event/designdynamo.jpg", // Replace with your image path
-            winners: {
-                team: "",
-                members: [
-                    {
-                        name: "Shamanth PV",
-                        college: "BMS College of Engineering",
-                        branch: "Aerospace Engineering",
-                    },
-                ],
-            },
-            runnerUps: [
-                {
-                    team: "",
-                    members: [
-                        {
-                            name: "Nikhil VP",
-                            college: "RV College of Engineering",
-                            branch: "Computer science and engineering (cybersecurity)",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            id: "aeroodessy",
-            title: "Aero odessy",
-            thumbnail: "/event/aeroodyssey.jpg", // Replace with your image path
-            winners: {
-                team: "D2",
-                members: [
-                    {
-                        name: "Abhinav M P",
-                        college: "RV College of Engineering",
-                        branch: "Electrical and Electronics Engineering",
-                    },
-                    {
-                        name: "Kishor R",
-                        college: "RV College of Engineering",
-                        branch: "Computer Science and Engineering (Data Science)",
-                    },
-                    {
-                        name: "Prajwal S M",
-                        college: "RV College of Engineering",
-                        branch: "Computer Science and Engineering",
-                    },
-                    {
-                        name: "Vaishnav",
-                        college: "RV College of Engineering",
-                        branch: "Electrical and Electronics Engineering",
-                    },
-                ],
-            },
-            runnerUps: [
-                {
-                    team: "B2",
-                    members: [
-                        {
-                            name: "Maanav",
-                            college: "RV College of Engineering",
-                            branch: "Industrial Engineering and Management",
-                        },
-                        {
-                            name: "Divyansh",
-                            college: "RV College of Engineering",
-                            branch: "Electronics and communications engineering",
-                        },
-                        {
-                            name: "Ainesh",
-                            college: "RV College of Engineering",
-                            branch: "Electronics and communications engineering",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            id: "thelostastronaut",
-            title: "The Lost Astronaut",
-            thumbnail: "/event/lostastronaut.jpg", // Replace with your image path
-            winners: {
-                team: "",
-                members: [
-                    {
-                        name: "Arya Sunil",
-                        college: "RV College of Engineering",
-                        branch: "",
-                    },
-                    {
-                        name: "Prakul B S",
-                        college: "RV College of Engineering",
-                        branch: "",
-                    },
-                ],
-            },
         },
         {
             id: "aerogenesis",
@@ -277,6 +126,164 @@
                 },
             ],
         },
+
+        {
+            id: "aeroodessy",
+            title: "Aero odessy",
+            thumbnail: "/event/aeroodyssey.jpg", // Replace with your image path
+            winners: {
+                team: "D2",
+                members: [
+                    {
+                        name: "Abhinav M P",
+                        college: "RV College of Engineering",
+                        branch: "Electrical and Electronics Engineering",
+                    },
+                    {
+                        name: "Kishor R",
+                        college: "RV College of Engineering",
+                        branch: "Computer Science and Engineering (Data Science)",
+                    },
+                    {
+                        name: "Prajwal S M",
+                        college: "RV College of Engineering",
+                        branch: "Computer Science and Engineering",
+                    },
+                    {
+                        name: "Vaishnav",
+                        college: "RV College of Engineering",
+                        branch: "Electrical and Electronics Engineering",
+                    },
+                ],
+            },
+            runnerUps: [
+                {
+                    team: "B2",
+                    members: [
+                        {
+                            name: "Maanav",
+                            college: "RV College of Engineering",
+                            branch: "Industrial Engineering and Management",
+                        },
+                        {
+                            name: "Divyansh",
+                            college: "RV College of Engineering",
+                            branch: "Electronics and communications engineering",
+                        },
+                        {
+                            name: "Ainesh",
+                            college: "RV College of Engineering",
+                            branch: "Electronics and communications engineering",
+                        },
+                    ],
+                },
+            ],
+        },
+        
+        {
+            id: "design-dynamo",
+            title: "Design Dynamo",
+            thumbnail: "/event/designdynamo.jpg", // Replace with your image path
+            winners: {
+                team: "",
+                members: [
+                    {
+                        name: "Shamanth PV",
+                        college: "BMS College of Engineering",
+                        branch: "Aerospace Engineering",
+                    },
+                ],
+            },
+            runnerUps: [
+                {
+                    team: "",
+                    members: [
+                        {
+                            name: "Nikhil VP",
+                            college: "RV College of Engineering",
+                            branch: "Computer science and engineering (cybersecurity)",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        {
+            id: "skyforge",
+            title: "Skyforge",
+            thumbnail: "/event/skyforge.jpg", // Replace with your image path
+            winners: {
+                team: "Team Lunar Codex",
+                members: [
+                    {
+                        name: "Syed Haseeb M",
+                        college: "Dayananda Sagar University",
+                        branch: "Aerospace Engineering",
+                    },
+                    {
+                        name: "Jaffer Sadiq",
+                        college: "Dayananda Sagar University",
+                        branch: "Aerospace Engineering",
+                    },
+                    {
+                        name: "Mohammed Safwan",
+                        college: "SVCE",
+                        branch: "Mechanical Engineering",
+                    },
+                    {
+                        name: "Mithun Sai K",
+                        college: "RV College of Engineering",
+                        branch: "Aerospace Engineering",
+                    },
+                ],
+            },
+            runnerUps: [
+                {
+                    team: "Team Stargazers",
+                    members: [
+                        {
+                            name: "Vishnu Charaan V",
+                            college: "RV College of Engineering",
+                            branch: "Electronics and Telecommunications Engineering",
+                        },
+                        {
+                            name: "Shyam Sreedaran",
+                            college: "RV College of Engineering",
+                            branch: "Electronics and Telecommunications Engineering",
+                        },
+                        {
+                            name: "Ravinuthala Sai",
+                            college: "RV College of Engineering",
+                            branch: "Electronics and Telecommunications Engineering",
+                        },
+                    ],
+                },
+            ],
+        },
+        
+        
+        
+        {
+            id: "thelostastronaut",
+            title: "The Lost Astronaut",
+            thumbnail: "/event/lostastronaut.jpg", // Replace with your image path
+            winners: {
+                team: "",
+                members: [
+                    {
+                        name: "Arya Sunil",
+                        college: "RV College of Engineering",
+                        branch: "",
+                    },
+                    {
+                        name: "Prakul B S",
+                        college: "RV College of Engineering",
+                        branch: "",
+                    },
+                ],
+            },
+        },
+       
     ];
 </script>
 
@@ -296,7 +303,7 @@
                 <div class="tables-container">
                     <!-- Winners -->
                     <div class="participants-table">
-                        <h1>Winner</h1>
+                        <h1>Winners</h1>
                         <div class="table-header">
                             {event.winners.team}
                         </div>
@@ -473,7 +480,6 @@
         padding: 0.8rem;
         text-align: left;
         width: 33%;
-        
     }
 
     td {
